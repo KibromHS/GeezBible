@@ -32,86 +32,39 @@
                 app:lineHeight="20dp"
                 android:paddingBottom="80dp"
                 android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 1
-"
+በእንተ እግዝእት ወደቂቃ
+1
+እምነ ቀሲስ ለኅሪት ወለእግዝእት ወለደቂቃ ለእንተ አነ አፈቅራ በጽድቅ ወበእንተ ዛቲ ጽድቅ አኮ አነ ባሕቲትየ ዘአፈቅራ አላ እለኒ የአምርዋ ለጽድቅ ኵሎሙ።
+2
+ወበእንተ ዛቲ ጽድቅ እንተ ትነብር ኀቤነ ወትሄሉ ምስሌነ ወምስሌነ ይእቲ ለዓለም።
+3
+ሞገስ ወምሕረት ወሰላም እምኀበ እግዚአብሔር አብ ወእምኀበ ኢየሱስ ክርስቶስ ወልዱ ለአብ እግዚአብሔር ምስለ ጽድቅ ወተፋቅሮ።
+4
+ተፈሣሕኩ ጥቀ እስመ ረከብኩ እምደቂቅኪ እለ የሐውሩ በጽድቅ በከመ ነሣእነ ትእዛዞ እምኀበ አብ።
+በእንተ ተፈልጦ እምናፍቃን
+5
+ወይእዜኒ እስእለኪ ኦ እግዝእት ወአኮ ትእዛዘ ሐዲሰ ዘእጽሕፍ ለኪ አላ ትእዛዘ ብሊተ እንተ ብነ ትካት ከመ ንትፋቀር በበይናቲነ።
+6
+ወዛቲ ይእቲ ተፋቅሮትነ፦ ከመ ንሑር በትእዛዙ ለእግዚአብሔር ወዛቲ ይእቲ ትእዛዝ ከመ ንሑር ባቲ እንተ ሰማዕክሙ ትካት።
+7
+እስመ ብዙኃን መስሕታን እለ መጽኡ ውስተ ዓለም እለ ኢየአምኑ በኢየሱስ ክርስቶስ ከመ መጽአ በሥጋ ወዝ ውእቱ መስሐቲ ሐሳዌ መሲሕ።
+8
+ዑቁ ርእሰክሙ ኢትኀጐሉ ዘገበርክሙ አላ ከመ ዐስበ ፍጹመ ትንሥኡ።
+9
+ኵሉ ዘይናፍቅ ወኢይነብር በትምህርቱ ለክርስቶስ ኢሀሎ እግዚአብሔር ምስሌሁ፤ ወዘሰ ይነብር በትምህርቱ ለክርስቶስ በአብ ወበወልድ ሀሎ።
+10
+ወዘኒ ይመጽእ ኀቤክሙ ወዘንተ ትምህርተ ኢያመጽእ፤ ኢታብእዎ ቤተክሙ ወበሓሂ ጥቀ ኢትበልዎ።
+11
+እስመ ዘይቤሎ በሓ ይሳተፎ በምግባሩ እኩይ።
+12
+ወብዙኅ ብየ ዘእጽሕፍ ለክሙ ወኢፈቀድኩ በክርታስ ወበማየ ሕመት እጽሐፍ ለክሙ እስመ እትአመን ከመ እመጽእ ኀቤክሙ ወአፈ በአፍ እትናገረክሙ ከመ ፍጹመ ይኩን ፍሥሓክሙ።
+13
+ይኤምኁኪ ደቂቀ እኅትኪ ኅሪት ሞገስ ወተፋቅሮ ምስሌክሙ አሜን።
+መልአት መልእክተ ዮሐንስ ዳግሚት። ወስብሐት ለእግዚአብሔር፤ አሜን።"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
-            <TextView
-                android:id="@+id/text_john2"
-                android:visibility="gone"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="8dp"
-                android:textAlignment="textStart"
-                android:textSize="20sp"
-                app:lineHeight="20dp"
-                android:paddingBottom="80dp"
-                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 2
-"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-            <TextView
-                android:id="@+id/text_john3"
-                android:visibility="gone"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="8dp"
-                android:textAlignment="textStart"
-                android:textSize="20sp"
-                app:lineHeight="20dp"
-                android:paddingBottom="80dp"
-                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 3
-"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/text_john4"
-                android:visibility="gone"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="8dp"
-                android:textAlignment="textStart"
-                android:textSize="20sp"
-                app:lineHeight="20dp"
-                android:paddingBottom="80dp"
-                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 4
-"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/text_john5"
-                android:visibility="gone"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="8dp"
-                android:textAlignment="textStart"
-                android:textSize="20sp"
-                app:lineHeight="20dp"
-                android:paddingBottom="80dp"
-                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 5
-"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
 
         </LinearLayout>
     </ScrollView>
