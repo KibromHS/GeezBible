@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".old.SongFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/parentLayout">
+
+            <TextView
+                android:id="@+id/text_john"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 1
+1
+መሓልየ መሓልይ ዝውእቱ ዘሰሎሞን።
+2
+ይስዕመኒ በስዕመተ አፉሁ፤
+አዳም አጥባትኪ እምወይን።
+3
+ወመዐዛ ዕፍረትኪ እምኵሉ አፈው፤
+ዕፍረት ዘተሰውጠ ስምከ፤
+ወበእንተዝ ደናግል አፍቀራከ።
+4
+ወሰሐባከ ድኅሬከ፤
+በመዐዛ ዕፍረትከ ንረውጽ፤
+አብአኒ ንጉሥ ውስተ ጽርሑ፤
+ንትፈሣሕ ወንትሐሠይ ብከ፤
+ናፈቅር አጥባተኪ እምወይን ወርቱዕ አፍቅሮትኪ።
+5
+ጸላም አነ ሠናይት እምአዋልደ ኢየሩሳሌም፤
+ከመ ምጽላላተ ቄዳር ወኀይመታተ ሰሎሞን።
+6
+ኢትርአያኒ እስመ አነ ጸላም እስመ ኢርእየኒ ፀሓይ፤
+ደቂቀ እምየ ተበአሱ በእንቲአየ፡
+አንበሩኒ ዐቃቢተ ዐጸደ ወይን፤
+ዐጸደ ወይን ዘዚአየ ኢዐቀብኩ።
+7
+ንግረኒ ዘአፍቀረት ነፍስየ አይቴ ትሬዒ ወአይቴ ትሰክብ ጊዜ ቀትር፤
+ከመ ኢይኩን እንዘ አንጌጊ ውስተ መራዕየ ካልአኒከ።
+8
+እመ ኢያእመርኪ ርእሰኪ ሠናይት እምአንስት ፃኢ አንቲ ውስተ ሰኰናሆሙ ለመርዔት፤
+ወርዐዪ መሓስዐ አጣሊኪ ውስተ አዕጻዳቲሆሙ ለኖሎት።
+9
+ለፈረስየ ወለሰረገላተ ፈርዖን አስተማሰልኩኪ እንተ ኀቤየ።
+10
+ጥቀ አዳም መላትሕኪ ከመ ማዕነቅ ወክሳድኪ ከመ አርማስቆስ።
+11
+አምሳለ ወርቅ ይግበሩ ለኪ ኰሳኵሰ ዘብሩር።
+12
+እስከ ሶበ ንጉሥ ያሰምክ ቦቱ ናርዶስ ወሀበ መዐዛሁ።
+13
+ዕቍረ ማየ ልብን ዘወልድ እኁየ ሊተ፤
+ማእከለ አጥባትየ ያዐርፍ።
+14
+አስካል ዘጸገየ ዘወልድ እኁየ ሊተ ውስተ ዐጸደ ወይን ዘበጋዲ።
+15
+ነያ ሠናይት እንተ ኀቤየ ነያ ሠናይት፤
+አዕይንትኪ ዘርግብ።
+16
+ናሁ ሠናይ አንተ ወልድ እኁየ፤
+አዳም በውስተ ምስካቢነ ዘይጼልል።
+17
+ወመዋጽሕተ ቤትነ ዘአርዝ ወመሥእርቲነ ዘሕቍ።"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/text_john2"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 2
+1
+አነ ጽጌ ገዳም፤
+ጽጌ ደንጐላት ዘውስተ ቈላት።
+2
+ወከመ ጽጌ ደንጐላት በማእከለ አስዋክ፤
+ከማሁ አንቲኒ እንተ ኀቤየ በማእከለ አዋልድ።
+3
+ወከመ ኮል ዘውስተ ዕፀወ ገዳም፤
+ከማሁ ዘኣፈቅር በማእከለ አኃው፤
+ታሕተ ጽላሎቱ ፈተውኩ ወነበርኩ፤
+ወፍሬሁ ጥዑም ለጒርዔየ።
+4
+አብኡኒ ቤተ ወይን፤
+ገብሩ ላዕሌየ ፍቅረ።
+5
+አጽንዑኒ በዕፍረት ሰደቁኒ በአክዋል፤
+እስመ ተነደፍኩ በፍቅሩ።
+6
+የማኑ ተሐቅፈኒ ወፀጋሙ ታሕተ ርእስየ።
+7
+አምሐልኩክን አዋልደ ኢየሩሳሌም በኀይሉ ወበጽንዑ ለገዳም አመ ተንሥአ ወአንሥአ፤
+ኣፈቅሮ እስከ አመ ፈቀደ።
+8
+ቃለ ወልድ እኁየ ናሁ ውእቱ መጽአ እንዘ ይቀንጽ ማእከለ አድባር ወያንበሰብስ ዲበ አውግር።
+9
+ይመስል ወልድ እኁየ ከመ ወይጠል፤
+ወከመ ወሬዛ ኀየል ውስተ አድባረ ቤቴል፤
+ናሁ ውእቱ ይቀውም ድኅረ አረፍት፤
+ወይሔውጽ እንተ መሳክው ወይደንን እንተ ተድባብ።
+10
+ያወሥእ ወልድ እኁየ ወይብለኒ፦፤
+ተንሥኢ ወንዒ ቅርብትየ እንቲአየ ሠናይት ርግብየ።
+11
+እስመ ናሁ ክረምት ኀለፈ፤
+ወዝናም ኀለፈ ወገብአ ለሊሁ።
+12
+ጽጌ አስተርአየ በውስተ ምድርነ፤
+ጊዜ ገሚድ በጽሐ ቃለ ማዕነቅ ተሰምዐ በምድርነ።
+13
+በለስ አውጽአ ሠርጸ፤
+አውያን ጸገዩ ወሀቡ መዐዛ ተንሥኢ መንዒ ቅርብትየ፤
+እንቲአየ ሠናይት ርግብየ።
+14
+ውስተ ጽላሎተ ኰኵሕ ቅሩበ ጥቅም አርእየኒ ገጸከ አስምዐኒ ቃለከ ፤
+እስመ ቃልከ አዳም ወገጽከ ላሕይ።
+15
+አሥግሩ ለነ ቈናጽለ ንኡሳነ እለ ያማስኑ ዐጸደ ወይንነ፤
+ዐጸደ ወይንነ ይጽጊ።
+16
+ወልድ እኁየ ሊተ ወአነ ሎቱ ዘይትረዐይ ውስተ ጽጌያት።
+17
+እስከ ሶበ ታስተነፍስ ዕለት ወያንቀለቅል ጽላሎት ተመየጥ አንተ ወልድ እኁየ፤
+ወተመሰላ ለወይጠል ወከመ ወሬዛ ኀየል ውስተ አድባረ ድኁኃን።"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/text_john3"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 3
+1
+በዐራትየ በለያልይ እኅሥሥ ዘአፍቀረት ነፍስየ፤
+ኀሠሥክዎ ወኢረከብክዎ ጸዋዕክዎ ወኢተሰጥወኒ።
+2
+እትነሣእ ወአዓውድ ሀገረ ውስተ ምሥያጣት ወውስተ መራሕብት፤
+እኅሥሥ ዘአፍቀረት ነፍስየ፤
+ኀሠሥክዎ ወኢረከብክዎ ጸዋዕክዎ ወኢተሰጥወኒ።
+3
+ረከቡኒ መዓቅብት እለ የዓውዱ ሀገረ፤
+ዘአፍቀረት ነፍስየ ርኢክሙኑ?
+4
+ንስቲተ ኀሊፍየ እምኔሆሙ ውእተ ጊዜ ረከብኩ ዘአፍቀረት ነፍስየ፤
+አኀዝክዎ ወኢየኀድጎ እስከ ሶበ አባእክዎ ውስተ ቤተ እምየ ወውስተ ውሳጥያቲሃ ለእንተ ሐፀነተኒ።
+5
+አምሐልኩክን አዋልደ ኢየሩሳሌም በኀይሉ ወበጽንዑ ለገዳም፤
+አመ ተንሥአ ወአንሥአ ኣፈቅሮ እስከ አመ ፈቀደ።
+6
+መኑ ይእቲ ዛቲ እንተ ተዐርግ እምገዳም ከመ ሠርጸ ጢስ ዕጥነታ፤
+ከርቤ ወስኂን እምኵሉ ጸበለ ኤፌንዮስ።
+7
+ናሁ ዐራቱ ለሰሎሞን፤
+ስሳ ኀያላን ዐውዳ እምኀያላነ እስራኤል።
+8
+ኵሎሙ እኁዛነ አስይፍት ወምሁራነ ቀትል፤
+ብእሲ ብእሲ ሰይፉ ዲበ መንቅዕቱ በድንጋፄ ሌሊት።
+9
+መጾረ ገብረ ለርእሱ ንጉሥ ሰሎሞን እምዕፀወ ሊባኖስ።
+10
+አዕማዲሁ ገብረ ዘብሩር፤
+ምስማኩ ዘወርቅ፤
+መንበሩ ዘሜላት፤
+ውስጡ ንጹፍ በእብነ ሰንፔር፤
+ኣፈቅሮ እምአዋልደ ኢየሩሳሌም።
+11
+ፃኣ ትርአያ አዋልደ ጽዮን ለንጉሥ ሰሎሞን በአክሊል ዘአስተቀጸለቶ እሙ አመ ዕለተ መርዓሁ ወአመ ዕለተ ፍሥሓ ልቡ።"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/text_john4"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 4
+1
+ነያ ሠናይት እንተ ኀቤየ ነያ ሠናይት፤
+አዕይንትኪ ዘርግብ እንበለ አርምሞትኪ፤
+ሥዕርትኪ ከመ መርዔተ አጣሊ እለ ተከሥታ እምአድባረ ገላዐድ።
+2
+ስነንኪ ከመ መራዕይ እለ ተቀርፃ፤
+እለ ወጽአ እምኅፃብ፤
+ኵሎን እለ ይመነትዋ ወአልቦ እምኔሆን መካን።
+3
+ከመ ፍሕሶ ቀይሕ ከናፍርኪ ወንባብኪ አዳም፤
+ከመ ቅርፍተ ሮማን መላትሕኪ እንበለ አርምሞትኪ።
+4
+ከመ ማኅፈደ ዳዊት ክሳድኪ እለ ተሐንጻ ውስተ ተልፍዮስ፤
+ዐሠርቱ ምእት ንዋየ ሐቅል ስቁል ውስቴቱ ኵሎን መዋጽፍተ ኀየልት።
+5
+ክልኤ አጥባትኪ ከመ ክልኤ እጒለ መንታ ዘወይጠል ዘይትረዐይ ውስተ ጽጌያት።
+6
+እስከ ሶበ ያስተናፍስ ዕለት ወይትሐወስ ጽላሎት፤
+አሐውር ለልየ ኀበ ደብረ ከርቤ ፤
+ውስተ አውግረ ስኂን።
+7
+ኵለንታኪ ሠናይት እንተ ኀቤየ አልብኪ ነውረ ምንተሂ ላዕሌኪ።
+8
+ንዒ እምሊባኖስ መርዓት ንዒ እምሊባኖስ፤
+ወትወፅኢ እምቅድመ ሃይማኖት እምርእሰ ሳኔር ወኤርሞን፤
+እምግበበ አናብስት ወእምአድባረ አናምርት።
+9
+አራኅራኅክኒ እኅትየ መርዓት፤
+አራኅራኅክኒ በምዕር በአዕይንትኪ፤
+በአሐቲ ንብረተ ክሳድኪ።
+10
+ሚአዳም አጥባትኪ እኅትየ መርዓት፤
+ጥቀ አዳም አጥባትኪ እምወይን፤
+ወመዐዛ ዕፍረትኪ እምኵሉ አፈው።
+11
+ጸቃውዕ ይውሕዝ እምከናፍርኪ፤
+ሐሊብ ወመዓር እምታሕተ ልሳንኪ፤
+ወጼና አልባስኪ ከመ ጼና ስኂን።
+12
+ገነት ዕጽው እኅትየ መርዓት፤
+ገነት ዕጽው ዐዘቅት ኅትምት ፍናወ ዚአኪ።
+13
+ገነት ምስለ ፍሬ አቅማሕ፤
+ቆዕ ምስለ ናርዶስ።
+14
+ናርዶስ ወመጽርይ ቀጺሞት ወቀናንሞስ ምስለ ኵሉ ዕፀወ ሊባኖስ፤
+ከርቤ ወዓልወ ምስለ ኵሉ መቅድመ ዕፍረታት።
+15
+ነቅዐ ገነት፤ ዐዘቅተ ማየ ሕይወት ዘይውሕዝ እምሊባኖስ።
+16
+ተንሥእ ሰሜን ወነዓ ደቡብ ንፋሕ ገነትየ ወየሐዝ አፈዋተ ዚአየ፤
+ለይረድ ወልድ እኁየ ውስተ ገነቱ ወይብላዕ እምፍሬ አቅማሒሁ።"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/text_john5"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 5
+1
+ቦእኩ ውስተ ገነትየ እኅትየ መርዓት አረርኩ ከርቤ ምስለ አፈዋትየ፤
+በላዕኩ ኅብስትየ ምስለ መዓርየ፤
+ሰተይኩ ወይንየ ምስለ ሐሊብየ፣
+በልዑ ካልአንየ፤
+ሰትዩ ወሰከሩ ውሉድ አኃውየ።
+2
+አነ ንውም ወልብየ ንቅህት ቃለ፤
+ወልድ እኁየ ይጐድጕድ ኆኅተ፤
+አርኅውኒ እኅትየ ካልእትየ ርግብየ ፍጽምት፤
+እስመ ርእስየኒ ምሉአ ጠል ወድምድማየኒ ነፍኒፈ ሌሊት።
+3
+አውፃእኩ ልብስየ እፎኑ እለብሶ፤
+ተኀፀብኩ እገርየ እፎኑ እጌምኖን።
+4
+ወልድ እኁየ ፈነወ እዴሁ እንተ ስቍረት፤
+ከርሥየ ደንገፀት ቦቱ።
+5
+ተንሣእኩ አነ አርኅዎ ለወልድ እኁየ፤
+እደውየ ውሕዛ ከርቤ ወአጻብዕየ ከርቤ ምሉአት፤
+ውስተ እደ መንሠግ።
+6
+አነ አርኀውክዎ ለወልድ እኁየ ወልድ እኁየ ኀለፈ፤
+ነፍስየ ደንገፀት እምቃሉ፤
+ኀሠሥክዎ ወኢረከብክዎ ጸዋዕክዎ ወኢተሰጥወኒ።
+7
+ረከቡኒ መዓቅብት እለ የዓውዱ ሀገረ፤
+ዘበጡኒ ወፈቅኡኒ ነሥኡ ግልባብየ እምላዕለ ርእስየ እለ የዐቅቡ ቅጽረ።
+8
+አምሐልኩክን አዋልደ ኢየሩሳሌም በኀይሉ ወበጽንዑ ለገዳም፤
+እመ ረከብካሁ ለወልድ እኁየ ከመ ታይድዓሁ ከመ ንድፍት አነ በፍቅሩ።
+9
+ምንት ወልድ እኁኪ እምውሉደ አኃው ሠናይት እምአንስት፤
+ምንት ወልድ እኁኪ እምውሉደ አኃው ዘከመዝ አምሐልክነ።
+10
+እኁየ ጸዐዳ ወቀይሕ፤
+ውሉድ ኅሩይ እምአእላፍ።
+11
+ርእሱ ወርቀ ቄፋዝ፤
+ድምድማሁ ድሉል ወጸሊም ከመ ቋዕ።
+12
+አዕይንቲሁ ከመ ርግብ ውስተ ምሉእ ምዕቃለ ማያት፤
+ኅፁባት በሐሊብ እለ ይነብራ ውስተ ምዕቃለ ማያት ምሉእ።
+13
+መላትሒሁ ከመ ርሔ አፈው እለ ይፈርያ አፈዋተ፤
+ከናፍሪሁ ጽጌ እለ ይውሕዛ ከርቤ ፍጹመ።
+14
+እደዊሁ ፍሑቃት እለ ወርቅ ስርግዋተ ተርሴስ፤
+ከርሡ ሰሌዳ ከመ ቀርነ ነጌ ዲበ እብነ ሰንፔር።
+15
+ቍያጺሁ አዕማደ በላቅ ስሩራት ዲበ መንበረ ወርቅ፤
+ራእዩ ከመ ስኂን ወኅሩይ ከመ ቄድሮስ።
+16
+ጕርዔሁ መዐርዒር ወኵሉ ፍትወት፤
+ውእቱ ወልድ እኁየ ውእቱ ፍቁርየ።"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 6
+1
+አይቴ ኀለፈ ወልድ እኁኪ ወንኅሥሦ ምስሌኪ፤
+ወአይቴ ሖረ ወልድ እኁኪ ሠናይት እምአንስት?
+2
+ወልድ እኁየ ወረደ ውስተ ገነቱ ውስተ አብያተ አፈው፤
+ይርዐይ ገነተ ወያስተጋብእ ጽጌያተ።
+3
+አነ ለወልድ እኁየ ወወልድ እኁየ ሊተ፤
+ዘይሬዒ ውስተ ጽጌያት።
+4
+ሠናይት አንቲ እንተ ኀቤየ ከመ ሥምረት፤
+አዳም ከመ ኢየሩሳሌም ድንግፅት ከመ ብጽዐት።
+5
+ሚጢ አዕይንተኪ እምአንጻርየ እስመ እማንቱ አስረራኒ፤
+ሥዕርትኪ ከመ መርዔተ አጣሊ እለ አስተርአያ እምአድባረ ገላዐድ።
+6
+ስነንኪ ከመ መራዕይ እለ ተቀርፃ፤
+እለ ዐርጋ እምኅፃብ፤
+ኵሎን እለ ይመነትዋ ወአልቦ እምኔሆን መካን።
+7
+ከመ ፍሕሶ ቀይሕ ከናፍርኪ ወንባብኪ አዳም፤
+ከመ ቅርፍተ ሮማን መላትሒኪ እንበለ አርምሞትኪ።
+8
+ስሳ እማንቱ ንግሥታት ወሰማንያ ዕቁባት፤
+አዋልድ እለ አልቦን ኍልቈ።
+9
+አሐቲ ይእቲ ርግብየ ፍጽምት፤
+አሐቲ ይእቲ ለእማ፤
+ወኅሪት ይእቲ ለእንተ ወለደታ፤
+ርእያሃ አዋልድ ወአስተብፅዓሃ ንግሥታት ወዕቁባት ወደሳሃ።
+10
+መኑ ይእቲ ዛቲ እንተ ትሔውጽ ከመ ጎሕ፤
+ሠናይት ከመ ወርኅ ብርህት ከመ ፀሐይ፤
+ድንጋፄ ከመ ሥርዐት።
+11
+ውስተ ገነተ ከርካዕ ወረደ ወልድ እኁየ ውስተ ዘርአ ሙሐዝ፤
+ይርአይ እመ ጸገየ ወይን ወእመ ፈረየ ሮማን፤
+በህየ እሁብ አጥባትየ ለከ።
+12
+ነፍስየ ኢያእመረት ረስየኒ ሰረገላተ አሚናዳብ።
+13
+ተመየጢ ተመየጢ ሱላሜጢስ ተመየጢ ወንርአይ ብኪ ሰላመ፤
+ምንተ ትሬእዩ በእንተ ሰላመ ሰጣዊት፤
+እንተ ትሔውጽ እምርሑቅ ከመ መድበለ መኅባር።"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 7
+1
+ጥቀ አዳም ሑረታትኪ ዘበሥን ወለተ ናዳብ፤
+ንብረተ መናቅዕትኪ ይመስል አርማስቆስ ግብረ እደ ኬንያ።
+2
+ሕንብርትኪ ከመ ማዕከክ ፍሑቅ ዘኢየዐርቅ እምቱስሕቱ፤
+ከርሥኪ ስውጠ ሥርናይ ወሕጹር በጽጌ።
+3
+ክልኤ አጥባትኪ ከመ ክልኤ እጕለ መንታ ዘወይጠል።
+4
+ወክሳድኪ ከመ ማኅፈደ ቀርነ ነጌ፣
+አዕይንትኪ ከመ ምዕቃላተ በኤሴቦን በአናቅጽ ወለተ ብዙኃን፤
+አንፍኪ ይመስል ማኅፈደ ሊባኖስ ዘይኔጽር መንገለ ገጸ ደማስቆ።
+5
+ሥዕርትኪ ዘዲቤኪ ከመ ቀርሜሎስ፤
+ወፅፍሮ ርእስኪ ከመ ሜላት፤
+አሠረ ንጉሥ ለረዊጽ።
+6
+ጥቀ ሠነይኪ ወጥቀ አደምኪ፤
+ኣፈቅሮ ለፍግዕኪ።
+7
+ዘቆምኪ ይመስል በቀልተ፤
+ወአጥባትኪ ከመ ሄላ።
+8
+እቤ እዕርግ ውስተ በቀልት ወአኀዝ መልዕልቶ፤
+ወኮነ አጥባትኪ ከመ አስካል ወጼና አንፍኪ ከመ ኮል።
+9
+ወጕርዔኪ ከመ ወይን ሠናይ፤
+እንዘ የሐውር ወልድ እኁየ እንዘ ይደሉ ለከናፍርየ ወለልሳንየ።
+10
+አነ ለወልድ እኁየ ወኀቤየ ምግባኢሁ።
+11
+ነዓ ወልድ እኁየ ንፃእ ሐቅለ፤
+ናዕርፍ ውስተ አድያም።
+12
+ንጊስ ውስተ ኣዕጻዳተ ወይን፤
+ንርአይ እመ ጸገየ ወይን ወእመ ጸገየ ቆዕ ወእመ ፈረየ ሮማን፤
+በህየ እሁብ አጥባትየ ለከ።
+13
+ዕንጐታት ወሀቡ መዐዛ፤
+ወውስተ ኣዕጻዲነ ኵሉ አቅማሕ፤
+ሐዲስ ምስለ ብሉይ፤
+ወልድ እኁየ አነ ዐቀብኩ ለከ።"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 8
+1
+መኑ ይሁበከ ወልድ እኁየ ትጥቡ አጥባቲሃ ለእምየ፤
+ረኪብየ በአፍአ እስዕመከ ወኢይሜንኑኒ።
+2
+እነሥአከ ወኣበውአከ ውስተ ቤተ እምየ ወውስተ ውሳጥያቲሃ ለእንተ ሐፀነተኒ፤
+ኣሰትየከ እምርሔ አፈውየ ወእምስቴ ሮማንየ።
+3
+የመኑ ተሐቅፈኒ፤
+ወፀጋሙ ታሕተ ርእስየ።
+4
+አምሐልኩክን አዋልደ ኢየሩሳሌም በኀይሉ ወበጽንዑ ለገዳም፤
+አመ ተንሥአ ወአንሥአ ኣፈቅሮ እስከ አመ ፈቀደ።
+5
+መኑ ይእቲ ዛቲ እንተ ትሔውጽ ከመ ጎሕ ጽዕዱት ወብርህት እንተ ትትመረጐዝ በወልድ እኁሃ?
+እምኀበ ኮል አንሣእኩከ፤
+በህየ ሐመት ብከ እምከ ወበህየ ሐመት ብከ ወላዲትከ።
+6
+አንብረኒ ከመ ሕልቀት ውስተ ልብከ ወከመ ማዕተብ በመዝራዕትከ፤
+እስመ ፍቅር ከመ ሞት ጽንዕት ወድርክት ከመ ሲኦል ቅንአት፤
+ክነፊሃ ክነፈ እሳት ላህባ።
+7
+ማይ ብዙኅ ኢይክል አጥፍኦታ ለፍቅር ወአፍላግኒ ኢያንቀለቅልዋ፤
+እመ ወሀበ ብእሲ ኵሎ ንብረቶ ለፍቅር መንኖ ይሜንንዎ።
+8
+እኅትነ ንስቲት ይእቲ ወአጥባት አልባ፤
+ምንተ ንግበር ለእኅትነ በዕለት አመ ይትናገሩ ባቲ።
+9
+እመ አረፍት ይእቲ ንሕንጽ ዲቤሃ ተድባበ ዘብሩር፤
+ወለእመ ኆኅት ይእቲ ንግበር ላቲ ማዕጾ ዘቄድሮስ።
+10
+አነ ቅጽር ወአጥባትየ ከመ ማኅፈድ፤
+አነ ይእቲ በአዕይንቲሁ እረክብ ሰላመ።
+11
+ዐጸደ ወይን ኮነ ለሰሎሞን በብዔላሞን፤
+ወወሀበ ዐጸደ ወይኑ ለእለ የዐቅቡ፤
+ፍሬሁ ብእሲ ብእሲ ይሁብ ፍሬሁ በበጊዜሁ ዐሠርቱ ምእት ብሩር።
+12
+ዐጸደ ወይንየ ሊተ እንተ አንጻርየ፤
+ዐሠርቱ ምእት ለሰሎሞን ወክልኤቱ ምእት ለእለ የዐቅቡ ፍሬሁ።
+13
+ዘይነብር ውስተ ገነት ካልአን ርእይዎ፤
+ቃለከ አስምዐኒ።
+14
+ጕይይ አንተ ወልድ እኁየ ወተመሰላ ለወይጠል ወእመ አኮ ከመ ወሬዛ ኀየል ውስተ አድባረ ድኁኃን።
+ተፈጸመ መኃልየ ሰሎሞን ወልደ ዳዊት፤ ወስብሐት ለእግዚአብሔር ለዓለም ዓለም፡ ኣሜን።"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

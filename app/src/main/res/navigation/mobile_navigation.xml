@@ -6,6 +6,210 @@
     app:startDestination="@+id/nav_mathew">
 
     <fragment
+        android:id="@+id/genesis"
+        android:name="com.example.bible.old.GenesisFragment"
+        android:label="ኦሪት ዘፍጥረት"
+        tools:layout="@layout/fragment_genesis" />
+    <fragment
+        android:id="@+id/exodus"
+        android:name="com.example.bible.old.ExodusFragment"
+        android:label="ኦሪት ዘጸአት"
+        tools:layout="@layout/fragment_exodus" />
+    <fragment
+        android:id="@+id/leviticus"
+        android:name="com.example.bible.old.LeviticusFragment"
+        android:label="ኦሪት ዘሌዋውያን"
+        tools:layout="@layout/fragment_leviticus" />
+    <fragment
+        android:id="@+id/numbers"
+        android:name="com.example.bible.old.NumbersFragment"
+        android:label="ኦሪት ዘኊልቊ"
+        tools:layout="@layout/fragment_numbers" />
+    <fragment
+        android:id="@+id/dueteronomy"
+        android:name="com.example.bible.old.DueteronomyFragment"
+        android:label="ኦሪት ዘዳግም"
+        tools:layout="@layout/fragment_dueteronomy" />
+
+    <fragment
+        android:id="@+id/joshua"
+        android:name="com.example.bible.old.JoshuaFragment"
+        android:label="መጽሐፈ ኢያሱ"
+        tools:layout="@layout/fragment_joshua" />
+    <fragment
+        android:id="@+id/judges"
+        android:name="com.example.bible.old.JudgesFragment"
+        android:label="መጽሐፈ መሳፍንት"
+        tools:layout="@layout/fragment_judges" />
+    <fragment
+        android:id="@+id/ruth"
+        android:name="com.example.bible.old.RuthFragment"
+        android:label="መጽሐፈ ሩት"
+        tools:layout="@layout/fragment_ruth" />
+    <fragment
+        android:id="@+id/samuel1"
+        android:name="com.example.bible.old.Samuel1Fragment"
+        android:label="መጽሐፈ ሳሙኤል ቀዳማዊ"
+        tools:layout="@layout/fragment_samuel1" />
+    <fragment
+        android:id="@+id/samuel2"
+        android:name="com.example.bible.old.Samuel2Fragment"
+        android:label="መጽሐፈ ሳሙኤል ካልእ"
+        tools:layout="@layout/fragment_samuel2" />
+
+    <fragment
+        android:id="@+id/kings1"
+        android:name="com.example.bible.old.Kings1Fragment"
+        android:label="መጽሐፈ ነገስት ቀዳማዊ"
+        tools:layout="@layout/fragment_kings1" />
+    <fragment
+        android:id="@+id/kings2"
+        android:name="com.example.bible.old.Kings2Fragment"
+        android:label="መጽሐፈ ነገስት ካልእ"
+        tools:layout="@layout/fragment_kings2" />
+    <fragment
+        android:id="@+id/chronicles1"
+        android:name="com.example.bible.old.Chronicles1Fragment"
+        android:label="መጽሐፈ ዜና መዋእል ቀዳማዊ"
+        tools:layout="@layout/fragment_chronicles1" />
+    <fragment
+        android:id="@+id/chronicles2"
+        android:name="com.example.bible.old.Chronicles2Fragment"
+        android:label="መጽሐፈ ዜና መዋእል ካልእ"
+        tools:layout="@layout/fragment_chronicles2" />
+    <fragment
+        android:id="@+id/ezra"
+        android:name="com.example.bible.old.EzraFragment"
+        android:label="መጽሐፈ እዝራ"
+        tools:layout="@layout/fragment_ezra" />
+
+    <fragment
+        android:id="@+id/nehemiah"
+        android:name="com.example.bible.old.NehemiahFragment"
+        android:label="መጽሐፈ ነህምያ"
+        tools:layout="@layout/fragment_nehemiah" />
+    <fragment
+        android:id="@+id/esther"
+        android:name="com.example.bible.old.EstherFragment"
+        android:label="መጽሐፈ አስቴር"
+        tools:layout="@layout/fragment_esther" />
+    <fragment
+        android:id="@+id/job"
+        android:name="com.example.bible.old.JobFragment"
+        android:label="መጽሐፈ ኢዮብ"
+        tools:layout="@layout/fragment_job" />
+    <fragment
+        android:id="@+id/psalms"
+        android:name="com.example.bible.old.PsalmsFragment"
+        android:label="መዝሙረ ዳዊት"
+        tools:layout="@layout/fragment_psalms" />
+    <fragment
+        android:id="@+id/proverbs"
+        android:name="com.example.bible.old.ProverbsFragment"
+        android:label="መጽሐፈ ምሳሌ"
+        tools:layout="@layout/fragment_proverbs" />
+
+    <fragment
+        android:id="@+id/ecclesiastes"
+        android:name="com.example.bible.old.EcclesiastesFragment"
+        android:label="መጽሐፈ መክብብ"
+        tools:layout="@layout/fragment_ecclesiastes" />
+    <fragment
+        android:id="@+id/songs"
+        android:name="com.example.bible.old.SongFragment"
+        android:label="መኃልየ መኃልይ"
+        tools:layout="@layout/fragment_song" />
+    <fragment
+        android:id="@+id/isaiah"
+        android:name="com.example.bible.old.IsaiahFragment"
+        android:label="ትንቢተ ኢሳይያስ"
+        tools:layout="@layout/fragment_isaiah" />
+    <fragment
+        android:id="@+id/jeremiah"
+        android:name="com.example.bible.old.JeremiahFragment"
+        android:label="ትንቢተ ኤርምያስ"
+        tools:layout="@layout/fragment_jeremiah" />
+    <fragment
+        android:id="@+id/lamentations"
+        android:name="com.example.bible.old.LamentationsFragment"
+        android:label="ሰቆቃወ ኤርምያስ"
+        tools:layout="@layout/fragment_lamentations" />
+
+    <fragment
+        android:id="@+id/ezekiel"
+        android:name="com.example.bible.old.EzekielFragment"
+        android:label="ትንቢተ ሕዝቅኤል"
+        tools:layout="@layout/fragment_ezekiel" />
+    <fragment
+        android:id="@+id/daniel"
+        android:name="com.example.bible.old.DanielFragment"
+        android:label="ትንቢተ ዳንኤል"
+        tools:layout="@layout/fragment_daniel" />
+    <fragment
+        android:id="@+id/hosea"
+        android:name="com.example.bible.old.HoseaFragment"
+        android:label="ትንቢተ ሆሴዕ"
+        tools:layout="@layout/fragment_hosea" />
+    <fragment
+        android:id="@+id/joel"
+        android:name="com.example.bible.old.JoelFragment"
+        android:label="ትንቢተ ኢዩኤል"
+        tools:layout="@layout/fragment_joel" />
+    <fragment
+        android:id="@+id/amos"
+        android:name="com.example.bible.old.AmosFragment"
+        android:label="ትንቢተ አሞጽ"
+        tools:layout="@layout/fragment_amos" />
+    <fragment
+        android:id="@+id/obadiah"
+        android:name="com.example.bible.old.ObadiahFragment"
+        android:label="ትንቢተ ዓብድዩ"
+        tools:layout="@layout/fragment_obadiah" />
+    <fragment
+        android:id="@+id/jonah"
+        android:name="com.example.bible.old.JonahFragment"
+        android:label="ትንቢተ ዮናስ"
+        tools:layout="@layout/fragment_jonah" />
+    <fragment
+        android:id="@+id/micah"
+        android:name="com.example.bible.old.MicahFragment"
+        android:label="ትንቢተ ሚክያስ"
+        tools:layout="@layout/fragment_micah" />
+    <fragment
+        android:id="@+id/nahum"
+        android:name="com.example.bible.old.NahumFragment"
+        android:label="ትንቢተ ናሆም"
+        tools:layout="@layout/fragment_nahum" />
+    <fragment
+        android:id="@+id/habakkuk"
+        android:name="com.example.bible.old.HabakkukFragment"
+        android:label="ትንቢተ እንባቆም"
+        tools:layout="@layout/fragment_habakkuk" />
+
+    <fragment
+        android:id="@+id/zephaniah"
+        android:name="com.example.bible.old.ZephaniahFragment"
+        android:label="ትንቢተ ሶፎንያስ"
+        tools:layout="@layout/fragment_zephaniah" />
+    <fragment
+        android:id="@+id/haggai"
+        android:name="com.example.bible.old.HaggaiFragment"
+        android:label="ትንቢተ ሐጌ"
+        tools:layout="@layout/fragment_haggai" />
+    <fragment
+        android:id="@+id/zechariah"
+        android:name="com.example.bible.old.ZechariahFragment"
+        android:label="ትንቢተ ዘካርያስ"
+        tools:layout="@layout/fragment_zechariah" />
+    <fragment
+        android:id="@+id/malachi"
+        android:name="com.example.bible.old.MalachiFragment"
+        android:label="ትንቢተ ሚልክያስ"
+        tools:layout="@layout/fragment_micah" />
+
+
+
+    <fragment
         android:id="@+id/nav_mathew"
         android:name="com.example.bible.ui.MatthewFragment"
         android:label="ወንጌለ ማቴዎስ"
@@ -44,13 +248,13 @@
     <fragment
         android:id="@+id/nav_corinthians1"
         android:name="com.example.bible.ui.CorinthiansFragment"
-        android:label="ኀበ ሰብአ ቆረንቶስ 1"
+        android:label="ኀበ ሰብአ ቆረንቶስ ፩"
         tools:layout="@layout/fragment_corinthians"/>
 
     <fragment
         android:id="@+id/nav_corinthians2"
         android:name="com.example.bible.ui.Corinthians2Fragment"
-        android:label="ኀበ ሰብአ ቆረንቶስ 2"
+        android:label="ኀበ ሰብአ ቆረንቶስ ፪"
         tools:layout="@layout/fragment_corinthians2"/>
 
     <fragment
@@ -80,25 +284,25 @@
     <fragment
         android:id="@+id/nav_thessalonians"
         android:name="com.example.bible.ui.ThessaloniansFragment"
-        android:label="ኀበ ሰብአ ተሰሎንቄ"
+        android:label="ኀበ ሰብአ ተሰሎንቄ ፩"
         tools:layout="@layout/fragment_thessalonians"/>
 
     <fragment
         android:id="@+id/nav_thessalonians2"
         android:name="com.example.bible.ui.Thessalonians2Fragment"
-        android:label="ኀበ ሰብአ ተሰሎንቄ 2"
+        android:label="ኀበ ሰብአ ተሰሎንቄ ፪"
         tools:layout="@layout/fragment_thessalonians2"/>
 
     <fragment
         android:id="@+id/nav_timothy"
         android:name="com.example.bible.ui.TimothyFragment"
-        android:label="ኀበ ጢሞቴዎስ"
+        android:label="ኀበ ጢሞቴዎስ ፩"
         tools:layout="@layout/fragment_timothy"/>
 
     <fragment
         android:id="@+id/nav_timothy2"
         android:name="com.example.bible.ui.Timothy2Fragment"
-        android:label="ኀበ ጢሞቴዎስ 2"
+        android:label="ኀበ ጢሞቴዎስ ፪"
         tools:layout="@layout/fragment_timothy2"/>
 
     <fragment
@@ -128,31 +332,31 @@
     <fragment
         android:id="@+id/nav_peter"
         android:name="com.example.bible.ui.PeterFragment"
-        android:label="መልእክተ ጴጥሮስ"
+        android:label="መልእክተ ጴጥሮስ ፩"
         tools:layout="@layout/fragment_peter"/>
 
     <fragment
         android:id="@+id/nav_peter2"
         android:name="com.example.bible.ui.Peter2Fragment"
-        android:label="መልእክተ ጴጥሮስ 2"
+        android:label="መልእክተ ጴጥሮስ ፪"
         tools:layout="@layout/fragment_peter2"/>
 
     <fragment
         android:id="@+id/nav_john1"
         android:name="com.example.bible.ui.John1Fragment"
-        android:label="መልእክተ ዮሐንስ 1"
+        android:label="መልእክተ ዮሐንስ ፩"
         tools:layout="@layout/fragment_john1"/>
 
     <fragment
         android:id="@+id/nav_john2"
         android:name="com.example.bible.ui.John2Fragment"
-        android:label="መልእክተ ዮሐንስ 2"
+        android:label="መልእክተ ዮሐንስ ፪"
         tools:layout="@layout/fragment_john2"/>
 
     <fragment
         android:id="@+id/nav_john3"
         android:name="com.example.bible.ui.John3Fragment"
-        android:label="መልእክተ ዮሐንስ 3"
+        android:label="መልእክተ ዮሐንስ ፫"
         tools:layout="@layout/fragment_john3"/>
 
     <fragment

@@ -1,0 +1,1433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".old.EzraFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/parentLayout">
+
+            <TextView
+                android:id="@+id/text_john"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 1
+1
+አመ ቀዳሚ ዓመተ መንግሥቱ ለቂሮስ ንጉሠ ፋርስ እምዘ ሐልቀ ቃለ እግዚአብሔር እምአፈ ኤርምያስ አንሥአ እግዚአብሔር መንፈሰ ቂሮስ ንጉሠ ፋርስ ወአዘዘ በቃሉ ለኵሉ መንግሥቱ ወዓዲ ጸሐፈ እንዘ ይብል፦
+2
+ከመዝ ይቤ ቂሮስ ንጉሠ ፋርስ፦ ኵሎአ መንግሥተ ምድር ወሀበኒ እግዚአብሔር እግዚአ ሰማይ ወውእቱ አኀለየኒ ዘከመ አሐንፅ ሎቱ ቤተ በኢየሩሳሌም ዘይሁዳ።
+3
+መኑ እምውስ ኵሉ አሕዛብ፡ እግዚአብሔር የሀሉ ምስሌሁ ከመ ይዕርግ ኢየሩሳሌም ዘይሁዳ ወይሕንጽ ቤተ እግዚአብሔር አምላ እስራኤል ውእቱ እግዚአብሔር ዘውስተ ኢየሩሳሌም።
+4
+ወኵሎሙ እለ ተርፉ ውስተ ኵሉ በሐውርት እለ ለሊሁ አፍለሰ ህየ ወይትራድእዎ ምስሌሆሙ እምውስተ ሰብአ ብሔር በወርቅ ወበብሩር ወበንዋይ ወእንስሳ ወባዕደኒ ዘፈቀዱ ለቤተ እግዚአብሔር ዘኢየሩሳሌም።
+5
+ወተንሥኡ መላእክተ ቤተ አበወ ይሁዳ ወብንያም ወካህናትኒ ወሌዋዊያን ወኵሎሙ እለ ወደየ ሎሙ እግዚአብሔር ውስተ ልቦሙ ከመ ይዕርጉ ወይሕንፁ ቤተ እግዚአብሔር በኢየሩሳሌም።
+6
+ወኵሎሙ እለ ዓውዶሙ ይርድእዎሙ ምስሌሆሙ በንዋየ ወርቅ ወብሩር ወእንስሳ ወባዕደኒ ዘአስተአደሙ በበፈቃዶሙ።
+7
+ወንጉሥኒ ቂሮስ አውጽአ ንዋየ ቤተ እግዚአብሔር ዘነሥአ ናቡከደነጾር እምኢየሩሳሌም ወአብኦ ቤተ እምላኩ።
+8
+ወአውጽአ ቂሮስ ንጉሠ ፋርስ ላዕለ እደ ሚትሪዳጡ ወልደ ገሰባሬኑ፡ ወጸሐፎሙ ወወሀቦ ለሲሳብዳር መልአከ ይሁዳ።
+9
+ወእሉ ኈልቈ መዋፅሕት ዘወርቅ ሠላሳ ወመዋፅሕት ዘብሩር ዓሠርቱ ምእት ወአፅሕልት ዕሥራ ወተስዓቱ።
+10
+ወጽዋዓት ዘወርቅ ሠላሳ፡ ወዘብሩር አርባዕቱ ምእት ወዓሠርቱ መክዕቢተ፡ ወካልኣን ዓሠርቱ ምእት።
+11
+ወኵሉ ንዋይ ዘወርቅኒ ወዘብሩርኒ ኃምሳ ምእት ወአርባዕቱ ምእት ዘኵሎ አዕርገ ሲሳብዳር ምስለ እለ ዓርጉ ፄዋ እምባቢሎን ኢየሩሳሌም።"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/text_john2"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 2
+1
+ወእሉ እሙንቱ ደቂቀ ብሔር እለ ዐርጉ ኢየሩሳሌም ወገብኡ እምኀበ ተፄወዉ ወፈለሱ እለ አፍለሶሙ ናቡከደነጾር ንጉሠ ባቢሎን ውስተ ባቢሎን፡ ወተመይጡ ኢየሩሳሌም፣ ወሰብአ ይሁዳኒ አተዉ ውስተ አህጉሪሆሙ።
+2
+እለ ወጽኡ ምስለ ዘሩባቤል ኢዮስስ ወነሐምያ ወሶርያ ወሮሐልያ ወመርዴክዮስ፡ ወበላሳን ወመሴፋር፡ ወመጉይ፡ ወሬሁም፡ ወበዓና፡ ወኮነ ኈልቆሙ ለሰብአ እስራኤል።
+3
+ደቂቀ ፋሬአስ ዕሥራ ምእት ወአሐዱ ምእት ወሰብዓ ወክልኤቱ፤
+4
+ወደቂቀ ሰፋትያስ ሠለስቱ ምእት ወሰብዓ ወክልኤቱ፤
+5
+ወደቂቀ ኤራ ሰብዓቱ ምእት ወሰብዓ ወኃምስቱ፤
+6
+ደቂቀ ፈሐት ሞአብ እለ እምትውልደ ያሱኤ ወዮአብ ዕሥራ ምእት ወሰመንቱ ምእት ዓሠርቱ ወክልኤቱ፤
+7
+ደቂቀ ኤላም ዓኀርቱምእት ወክልኤቱ ምእት ኃምሳ ወአርባዕቱ፤
+8
+ደቂቀ ዘቱዕ ተስዓቱ ምእት ወአርባዓ ወኃምስቱ፤
+9
+ደቂቀ ዛኬ ሰብዓቱ ምእት ወስሳ፤
+10
+ደቂቀ ባኑ ስድስቱ ምእት ወአርባዓ ወክልኤቱ፤
+11
+ደቂቀ ባቤ ስድስቱ ምእት ወዕሥራ ወሠለስቱ፤
+12
+ደቂቀ አዜጌድ ዓሠርቱ ምእት ወክልኤቱ ምእት ወዕሥራ ወክልኤቱ፤
+13
+ደቂቀ አዶኒቃም ስድስቱ ምእት ስሳ ወስድስቱ፤
+14
+ደቂቀ ቤጋዊ ዕሥራ ምእት ወኃምሳ ወስድስቱ፤
+15
+ደቂቀ አዴን አርባዕቱ ምእት ወኃምሳ ወአርባዕቱ፤
+16
+ደቂቀ አጤር ዘሕዝቅያ ተስዓ ወስምንቱ፤
+17
+ደቂቀ ቤሳይ ሠለስቱ ምእት ወዕሥራ ወሠለስቱ፤
+18
+ደቂቀ ኡራ ምእት ወዓሠርቱ ወክልኤቱ፤
+19
+ደቂቀ ሐሱም ክልኤቱ ምእት ወዕሥራ ወሠለስቱ፤
+20
+ደቂቀ ጋቤር ተስዓ ወኃምስቱ፤
+21
+ደቂቀ ቤተ ልሔም ምእት ዕሥራ ወሠለስቱ፤
+22
+ደቂቀ ናጡፋ ኃምሳ ወስድስቱ፤
+23
+ደቂቀ አናቶት ምእት ወዕሥራ ወሰምንቱ፤
+24
+ደቂቀ አስሙት አርባዓ ወክልኤቱ፤
+25
+ደቂቀ ቅርያታርም ቂፌር፡ ወቢሮት ሰብዓቱ ምእት ወአርባዓ ወሠለስቱ፤
+26
+ደቂቀ ሐርማ ወጋባእ ስድስት ምእት ዕሥራ ወአሐዱ፤
+27
+ወሰብአ መኪማስ ምዕት ዕሥራ ወክልኤቱ፤
+28
+ሰብአ ቤቴል ወጋይ ክልኤት ምእት ዕሥራ ወሠለስቱ፤
+29
+ደቂቀ ናቡ ኃምሳ ወክልኤቱ፤
+30
+ደቂቀ መጌባስ ምእት ወኃምሳ ወስድስቱ፤
+31
+ደቂቀ ካልኡ ኤላም ዓሠርቱ ምእት ወክልኤቱ ምእት ኃምሳ ወአርባዕቱ፤
+32
+ደቂቀ ካም ሠለስቱ ምእት ወዕሥራ፤
+33
+ደቂቀ ሎጥ ወሐዲድ ወሐኖን ሰብዐቱ ምእት ዕሥራ ወሐምስቱ፤
+34
+ደቂቀ ኢያሪኮ ሠለስቱ ምእት አርባዓ ወሐምስቱ፤
+35
+ደቂቀ ሰናኦህ ሠለስቱ ምእት ወስድስቱ ምእት ወሠላሳ፤
+36
+ወካህናትኒ ደቂቀ ኢየሐዶ እለ እምቤተ ኢየስስ ተስዓቱ ምእት ሰብዓ ወሠለስቱ፤
+37
+ደቂቀ ኤሜር ዓሠርቱ ምእት ሐምሳ ወክልኤቱ፤
+38
+ደቂቀ ፋሲሆር ዓሠርቱ ምእት ወክልኤቱ ምእት አርባዓ ወሰብዓቱ፤
+39
+ደቂቀ ኤረም ዓሠርቱ ምእት ዓሠርቱ ወሰብዓቱ፤
+40
+ወሌዋዊያንሰ ደቂቀ ኢዮስስ ወቀዳምኤል እምደቂቀ ሁዱያ ሰብዓ ወአርባዕቱ፤
+41
+ወእለ ይዜምሩ ደቂቀ አሳፍ ምእት ወዕሥራ ወስምንቱ፤
+42
+ደቂቀ ሰዓሪም ደቂቀ ሰሎም ደቂቀ አጤር ደቂቀ ጤልሞን ደቂቀ አቁብ ደቂቀ አጤጣ ደቂቀ ሰበዊይ ኵሎሙ ምእት ወሠላሳ ወተስዓቱ፤
+43
+ወሰብአ ናታኒም፦ ደቂቀ ሲካ፡ ደቂቀ አሱፌ፡ ደቂቀ ጠቢዖት፣
+44
+ደቂቀ ቃዴሰ፡ ደቂቀ ስሔል፡ ደቂቀ ፉደን፣
+45
+ደቂቀ ለቡና፡ ደቂቀ አጋቦ፡ ደቂቀ ዓቁብ፣
+46
+ደቂቀ አጋብ፡ ደቂቀ ሰምላይ፡ ደቂቀ ሐናን፣
+47
+ደቂቀ ጋዱል፡ ደቂቀ ጋሐል፡ ደቂቀ ርሔር፣
+48
+ደቂቀ ተራሶን፡ ደቂቀ ኒቆዳ፡ ደቂቀ ጋሴም፣
+49
+ደቂቀ አዝያተ፡ ደቂቀ ፋሔስ፡ ደቂቀ ባሴ፣
+50
+ደቂቀ አሲና፡ ደቂቀ መናሚን፡ ደቂቀ ናፌሶን፣
+51
+ደቂቀ በቍበቍ፡ ደቂቀ አቁፋ፡ ደቂቀ ሐሩሐር፣
+52
+ደቂቀ ባስሎት፡ ደቂቀ ማሁድ፡ ደቂቀ አሪስ፣
+53
+ደቂቀ ብርቍሰ፡ ደቂቀ ሲስራ፡ ደቂቀ ቴማ፣
+54
+ደቂቀ ንስያ፡ ደቂቀ አጡፋ፣
+55
+ደቂቀ አግበርቲሁ ለሰሎሞን፦ ደቂቀ ሳጢ፡ ደቂቀ ኦስፌርታ፡ ደቂቀ ፋዱርሐ፣
+56
+ደቂቀ ኢያሔል፡ ደቂቀ ርቆን፡ ደቂቀ ጌዴል፣
+57
+ደቂቀ ሴፋትያ፡ ደቂቀ ሐጤል፡ ደቂቀ ፎኬርት፡ ደቂቀ ሐጺባይም ደቂቀ አሚ።
+58
+ኵሎሙ እለ ናትናዊያን፡ ወደቂቀ አብደሴልማ፡ ሠለስቱ ምእት ወተዓ ወክልኤቱ፤
+59
+ወእለ እሙንቱ እለ ዓርጉ እምተርመላ ተላርሳ፡ ወኪሩብ ወሔዳይን ወኔሜር ወአበዩ አይድዖ ቤተ አበዊሆሙ ወዘመዶሙ እንዘ እምእስራኤል እሙንቱ።
+60
+ደቂቀ ዳላያ፡ ደቂቀ ጦቢያ፡ ደቂቀ ኒቆዳ ስድስት ምእት ሐምሳ ወክልኤቱ፤
+61
+ወእምነ ትውልደ ካህናት ደቂቀ ለብያ፡ ደቂቀ ኦቆስ፡ ደቂቀ ቤርዜሊ ዘአውሰበ ብእሲተ እመአዋልድ ቤርዜሊ ገላአዳዊ ወተሰምየ በስሞሙ።
+62
+ወፈቀዱ ይጽሐፍዎሙ ውስተ ሰብአ ሜቶሔሴም ወኢረከብዎሙ ወሠዐርዎሙ እምክህነቶሙ።
+63
+ወአዘዞሙ ሐቴርስታ ከመ ኢይብልዑ እምነ ቅዱስ ዘቅዱሳን እስከ እመ ይሠየም ሊቀ ካህናት ዘይለብስ ዲሎሶነ ዘይሠርዖሙ ለፍጹማን።
+64
+ወኵሉ ማኅበሮሙ አርባዕተ እልፍ፡ ወዕሥራ ምእት ሠለስቱ ምእት ወስሳ፡ እንበለ አግብርቲሆሙ ወአፅማቲሆሙ፣
+65
+ወእሙንቱስ ሰብዓ ምእት ወሠለስቱ ምእት ሠላሳ ወሰብዐቱ፣ ወመዘምራን ወመዘምራትሂ ክልኤቱ ምእት፤
+66
+ወአፍራሲሆሙ ሰብዓቱ ምእት ሠላሳ ወስድስቱ፡ ወአብቅሊሆሙ ክልኤ ምእት ወአርባዓ ወሐምስቱ።
+67
+ወአግማሊሆሙ አርባዕቱ ምእት ሠላሳ ወሐምስቱ፡ ወአእዱጊሆሙ ስሳ ምእት ወሰብዕቱ ምእት ወዕሥራ።
+68
+ወእምነ መላእክተ አበዊሆሙ ሶበ በጽሑ ቤተ እግዚአብሔር ዘኢየሩሳሌም፡ በጽዑ ለቤተ እግዚአብሔር በዘይገብርዎ።
+69
+በአምጣነ ይክሉ ወአብኡ ለመዝገብ ለፃእፃአ ግብር ወርቀ ንጡፈ ምናን ስድስት እልፈ ወዓሠርቱ ምእት፡ ወብሩረ ምናን ሐምሳ ምእት፡ ወአልባሰ ካህናት ምእተ።
+70
+ወነበሩ ካህናት ወሌዋዊያን ወሕዝብኒ፡ ወመዘምራንኒ ወዐጸውት ወናቲናዊያን በበአህጉሪሆሙ፡ ወእስራኤልኒ ውስተ አህጉሪሆሙ።"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/text_john3"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 3
+1
+ወሶበ በጽሐ ሳብዕ ወርኅ ሀለዉ ወእስራኤል ውስተ አህጉሪሆሙ፣ ወእምዝ ተጋብኡ ሕዝብ ውስተ ኢየሩሳሌም ኅቡረ ከመ አሐዱ ብእሲ።
+2
+ወተንሥአ ኢዮስስ ወልደ ኢዮሴዴቅ ወአኃዊሁ ካህናት፡ ወዘሩባቤል ወልደ ሰላትያል ወአኃዊሁ፡ ወሐነጹ ምሥዋዐ አምላከ እስራኤል ከመ ይግበሩ መሥዋዕተ ውስቴቱ በከመ ጽሑፍ ውስተ ኦሪተ ሙሴ ብእሴ እግዚአብሔር።
+3
+ወሐነጽዎ ለምሥዋዕ በከመ ሥርዐቱ እስመ ፍርሃት ላዕሌሆሙ ኅደረ እምነ አሕዛበ ምድር፡ ወአዕረጉ መሥዋዕተ ውስቴቱ ለእግዚአብሔር ዘነግህኒ ወዘሰርክኒ።
+4
+ወገብሩ በዓለ መጸለት ዘከመ ጽሑፍ ወመሥዋዕትኒ ዘበበ ዕለት ኍልቈ በከመ ሥርዓተ ሕዝብ በበመዋዕሊሁ ለለዕለቱ።
+5
+ወእምድኅረ ዝንቱ መሥዋዕተ ዘልፍ ዘለለ ሠርቀ ወርኅ ወዘለለ በዓላተ እግዚአብሔር ኵሎሙ ቅዱሳን ወዘኵሉ በበፈቃዱ በጽዐ ለእግዚአብሔር።
+6
+ወእምርእሰ ሠርቀ ሳብዕ ወርኅ አኃዙ ያብኡ መሥዋዕተ ለእግዚአብሔር ወቤተ እግዚአብሔርሰ ኢተሣረረት።
+7
+ወወሀዙ ወርቀ ለጸርበት ወለወቀርት ወመብልዓኒ ወመስቴ ወቅብዐኒ ለሰብአ ጢሮስ ወለሲዶና ወለእለ ሳሬን ከመ ያምጽኡሎሙ ዕፀወ ቀድሮን እምነ ሊባኖስ ኀበ ባሕረ ኢዮጴ ወእምህየ ይትመየጡ በትእዛዘ ቂሮስ ንጉሠ ፋርስ ላዕሌሆሙ።
+8
+ወበክልኤቱ ዓመት እምዘ በጽሑ ኢየሩሳሌም ውስተ ቤተ እግዚአብሔር በካልእ ወርኅ አኀዘ ዘሩባቤል ወልደ ሰላትያል ወኢዮስስ ወልደ ኢዮሴዴቅ ወእለኒ ተርፉ አኃዊሆሙ ካህናት ወሌዋዊያን ወኵሎሙ እለ አተዉ ኢየሩሳሌም እምኀበ ተፄወዉ ወሤምዎሙ ለሌዋዊያን እለ እምዕሥራ ዓም ወላዕሉ፡ ላዕለ ግብረ ቤተ እግዚአብሔር።
+9
+ወቆመ ኢዮስስ ወደቂቁ ወአኃዊሁኒ ቀዳምያል ወደቂቁ ወደቂቀ ይሁዳኒ ላዕለ ግብር እለ ይገብሩ ቤተ እግዚአብሔር ወደቂቀ ኢንሐዳድ ወደቂቆሙኒ ወአኃዊሆሙኒ ሌዋዊያን።
+10
+ወሣረሩ ከመ ይሕንጹ ቤተ እግዚአብሔር ወካህናትኒ ቆሙ ልቡሳኒሆሙ ምስለ አቅርንት ወሌዋዊያንሰ ደቂቀ አሳፍ በጸናጽል ይሴብሕዎ ለእግዚአብሔር በትምህርተ ዳዊት ንጉሠ እስራኤል።
+11
+ወአውሥኡ ወሰብሕዎ ለእግዚአብሔር ወአእኰትዎ እንዘ ይብሉ፦ እስመ ኄር ውእቱ ለዓለም ምሕረቱ ላዕለ እስራኤል፤ ወይቤሉ ኵሎሙ ሕዝብ በቃል ዓቢይ ወይሴብሕዎ ለእግዚአብሔር ሶበ ይሣርሩ ቤተ እግዚአብሔር።
+12
+ወብዙኃን እምውስተ ካህናት ወሌዋዊያን ወመላእክተ አበዊሆሙ ወሊቃውንትኒ እለ ያአምርዎ ለውእቱ ቤት ዘትካት ሶበ ሣረርዎ ወርእይዎ ለውእቱ ቤት በዓይኖሙ ይበክዩ በዓቢይ ቃል ወብዙኃን በይባቤ ይጸርሑ እንዘ ያነብቡ።
+13
+ወአልቦ እምውስተ ሕዝብ እለ ያአምሩ ቃለ ይባቤ ወፍሥሓ እምነ ጽራሐ ብካዮሙ እስመ ይጸርሑ ሕዝብ በቃል ዓቢይ ወይሰማዕ እምርኁቅ።"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/text_john4"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 4
+1
+ወሰምዑ ፀረ ይሁዳ ወብንያም ከመ ደቂቆሙ ለፈላስያን የሐንጹ ቤተ እግዚአብሔር አምላከ እስራኤል።
+2
+ወሖሩ ኀበ ዘሩባቤል ወኀበ መላእክተ አበዊሆሙ ወይቤልዎሙ፦ ንሕነኒ ነሐንጽ ምስሌክሙ፡ እስመ ንሕነ ከማክሙ ነሐሥሦ ለአምላክክሙ ወሎቱ ንሠውዕ ንሕነኒ እምአመ አሴሬሐዶን ንጉሠ ፋርስ ዘአምጽአነ ዝየ።
+3
+ወይቤልዎመ ዘሩባቤል ወኢዮስስ ወእለ ተርፉ መላእክተ አበዊሆሙ ለእስራኤል፦ ኢኮነ ለነ ወለክሙ ዘነሐንጽ ቤተ አምላክነ፣ ንሕነሰ ነሐንጽ ለርእስነ ለሊነ ለእግዚአብሔር አምላከ እስራኤል፡ በከመ አዘዘነ ቂሮስ ንጉሠ ፋርስ።
+4
+ወአሕዛበ ብሔርሰ አኀዙ ይክልእዎሙ ለሕዝበ ይሁዳ ወአጽርእዎሙ ሕንጻ።
+5
+ወየዓስቡ ላዕሌሆሙ ከመ ያኅድግዎሙ ምክሮሙ በኵሉ መዋዕለ ቂሮስ ንጉሠ ፋርስ እስከ መንግሥተ ዳርዮስ ንጉሠ ፋርስ።
+6
+ወበመንግሥተ አሕሳዊሮስ አመ ቀዳሜ መንግሥቱ ጸሐፉ መጽሐፈ ላዕለ እለ ይነብሩ ውስተ ይሁዳ ወውስተ ኢየሩሳሌም።
+7
+ወበመዋዕለ አርተሰስታ ጸሐፉ በሴሌም ሚትሪዳጡ ወጣብሔል ወእለ ተርፉ አግብርተ አጋእዝቲሆሙ መጽሐፈ ለአርተሰስታ ንጉሠ ፋርስ ወትርጓሜሁ አረማዊ።
+8
+ሬሑም፡ ብዔልጥዔም፡ ወሴሜሳይ ጸሐፊ ጸሐፉ አሐተ መጽሐፈ ውዴት ላዕለ ኢየሩሳሌም ወፈነዉ ኀበ አርተሰስታ ንጉሥ።
+9
+እንዘ ይብሉ፦ ንሕነሰ ከመዝ ንብል፡ ሬሑም ብዔልጥዔም ወሴሜሳይ ጸሐፈ ወእለኒ ተርፉ አግብርተ አጋእዝትነ ዱናዊያን፡ ወአፈርሰካዊያን፡ ወጠረፈላዊያን፡ ወአፈርሳዊያን፡ አርክዊያን፡ ባቢሎናዊያን፡ ሱሰናኪዊያን፡ ወዓለሜዊያን፡ ወዴሔያን እሙንቱ።
+10
+ወእለ ተርፉ አሕዛብ እለ አፍለሰ አሴናፍር ዓቢይ ወክቡር ወአንበሮሙ ውስተ አህጉረ ሰምሮን ወእለኒ ማዕዶተ ፈለግ።
+11
+ወከመዝ ትብል መጽሐፍ እንተ ፈነዉ ሎቱ ለአርተስስታ ንጉሥ፦ ንሕነ አግብርቲከ፡ ሰብ ማዕዶተ ፈለግ።
+12
+ከመ ታእምር እግዚኦሙ ንጉሥ፡ አይሁድ እለ ዐርጉ እምኔከ መንገሌነ፡ ወመጽኡ ኢየሩሳሌም ሀገር ዓላዊት ወእኪት ከመ ይሕንጽዋ ወያሕይዉ አረፋቲሃ፡ ወያንሥኡ መሠረታቲሃ።
+13
+ወይእዜኒ ከመ ታእምር እግዚኦሙ ንጉሥ እምከመ ተሐንጸት ይእቲ ሀገር ወቆመ አረፋቲሃ አልብከ ጻባሕት ወኢያገብኡ ለከ፡ እስመ ዓላዊተ መንግሥት ይእቲ።
+14
+ወለነሰ ኢይከውን ንርአይ እንዘ ያስተሐቅሩ ንጉሠ፡ ወበበይነ ዝንቱ ለአክነ ታእምር እግዚኦሙ ንጉሥ።
+15
+ወከመ ትኅሥሥ ውስተ መጻሕፍተ ኖብያት ዘአበዊከ ዘትረክብ ወታአመር እንከ ከመ ይእቲ ሀገር ማእሌት ይእቲ ወተሐስም ላዕለ ነገሥት ወላዕለ በሐውርት ወማኅጠ አግብርት ማእከላ እምትካታ ወእምፍጥረታ፡ ወበበይነ ዝንቱ ትማስን ይእቲ ሀገር።
+16
+ከመ ታእምር እግዚኦሙ ንጉሥ እምከመ ተሐንጽት ይእቲ ሀገር ወቆመ አረፋቲሃ አልብከ እንከ ሰላም።
+17
+ወለአከ ንጉሥ ኀበ ሬሑም ብዔልጥዔም ወሌሜሳይ ጸሐፊ ወኀበ እለ ተርፉ አግብርተ አጋእዝቲሆሙ እለ ይነብሩ ውስተ ሰማርያ ወእለ ማዕዶተ ፈለግ።
+18
+እንዘ ይብል፦ ሰላም ለክሙ፣ ሐዋርያ ዘፈነውክሙ በጽሐ ኀቤየ።
+19
+ወአዘዝኩ ይኅሥሡ ውስተ መጽሐፈ ኖብያት ወረከብነ ከመ ይእቲ ሀገር እምትካታ ወእምፍጥረታ ዓላዊተ ነገሥት ይእቲ ወፀር ይእቲ ወተኀጥእ ይበውእ ወስቴታ።
+20
+ወነገሥትኒ ጽኑዓን ነገሥት በኢየሩሳሌም፡ ወኰነኑ ኵሎ ብሔረ ዘማዕዶተ ፈለግ፡ ወይሁብዎሙ ጸባሕተ ወጋዳ።
+21
+ወይእዜኒ ከልእዎሙ ለእሙንቱ ዕደው ኢይሕንጽዋ ለይእቲ ሀገር፡ እምይእዜሰ ዕቀብዎሙ።
+22
+ወዑቁ ኢታስሕትዎሙ በበይነ ዝንቱ ግብር ከመ ኢይብዛኅ ሙስናሃ ወኢያሕስሙ ላዕለ ነገሥት።
+23
+ወሶበ በጽሐ ሐዋርያ፡ አርተሰስታ አንበበ በቅድመ ሬሑም ብዔልጥዔም ወሴሜሳይ ጸሐፊ አግብርተ አጋእዝቲሆሙ እለ ምስሌሆሙ፣ ወሖሩ ፍጡነ ውስተ ኢየሩሳሌም ወውስተ ይሁዳ በአፍራስ ወአኅደግዎሙ በኃይል።
+24
+ወእምዝ ተጸርዐ ሕንጻ ቤተ እግዚአብሔር ዘኢየሩሳሌም፡ ወነበሩ ጽሩዓነ እስከ አመ ክልኤቱ ዓመተ መንግሥቱ ለዳርዮስ ንጉሠ ፋርስ።"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/text_john5"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 5
+1
+ወተነበዩ ሐጌ ወዘካርያስ ወልደ ሐዶ ነቢይ ላዕለ አይሁድ እለ ውስተ ይሁዳ ወኢየሩሳሌም በስመ አምላከ እስራኤል ተነበዩ ሎሙ።
+2
+ወውእተ አሚረ ተንሥአ ዘሩባቤል ወልደ ሰላትያል ወኢዮስስ ወልደ ኢዮሴዴቅ፡ ወአኃዙ ይሕንጹ ቤተ እግዚአብሔር በኢየሩሳሌም ወሀለዉ ምስሌሆሙ ነቢያተ እግዚአብሔር ዘይረድእዎሙ።
+3
+ወእምዝ መጽኡ ኀቤሆሙ ውእተ አሚረ ተንተናይ መልአከ ማዕዶተ ፈለግ ወአስተርቡዝና ወአግብርተ አጋእዝቲሆሙ ወከመዝ ይቤልዎሙ፦ መኑ አዘዘክሙ ትሕንጽዎ ለዝንቱ ቤት ወመኑ ወሀበክሙ በዘትገብርዎ?
+4
+ወተስእልዎሙ፦ አስማቲ ሆሙ መኑ ወመኑ አንትሙ ዕደው እለ ተሐንጽዋ ለዛቲ ሀገር?
+5
+እስመ እግዚአብሔር ተሣሀሎሙ ወነጸሮሙ ለፄዋ ይሁዳ ወኢከልእዎሙ እስከ ገብአት መልእክት እምኀበ ዳርዮስ ወኢያጽርዕዎሙ፡ ወእምዝ ለአኩ ሐዋርያ በበይነ ውእቱ ነገር።
+6
+ይጠይቁ በመጽሐፍ እንተ ፈነዉ ተንተናይ መልአከ ማዕዶተ ፈለግ ወአስተርቡዝና ወአግብርተ ኢጋእዝቲሆሙ አፈርሰካዊያን እለ ማዕዶተ ፈለግ ፈነዉ መጽሐፈ ለዳርዮስ ንጉሥ።
+7
+ወዝንቱ ቃል ጽሑፍ ውእቱ በመጽሐፍ፦ ሰላም ለዳርዮስ ንጉሥ፣
+8
+ከመ ታእምር ኵሎ እግዚኦሙ ንጉሥ ሖርነ ብሔረ ይሁዳ ኀበ ቤተ አምላክ ዓቢይ፡ ወረከብነ የሐንጹ በእብን ሠናይ፡ ወበመሠረት ዘዕፅ ነኪር ዘይወድዩ ውስተ አረፍቱ፡ ወይፈጥን ውእቱ ግብር ውስተ እደዊሆሙ።
+9
+ወተስእልናሆሙ ለሊቃውንቲሆሙ ወንቤሎሙ፦ መኑ አዘዘክሙ ትሕንጹ ወመኑ ወሀበክሙ በዘትገብሩ?
+10
+ወአስማቲሆሙ ሐተትናሆሙ ከመ ንጽሐፍ ለከ ከመ ታእምር አስማቲሆሙ ለእሙንቱ ዕደው ወዘመላእክቲሆሙ።
+11
+ወዘንተ ቃለ አውሥኡነ እንዘ ይብሉ፦ ንሕነ አግብርተ እግዚአብሔር አምላከ ሰማይ ወምድር፡ ነሐንጽ ዘንተ ቤተ ዘትካት ተሐንጸ እምቅድመ ብዙኅ ዓመት ወሐነጸ ንጉሠ እስራኤል ዓቢይ ወነደቀ ሎሙ።
+12
+ወሶበ አምዕዕዎ አበዊነ ለአምላከ ሰማይ አግብኦሙ ውስተ እዴሁ ለናቡከደነጾር ንጉሠ ባቢሎን፡ ወቤተኒ ነሠተ፡ ወሕዝበኒ አፍለሰ ውስተ ባቢሎን።
+13
+ወአመ ቀዳሚት ዓመተ መንግሥቱ ለቂሮስ ንጉሥ አዘዘ ይሕንጽዎ ለውእቱ ቤተ እግዚአብሔር።
+14
+ወንዋየኒ ዘቤተ እግዚአብሔር ዘወርቅ ወዘብሩር ዘአውጽአ ናቡከደነጾር እምነ ውእቱ ቤት ዘኢየሩሳሌም ወአንበሮ ውስተ ጽርሐ መንግሥቱ ነሥአ ቂሮስ እምጽርሐ መንግሥቱ ወወሀቦ ለሲሳብሳር ዓቃቤ መዝገቡ ወመጋቢሁ።
+15
+ወይቤሎ ንሣእ ዘንተ ንዋየ ወሑር ወአንብሮ ውስተ ቤት ዘኢየሩሳሌም ውስተ መካኑ።
+16
+ወእምዝ መጽአ ውእቱ ሲስባሳር ወለሊሁ ሣረረ ቤተ እግዚአብሔር ዘኢየሩሳሌም፡ ወእምይእቲ አሚር እስከ ይእዜ የሐንጽዎ ወኢተፈጸመ።
+17
+ወይእዜኒ እመ ፈቀደ ንጉሥ ኀሠሠ ውስተ ቤት ዘመዛግብት ዘንጉሥ ባቢሎን ከመ ታእምር ከመ ቂሮስ ንጉሥ አዘዘ ይሕንጽዎ ለዝንቱ ቤተ እግዚአብሔር ዘኢየሩሳሌም ወአእሚረከ እግዚኦሙ ንጉሥ ዘከመ ትፈቅድ ለአክ ለነ።"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 6
+1
+ወእምዝ አዘዘ ዳርዮስ ንጉሥ ይክሥቱ መጻሕፍተ ኖብቲሆሙ ዘመዛግብት ዘውስተ ባቢሎን።
+2
+ወረከቡ በውስተ ሀገረ ቦሪ አሐተ መጽሐፈ፡ ወጽሑፍ ውስቴታ ተዝካር፡ ወይብል፦
+3
+አመ ቀዳሚት ዓመተ መንግሥቱ ለቂሮስ አዘዘ ቂሮስ ንጉሥ በእንተ ቤተ መቅደስ ዘእግዚአብሔር ዘበኢየሩሳሌም ከመ ይትሐነፅ ቤት፡ ወበእንተ መካነ ምሥዋዕ ኀበ ይሠውዑ፣ ወአዘዘ አምጣነ ቆሙ ስሳ በእመት፡ ወረኅቡ ስሳ በእመት።
+4
+ወይእግልዎ እንተ ሠለስቱ አግለ እብን፡ ወእንተ አሐቲ አግለ ዕፅ ወይሁብዎሙ እምቤተ ንጉሥ ለፃዕፃኦሙ።
+5
+ወንዋየ ቤተ እግዚአብሔር ዘወርቅ ወዘብሩር ዘአውጽአ ናቡከደነጾር እምውእቱ ቤት ዘኢየሩሳሌም ወወሰዶ ውስተ ባቢሎን ከመ የሀብዎሙ ወአንበሮሙ ውስተ ቤተ መቅደስ ዘኢየሩሳሌም፡ ውስተ መካን ኅበ ነበሩ በቤተ እግዚአብሔር።
+6
+ወአዘዞሙ ለመሳፍንተ ማዕዶተ ፈለግ ተንተናይ ወአስተርቡዝና ወለአግብርተ አጋእዝቲሆሙ አፈርሰካዊያን እለ ማዕዶተ ፈለግ አዘዞሙ እንዘ ይብል።
+7
+ኅደጉ ይትገበር ቤተ እግዚአብሔር፡ ወሊቃናተ ይሁዳ ይግበሩ ግብረ ዘቤተ እግዚአብሔር ወይሕንጽዎ በውስተ መካኑ።
+8
+ወአነ አዘዝኩ ዑቁ ምንተኒ ኢትረስይዎሙ ለሊቃናተ ይሁዳ ወኢትክልእዎሙ ሐኒጸ ቤተ እግዚአብሔር፡ እምውስተ ቤተ ንጉሥ እምነ ጸባሕት ዘማዕዶተ ፈለግ፡ ሀብዎሙ ለእሙንቱ ዕደው ፃእፃአ ወኢታፅርእዎሙ።
+9
+ዑቁ ወኢታስሕቱ ወእጕለ አልሕምትኒ ወአባግዕኒ፡ ወአጣሊኒ ለመሥዋዕት ለአምላከ ሰማይ ወሥርናየኒ ወፄውኒ ወወይነኒ፡ ወቅብአኒ በአምጣነ ዘይቤሉክሙ ካህናት እለ በኢየሩሳሌም ሀብዎሙ ኵሎ አሚረ ዘሰአሉክሙ።
+10
+ከመ ይገብሩ ቍርባነ ወመሥዋዕተ ለአምላከ ሰማይ፡ ወከመ ይጸልዩ በእንተ ሕይወቱ ለንጉሥ፡ ወበእንተ ሕይወተ ውሉዱ፤
+11
+አነ አዘዝኩ ኵሎ ሰብአ ዘዓለወ ዘንተ ቃልየ ንሥኡ ዕፀ እምውስተ ቤቱ ወይስቅልዎ ቦቱ ወይቅትልዎ ወቤቶኒ ከማሁ ይረስዩ አዘዘኩ።
+12
+ወውእቱ እግዚአብሔር ዘኀደረ ስሙ ህየ ይገፈትዖሙ ለኵሎሙ ነገሥት ወአሕዛብ እለ የዓልዉ ዘንተ ቃልየ ወእለ ያነሥኡ እደዊሆሙ ከመ ይወልጡ ወያማስኑ ቤተ እግዚአብሔር ዘኢየሩሳሌም፣ ወአነ ዳርዮስ አዘዝኩ ከመዝ ይገብሩ ያስተሐምሙ።
+13
+ወእምዝ ተንተናይ መልአከ ማዕዶተ ፈለግ ወአስተርቡዝና ወአግብርተ ኢጋእዝቲሆሙ እለ ኀቤሆሙ በከመ ለአከ ዳርዮስ ንጉሥ ገብሩ ከማሁ ወኢያስተቱ።
+14
+ወሊቃናቲሆሙ ለአይሁድ የሐንጹ ወሌዋዊያን እንዘ ይትኔበዩ ሎሙ፡ ሐጌ ነቢይ ወዘካርያስ ወልደ ሐዶ ወሐነጹ፣ ወአቀሙ በትእዛዘ አምላከ እስራኤል ወበትእዛዘ ቂሮስ ወዳርዮስ ወአርተሰስታ ንጉሠ ፋርስ።
+15
+ወፈጸምዎ ለውእቱ ቤት አመ ሠሉሱ ለሠርቀ ወርኃ አዳር በሳድስ ዓመተ መንግሥቱ ለዳርዮስ።
+16
+ወገብሩ ደቂቀ እስራኤል ወካህናት ወሌዋዊያን ወእለ ተርፉ ደቂቀ ፈላስያን መድቅሐ ቤተ እግዚአብሔር በትፍሥሕት።
+17
+ወአብኡ ለመድቅሐ ቤተ እግዚአብሔር ምእት አልህምተ፡ ወክልኤተ ምእት አባሕኰ አባግዕ፡ ወአርባዕተ ምእት መሐስአ አጣሊ፡ ወዓሠርተ ወክልኤቱ ሐራጊተ አጣሊ ዘበእንተ ኃጢአት በበይነ ኵሉ እስራኤል በከመ ኍልቆሙ ለአሕዛበ እስራኤል።
+18
+ወአቀሞሙ ለካህናት በከመ ሕጎሙ ወለሌዋዊያን በኀበ ቢጾሙ ከመ ይትቀነዩ ለእግዚአብሔር በኢየሩሳሌም፡ በከመ ጽሑፍ ውስተ መጽሐፈ ሙሴ።
+19
+ወገብሩ ፋሲካ ደቂቀ ፈላስያን አመ ዓሡሩ ወረቡዑ ለሠርቀ ቀዳሚ ወርኅ።
+20
+ወአንጽሑ ርእሶሙ ካህናት ወሌዋዊያን ወኵሎሙ ነጽሑ ወጠብሑ ፋሲካ ለኵሎሙ ደቂቀ ፈላስያን ወለአኃዊሆሙኒ ካህናት ወለርእሶሙኒ።
+21
+ወበልዑ ደቂቀ እስራኤል ፍሥሓ እለ አተዉ ፈላስያን ወኵሎሙ እለ ገብኡ ኀቤሆሙ እምውስተ ርኵሶሙ ለአሕዛበ ምድር ከመ ይኅሥሥዎ ለእግዚአብሔር አምላከ እስራኤል።
+22
+ወገብሩ በዓለ ናእት ሰቡዓ መዋዕለ በትፍሥሕት እስመ አስተፍሥሖሙ ወሜተ ልቦ ለንጉሠ አሦር ኀቤሆሙ፡ ወጸንዖሙ እደዊሆሙ ለግብረ ቤተ አምላከ እስራኤል።"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 7
+1
+ወእምድኅረ ዝንቱ ነገር በመንግሥተ አርተሰስታ ንጉሠ ፋርስ ዓርገ ዕዝራ ወልደ ሶርያ፡ ወልደ አዛርያ፡ ወልደ ሐልቅያ፣
+2
+ወልደ ሳሎም፡ ወልደ ሳዶቅ፡ ወልደ ኤልኪጦብ፣
+3
+ወልደ አማርያ፡ ወልደ አዛርያ፡ ወልደ ማራዮት፣
+4
+ወልደ ዘርሕያ፡ ወልደ ኡዝ፡ ወልደ በቂ።
+5
+ወልደ አቢሱአ፡ ወልደ ፊንሐስ፡ ወልደ አልዓዛር፡ ወልደ አሮን ካህን እምሔወ ቀደምቶሙ።
+6
+ወውእቱ ዓርገ እምነ ባቢሎን ውስተ ኢየሩሳሌም፡ ወዕዝራ ማእምር ውእቱ ዘኦሪተ ሙሴ ዘወሀቦ እግዚአብሔር አምላከ እስራኤል፡ ወይጠበጥብ ጸሐፈ፡ ወወሀቦ ንጉሥ ኵሎ ዘፈቀደ እስመ እደ እግዚአብሔር አምላኩ ሀለወት ምስሌሁ።
+7
+ወዓርጉ እምውስተ ደቂቀ እስራኤል፡ ወእምነ ካህናትኒ ወእምነ ሌዋዊያን ወመዘምራን ወዓጸውት ወናታናዊያን ውስተ ኢየሩሳሌም አመ ሣብዕ ዓመተ መንግሥቱ ለአርተሰስታ ንጉሥ።
+8
+ወበጽሑ ኢየሩሳሌም በኃምስ ወርኅ፡ ወይእቲ ሳብዒት ዓመት እመንግሥተ ንገሥ።
+9
+ወበቀዳሚ ወርኅ አኀዙ ይዕርጉ እምባቢሎን፡ ወአመ ሠርቀ ኃምስ ወርኅ በጽሑ ኢየሩሳሌም እስመ እደ እግዚአብሔር አምላኩ በሠናይ ላዕሌሁ።
+10
+እስመ አግብአ ልበ ዕዝራ ከመ ይኅሥሥ ሕገ ኦሪት ይግበሮ ወይምሀሮሙ ለእስራኤል ፍትሐ ወኵነኔ።
+11
+ወከመዝ ውእቱ ትእዛዘ መጽሐፍ ዘወሀቦ አርተሰስታ ለዕዝራ ካህን ጸሐፌ መጽሐፈ ትእዛዘ ቃሉ ለእግዚአብሔር ወኵነኔሁ ዘወሀቦሙ ለእስራኤል ወይቤ፦
+12
+አነ አርተሰስታ ንጉሠ ነገሥት ለዕዝራ ጸሐፌ ሕጉ ለእግዚአብሔር ለአምላከ ሰማይ።
+13
+ትእዛዘ አዘዝኩ ኵሎሙ እለ ይፈቅዱ እምውስተ ደቂቀ እስራኤል ወካህናትኒ ወሌዋዊያንኒ ይሑሩ ኢየሩሳሌም ምስሌከ ለይሑሩ።
+14
+አዘዘ ንጉሥ ወሰብዓቱ መማክርቲሁ ፈነዎሙ ይርአዩ በይሁዳ ወበኢየሩሳሌም ሕገ አምላኮሙ ዘውስተ እዴከ።
+15
+ወርቀ ወብሩረ ፈነወ ንጉሥ ወመማክርቲሁ ለቤተ እግዚአብሔር አምላከ እስራኤል ዘየኃድር ውስተ ኢየሩሳሌም።
+16
+ወባዕደኒ ኵሎ ዘወርቅ ወብሩር ዘተረክበ በኵሉ ደወለ ባቢሎን ወዘኒ መባኦሙ ለሕዝብ ወዘካህናትኒ ዘአብኡ ለቤተ እግዚአብሔር ዘኢየሩሳሌም።
+17
+ወኵሎ ዘንተ ትእዛዘ አዘዝኩ ውስተ ዛቲ መጽሐፍ ወለመሥዋዕትኒ ወለሞጻሕት ዘይትገበር ውስተ ምሥዋዕ ዘቤተ አምላክኮሙ ዘኢየሩሳሌም አልሕምተ፡ ወአባግዐ፡ ወመሐስእ አባግዕ።
+18
+ወበዘተረፈ ወርቅ ወብሩር አስተፍሥሕ ሕዝበከ ወግበር ወበዘታሠምርዎ ለአምላክክሙ ወዘተረፈ ግበሩ።
+19
+ወንዋየኒ ዘመጠውኩ ለግብረ ቤተ እግዚአብሔር አብእ በቅድመ እግዚአብሔር ዘኢየሩሳሌም።
+20
+ወባዕደኒ እመቦ ዘትፈቅድ ለትካዘ ቤተ እግዚአብሔር ዘትሁብ ሀብ እምነ ቤተ መንግሥትየ ዘጋዛ።
+21
+ወአነ አርተሰስታ ንጉሥ ትእዛዘ አዘዝኩ ለኵሉ ጋዛ ዘማዕዶተ ፈለግ ኵሎ ዘሰአለክሙ ዕዝራ ካህን ወጸሐፌ ሕጉ ለአምላከ ሰማይ አስተዳልዉ ሎቱ።
+22
+መጠነ ምእት መክሊተ ብሩር፡ ወመጠነ ምእት መስፈርተ ቆሮስ ሥርናይ፡ ወምእት መዛግብተ ወይን፡ ወምእተ መዛግብተ ቅብዕ፡ ወፄውኒ ዘአልቦ ኍልቍ።
+23
+ለኵሉ በሕጉ ለአምላከ ሰማይ ይኩኖ፡ ወዑቁ ኢታጽርዑ ቤተ አምላከ ሰማይ ከመ ኢይኩን መንሱት ላዕለ መንግሥቱ ለንጉሥ፡ ወላዕለ ውሉዱ።
+24
+ወአንትሙኒ ካህናት ወሌዋዊያን ኵልክሙ ዘምሩ፣ ወናታናዊያንኒ፡ ወዓጸውትኒ፡ ወእለኒ ይገብሩ ቤተ እግዚአብሔር፡ ወጸባሕተኒ ኢትንሥኡ ወአልቦ ዘትቀንይዎሙ።
+25
+ወአንተኒ ዕዝራ በከመ ጥበቢሁ ለእግዚአብሔር ዘላዕሌከ ሢም ጸሐፍተ ወመኳንንተ፡ ከመ ይኰንንዎሙ ለኵሎሙ ሕዝብ እለ ማዕዶተ ፈለግ፡ ወለኵሎሙ እለ ያአምሩ ሕጎ ለእግዚአብሔር ወለእለሰ ኢያአምሩ ምህርዎሙ።
+26
+ወለኵሉ ዘኢገብረ ሕገ እግዚአብሔር ወሕገ ንጉሥ በጊዜሃ ይትኰነን፡ ወዘኒ ለሞት፡ ወዘኒ ለተበርብሮ፡ ወዘኒ ለመቅሠፍት፡ ወዘኒ ለግብርናት።
+27
+ወይቤ ዕዝራ፦ ይትባረክ እግዚአብሔር አምላኮሙ ለአበዊነ ዘወደየ ውስተ ልቡ ለንጉሥ ከመ ያክብር ቤቶ ዘበኢየሩሳሌም።
+28
+ወፈነወ ምሕረቶ ላዕሌየ በቅድመ ንጉሥ ወመማክርቲሁ ወኵሎሙ መላእክተ ንጉሥ ዓበይት ወጸናዕኩ አነ በእደ እግዚአብሔር ቡርክት እንተ ሀለወት ላዕሌየ፣ ወአስተጋባእኩ እምነ እስራኤል መላእክቲሆሙ ይዕርጉ ምስሌየ።"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 8
+1
+ወእሉ እሙንቱ መላእክተ አበዊሆሙ እለ ተኈለቁ ይዕርጉ ምስሌየ በመንግሥተ አርተሰስታ ንጉሥ እምባቢሎን።
+2
+እምደቂቀ ፊንሐስ ጌርሴም፡ ወእምነ ደቂቀ ይትአምር ዳንያል፡ ወእምነ ደቂቀ ዳዊት ሐጡስ።
+3
+ወእምደቂቀ ሰኬንያ ወእምነ ደቂቀ ፋሪኤስ፡ ዘካርያ ወምስሌሁ እለ ተኈለቁ ምእት ወሐምሳ ዕደው።
+4
+ወእምደቂቀ ፈሐት ሞአብ፡ እሌሁይአኔ ወልደ ዘርያ ወምስሌሁ ክልኤቱ ምእት ዕደው፤
+5
+ወእምደቂቀ ዛቶኤስ ሰኬንያ ወልደ አዜል፡ ወምስሌሁ ሠለስቱ ምእት ዕደው፤
+6
+ወእምደቂቀ አዴን ያቤድ ወልደ ዮናታን ወምስሌሁ ኀምሳ ዕደው፤
+7
+ወእምደቂቀ ኤሌም ኢሳይያስ ወልደ አታልያ፡ ወምስሌሁ ሰብዓ ዕደው፤
+8
+ወእምደቂቀ ሰፋትያ ዘብድያ ወልደ ሚካኤል ወምስሌሁ ሰማንያ ዕደው፤
+9
+ወእምደቂቀ ዮአብ አብድያ ወልደ ያህኤል፡ ወምስሌሁ ክልኤቱ ምእት ወአሠርቱ ወሰመንቱ ዕደው፤
+10
+ወእምደቂቀ በአኒ ሴሎምት ወልደ ዮሴፍያ፡ ወምስሌሁ ምእት ወስሳ ዕደው፤
+11
+ወእምደቂቀ ባቢ ዘካርያ ወልደ ባቢ፡ ወምስሌሁ ዕሥራ ወስመንቱ ዕደው፤
+12
+ወእምደቂቀ አዛጊድ ዮናን ወልደ አቃጦን፡ ወምስሌሁ ምእት ወዐሠርቱ ዕደው፤
+13
+ወእምደቂቀ አዶኒቃም ደኃርት ከመዝ አስማቲሆሙ አሊፋልጥ፡ ወይኢኤል፡ ወሰማዕያ፡ ወምስሌሆሙ ስሳ ዕደው፤
+14
+ወእምደቂቀ ባጎዊ ሙታይ፡ ወዘቡድ፡ ወዝኩር፡ ወምስሌሆሙ ፸ ዕደው፤
+15
+ወአስተጋባእ ዎሙ በኀበ ፈለግ፡ ዘይወርድ ላዕለ አህዋ፡ ወኀደርነ ህየ ሠሉሰ መዋዕለ ወአስተፋቀድክዎሙ ለሕዝብ ወለካህናት ወኢረከብነ በህየ እምደቂቀ ሌዊ።
+16
+ወለአኩ ኀበ አልዓዛር ለአርያል፡ ወለሰማዕያ፡ ወለሐሎኒም፡ ወለያሪብ፡ ወለሔልናታና፡ ወለናታን ወለዘከካርያ፡ ወለመሱላም ዕደው መላእክት፡ ወለዮያሪብ፡ ወለሄልናታን ማእምራን።
+17
+ወወሰድክዎሙ ኀበ መልአክ ኤዱ፡ ወወሀብክዎሙ ወርቀ ወወደይኩ ነገረ ውስተ አፉሆሙ ከመ ይትናገሩ ኀበ ኤዱ ወአኀዊሁ ናታኒም በከስፍያ መካን ከመ ያምጽኡ ለነ መዘምራነ ለቤተ አምላክነ።
+18
+ወአምጽኡ ለነ በእደ አምላክነ ሠናይ ላዕሌነ ብእሴ ቢበ እምደቂቀ ማሔሊ ወልደ ሌዊ ወልደ እስራኤል፡ ወሴርክያ ወደቂቁ ወአኀዊሁ ዐሠርቱ ወሰምንቱ።
+19
+ወአሴብያስ ወኢሳይያስ እምነ ደቂቀ ሜራሪ፡ አኀዊሁኒ ወደቂቁኒ ዕሥራ እሙንቱ።
+20
+ወእምነ ናታኒም እለ ወሀቦሙ ዳዊት ወመላእክቲሆሙ ከመ ይትቀነዩ ለሌዋዊያን ሰብአ ናታኒም ክልኤቱ ምእት ወዕሥራ፣ ወአስተጋባእክዎሙ ዘዘዚአሆሙ በበአስማቲሆሙ።
+21
+ወሰበኩ ሎሙ ጾመ በኀበ ፈለገ አህዋ ከመ ናሕምም ርእሰነ ቅድመ እግዚአብሔር ወከመ ይስራሕ ለነ ፍኖተነ ወለውሉድነ ወለኵሉ ፍጥረትነ።
+22
+እስመ ሐፈርኩ ስእለቶ ለንጉሥ ኀይለ ወአፍራሰ እለ ያድኅኑነ እምፀር በውስተ ፍኖት፡ እስመ እቤሎ ለንጉሥ፦ እዴሁ ለአምላክነ በሠናይ ለኵሉ እለ የኃሥሥዎ ወኃይሉሰ ወመዓቱ ለኵሎሙ እለ የኃድግዎ።
+23
+ወጾምነ ወሰአልነ ኀበ እግዚአብሔር አምላክነ በበይነ ዝንቱ ወሰምዐኒ።
+24
+ወፈሉጥኩ ዐሠርተ ወክልኤተ እምውስተ መላእከቲሆሙ ለካህናት ሠራብያ ወሐሰብያ ወዐሠርቱ ምስሌሆሙ እምነ አኃዊሆሙ።
+25
+ወደለውኩ ሎሙ ወርቀ ወብሩረ ወንዋየ ቤተ አምላክነ ዘቀዲሙ ዘፈነወ ንጉሥ ወመማክርቲሁ ወመላእክቲሁ ወኵሎሙ እስራኤል እለ ተረክቡ እምህየ።
+26
+ወደለውኩ ሎሙ ላዕለ እዴሆሙ ወመጠውክዎሙ ስድስት ምእት ወሐምሳ መክሊተ ብሩር፡ ወምእት ንዋየ ብሩር፡ ወምእይት መክሊተ ዘወርቅ።
+27
+ወንዋየ ጻሕል ዘወርቅ ዕሥራ ወዘፍኖተ ከማኒም ዓሠርተ ምእት ወንዋየ ብርት ቅድው ወሠናይ ዘዘዚአሁ ወቅቡእ ወርቀ።
+28
+ወእቤሎሙ፦ አንትሙሰ ቅዱሳን ለእግዚአብሔር ወዝኒ ንዋይ ቅዱስ ውእቱ ወርቅ ወብሩር መባኡ ለእግዚአብሔር አምላከ አበዊነ።
+29
+ትግሁ እንከ ወዕቀቡ እስከ ትደለዉ ኀበ መላእክቲሆሙ ለካህናት ወሌዋዊያን ኀበ መሳፍንተ አበዊሆሙ እለ ኢየሩሳሌም በሕዋረ ቤተ እግዚአብሔር።
+30
+ወደለውኩ ሎሙ ወመጠውክዎሙ ለካህናት ወለሌዋዊያን በኈልቈ ሰቅለ ብሩር ወርቆ ወብሩሮ ወንዋየ ዘይወስዱ ኢየሩሳሌም ለቤተ አምላክነ።
+31
+ወእምዝ ግዕዝነ እምነ ፈለገ አህዋ አመ ዐሡሩ ወሰኑዩ ለሠርቀ ቀዳሚ ወርኀ ከመ ንሖር ኢየሩሳሌም ወእዴሁ ለአምላክነ ምስሌነ ወአድኃነነ እምእደ ፀርነ እለ ይትቃተሉነ በፍኖት።
+32
+ወበጻሕነ ኢየሩሳሌም ወነበርነ ህየ ሠሉሰ ዕለተ።
+33
+ወአመ ራብዕት ዕለት ደለውነ ኵሎ ወርቆ ወብሩሮ ወንዋየ ውስተ ቤተ አምላክነ ወአወፈይናሆሙ ላዕለ እደ ሜራሞት ወልደ ኦርዮ ካህን ወምስሌሁ አልዓዛር ወልደ ፊንሐስ ወምስሌሆሙ ኢዮዝባድ ወልደ ኢዮሳዕ ወናሕድያ ወልደ ቤኒዊ ሌዋዊያን እሙንቱ።
+34
+ወኈለቍነ ሎሙ ኵሎ ወደለውነ ወጸሐፍነ ይእተ አሚረ ኵሎ ድልወቶ።
+35
+ወአብኡ መሥዋዕቶ ለእግዚአ እስራኤል እለ አተዉ እምኀበ ተፄወዉ ደቂቆሙ ለፈላስያን ዐሠርቱ ወክልኤተ አልሕምት በእንተ ኵሉ እስራኤል ወአባግዕ ተስዐ ወስድስተ ወመሐስዓ አባግዕ ሰበዐ ወሰብዐተ ወሐራጊት በእንተ ኃጢአት ዐሠርቱ ወክልኤተ፡ ወኵሎሙ መሥዋዕቶሙ ለእግዚአብሔር።
+36
+ወወሀብክዎሙ መጽሐፈ ንጉሥ ለመገብተ ንጉሥ ወለመላእክት እለ ማዕዶተ ፈለግ ወአክበርዎሙ ለሕዝብ ወለቤተ እግዚአብሔር።"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 9
+1
+ወእምድኅረ ኀልቀ ዝንቱ መጽኡ ኀቤየ መላእክቲሆሙ ለሕዝብ ወይቤሉኒ፦ ኢተፈልጡ ሕዝበ እስራኤል ወካህናት ወሌዋዊያን እምሕዝበ ምድር በርኵሶሙ ለካናኔዎን፡ ወለኬጤዎን፡ ወለፌሬዜዎን፡ ወለኢያቤሴዎን፡ ወለአማኔዎን፡ ወለሞአቤዎን፡ ወለግብፅ፡ ወለአሞሬዎን።
+2
+ወአውሰቡ እምውስተ አዋልዲሆሙ ወአስተዋሰቡ ደቂቆሙ ወተደመሩ ዘርእ ቅዱስ በሕዝበ ምድር፡ ወመላእክትኒ ኅብሩ ምስሌሆሙ በዛቲ ኃጢአት።
+3
+ወሶበ ሰማዕከ ዘንተ ነገረ ሠጠጥኩ ልብስየ ወአጽፍየ ወሐዘንኩ ወነጸይኩ እምስዕርተ ርእስየ ወሥዕርተ ጽሕምየ፡ ወእምዝ ነበርኩ ትኩዝየ ወአትሐትኩ ገጽየ።
+4
+ወመጽእ ኀቤየ ኵሎሙ እለ ይፈርህዎ ለእግዚአብሔር ይንብቡኒ ቃለ አምላከ እስራኤል በእንተ ውእቱ ጌጋዮሙ ለፈላስያን፡ ወአንሰ ነበርኩ ትኩዝየ እስከ ጊዜ መሥዋዕተ ሠርክ።
+5
+ወሶበ ኮነ ጊዜ መሥዋዕተ ሠርክ ተንሣእኩ ሕሙምየ እምድኅረ ሠጠጥኩ አልባስየ ወአጽፍየ ወአስተብረኩ በብረክየ፡ ወአንሣእኩ እደውየ ኀበ እግዚአብሔር አምላክየ።
+6
+ወእቤ፦ እግዚእ አኃፍር አንሥእ ገጽየ ኀቤከ እስመ ብዙኅ ኃጢአትነ ወኖኃ መልዕልተ ርእስነ ወዓብየ ጌጋይነ ወበጽሐ እስከ ሰማይ።
+7
+አመአመ መዋዕሊሆሙ ለአበዊነ በጌጋይነ ሀሎነ እስከ ዮም፡ ወበኃጢአትነ ተፄወውነ ንሕነ ወነገሥትነ ወካህናቲነ ወውሉድነ፡ ወገባእነ ውስተ እደዊሆሙ ለነገሥተ አሕዛብ በኲናቶሙ ቀተሉነ፡ ወፄወዉነኒ ወበርበሩነኒ ወበኃፍረተ ገጽነ ሀሎነ እስከ ዮም።
+8
+ወይእዜኒ ኅዳጥ ዕረፍት ኮነት ለነ አመ ተሣሃለነ አምላክነ ወአትረፈነ ወአሕየወነ ወወሀበነ ኃይለ ውስተ ቤተ መቅደሱ ከመ ያብርህ አዕይንቲነ እምላክነ፡ ወስሕተነ ሕቀ እምነ ቅኔነ።
+9
+እስመ አግብርቱሁ ንሕነ ኢኃደገነ አምላክነ፡ ወወሀበነ ሞገሰ በቅድሜሆሙ ለነገሥተ ፋርስ ከመ የሀቡነ ሲሳየነ ወያክብሩ ቤተ መቅደስነ ወይሕንጽዋ መዝበራ ለጽዮን ወየሀቡነ ኃይለ በይሁዳ ወበኢየሩሳሌም።
+10
+ወይእዜኒ ምንተ ንብል እግዚኦ? እንዘ ዘንተ ትህቦሙ ዓለዉ ትእዛዘከ፣
+11
+ዘወሀብከ በእደ አግብርቲከ ነቢያት ዘትቤሎሙ፦ ምድርኬ እንተ ትበውኡ ትረስዋ ምድር ርኵስት ይእቲ በግማኖሙ ለአሕዛበ ምድር ወበርኵሶሙ መልእዋ።
+12
+ወይእዜኒ አዋልዲክሙኒ ኢታስተዋስቡ ለደቂቆሙ፡ ወአዋልዲሆሙኒ ኢታስተዋስቡ ለደቂቅክሙ፡ ወኢትሰነአውዎሙ ወኢታሠንዩ ምስሌሆሙ ለዓለም ከመ ትጽንዑ ወትብልዑ በረከታ ለምድር፡ ወታወርስዎሙ ለውሉድክሙ ለዓለም።
+13
+ወኵሉዝ ዘመጽአ ላዕሌነ በእከየ ምግባሪነ ወበዕበየ ኃጢአትነ፡ እስመ አንተ አምላክነ ሰሐትከነ እምኃጢአትነ ንትመየጥ ወንዕቀብ ተረፈ ትእዛዝከ።
+14
+እስመ ተመየጥነ ንዕሉ ትእዛዝከ ወተሐመውነ ምስለ አሕዛብ ኢትትመዓዓነ ለዝሉፉ በዘኢታተርፍ እምኔነ ዘይድኅን።
+15
+እግዚኦ አምላከ እስራኤል ጻድቅ፡ አንተ ዘአትረፍከነ ወአድኃንከነ ዮም በዛቲ ዕለት እንዘ ሀሎነ ቅድሜከ በኃጢአት፡ እስመ አልቦ ዘይቀውም ቅድሜከ እንበይነ ዝንቱ።"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 10
+1
+ወሶበ አኅለቀ ዕዝራ ጸልዮ ወተጋንዮ እንዘ ይበኪ፡ ወሶበ ይጼሊ በቅድመ ቤተ እግዚአብሔር ተጋብኡ ኀቤሁ ብዙኃን ዕደው እምውስተ እስራኤል፡ ወኮነ ዓቢይ ማኅበር ምስለ አንስቶሙ ወወራዙቶሙ፡ ወበከዩ ሕዝብ ብዙኃ ብካየ።
+2
+ወአውሥአ ሰኬንያ ወልደ ኢያሔል እምደቂቀ ኤላም ወይቤሎ ለዕዝራ፦ ለሊነ አበስነ ለአምላክነ ዘአውሰብነ አንስተ ነኪራተ እምአሕዛበ ምድር፡ ወይእዜኒ ቦ ተስፋ ለእስራኤል በእንተዝ።
+3
+ወባሕቱ ንትካየድ ኪዳነ ምስለ አምላክነ ወአድሞሙ ይእዜኒ ለእስራኤል እንበይነ ዝንቱ ከመ ይስድዱ አንስቲያሆሙ ምስለ ውሉዶን ዘወለዳ ሎሙ፣ ወተንሥእ ወገሥፆሙ ዘከመ ትፈቅድ በትእዛዙ ለአምላክነ ወይገብሩ በከመ ሕግነ።
+4
+ተንሥእ እስመ ላዕሌከ ውእቱ ዝ ነገር ወንሕነኒ ምስሌከ፡ ጽናዕ ወግበር።
+5
+ወተንሥአ ዕዝራ ወአምሐሎሙ ለመላእክት ወለካህናት፡ ወለሌዋዊያን፡ ወለኵሎሙ እስራኤል ከመ ይግበሩ ዘከመ አዘዞሙ ወመሐሉ።
+6
+ወተንሥአ ዕዝራ እምቅድመ ቤተ እግዚአብሔር ወሖረ መንገለ ኤስኬድራ ወዮሐናን ወልደ ኤልሰብ ሖረ ህየ ምስሌሁ፣ ወኢበልዐ እክለ ወኢሰትየ ማየ እስመ ይላሁ በእንተ ኃጢአቶሙ ወማዕሌቶሙ ለፈላስያን።
+7
+ወሰበከ ሎሙ ማእከሎሙ ለመላእክት ውስተ ኵሉ ይሁዳ ወኢየሩሳሌም እንዘ ይብሉ፦
+8
+ኵሉ ዘኢበጽሐ እስከ ሠሉስ መዋዕል በከመ አዘዙ መላእክት ወረበናት፡ ያጥፍኡ ኵሎ ንዋዮ ወኪያሁኒ ያፍልጥዎ እምነ ማኅበሮሙ ለፈላስያን።
+9
+ወተጋብኡ ኵሉ ሰብአ ይሁዳ ወብንያም ውስተ ኢየሩሳሌም ወበእሙንቱ ሠሉስ መዋዕል አመ ታስዕ ወርኅ በሐሙሱ ለጽልመት፣ ወነቡረ ኵሎሙ ሕዝብ ውስተ መርኅበ ቤተ እግዚአብሔር ወይርዐዱ በእንተ ዝንቱ ነገር፡ ወበእንተ ክረምት እስመ ዝናም ይወርድ።
+10
+ወተንሥአ ዕዝራ ካህን ወይቤሎሙ፦ አንትሙሰ አበስክሙ ዘአውሰብክሙ እምውስተ አንስት ነኪራት ወወሰክሙ ኃጢአተ ላዕለ ኃጢአተ እስራኤል።
+11
+ወይእዜኒ አእኵትዎ ለእግዚአብሔር አምላከ አበዊነ ወግበሩ ሠናየ በቅድሜሁ፡ ወተፈለጡ እምአሕዛበ ምድር ወእምአንስት ነኪራት።
+12
+ወአውሥኡ ኵሎሙ ሕዝብ ወይቤሉ፦ ዓቢይ ዝ ነገር ለነ ዘንገብር።
+13
+ወባሕቱ ብዙኀ ሕዝብ ወክረምት ብሔር ወኢንክል ይእዜ አብጽሖቶሙ፡ እስመ ኢኮነ ግብረ አሐቲ ዕለት ወኢ ግብረ ሰኑይ እስመ አብዛኅነ ኃጢአተ በዝንቱ ነገር።
+14
+ወባሕቱ ይመጽኡ ኵሎሙ መላእክተ ሕዝብነ ዘኵሉ አህጉርነ እለ አውሰቡ እምውስተ አንስት ነኪራት፣ ወይትጋብኡ ባዕድሜሆሙ ሊቃናተ አህጉርኒ ወመኳንንትኒ ምስሌሆሙ ከመ ይትመየጥ እምኔነ መንሱተ መዓቱ ለአምላክነ እምኔነ ዘረከበነ እንበይነ ዝንቱ ነገር።
+15
+ወባሕቱ ዮናታን ወልደ አሳሬል፡ ወሐዝያም ወልደ ተቀዋ ምስሌየ የሀልዉ እንበይነ ዝንቱ ወሜሱላም ወሶባቴ ሌዋዊ ያርድእዎሙ።
+16
+ወገብሩ ከማሁ ደቂቀ ፈላስያን፡ ወፈለጠ ዕዝራ ካህን ዕደወ መላእክተ አበዊሆሙ በበአብያቲሆሙ ወኵሎሙ በበአስማቲሆሙ፡ ወነበሩ አመ ሠርቀ ዐሥር ወርኅ ይኅሥሡ ነገረ።
+17
+ወፈጸሙ በኵሉ ዕደው እለ አውስቡ እምአንስት ነኪራት እስከ ሠርቀ ቀዳሚ ወርኅ።
+18
+ወእለ ተረክቡ እምደቂቀ ካህናት እለ አውሰቡ እምአንስት ነኪራት እምነ ደቂቀ ኢዮዮሱሲ ወልደ ዮሴዴቅ ወአኃዊሁኒ መዓስያ ወአልአዛር ወያሬም ወገዳልያ።
+19
+ወወሀቡ እደ ከመ ይሰድዱ አንስቲያሆሙ ወያብኡ እንበይነ ጌጋዮሙ አሕሩገ አባግዕ ወይሠዑ መሥዋዕተ።
+20
+ወእምነ ደቂቀ ኤሜር አናኒ ወዝብድያ።
+21
+ወእምነ ደቂቀ ኤርም መሳሔል፡ ወኤልያ፡ ወሴሜያ፡ ወያሔል፡ ወኦዝያ።
+22
+ወእምነ ደቂቀ ጳስኮር ኤልዮና፡ ወመሐስአ፡ ወሴሜኤል፡ ወናትናኤል፡ ወኢዮዛብድ፡ ወኤልስ።
+23
+ወእምውስተ ሌዋዊያን ኢዮዛብድ፡ ወሳምዒ፡ ወቆልያ ለሊሁ፡ ቆልያጥ፡ ወፈዲሃ፡ ወይሁዳ፡ ወኤልኤዜር።
+24
+ወእምውስተ መዘምራን ኤልያስብ፣ ወእምነ ዓፀውት ሳሴም፡ ወጤሌም፡ ወኡሪ።
+25
+ወእምነ እስራኤል እምነ ደቂቀ ፋሮስ ራምያ፡ ወዖዝያ፡ ወሜልክያ፡ ወሚያሚን፡ ወአልአዛር፡ ወመልክያ፡ ወቤንያህ።
+26
+ወእምነ ደቂቀ ኤላም መታንያ፡ ወዘካርያ፡ ወኢያኤል፡ ወአቤዲ፡ ወያሬሞት፡ ወኤልያ።
+27
+ወእምነ ደቂቀ ዛቱ፡ ኤልዔናይ፡ ወኤልሴብ፡ ወማታንያ፡ ወኤርሞት፡ ወዘባዲ፡ ወአዚዛ።
+28
+ወእምነ ደቂቀ ቤባይ ዮሐናን፡ ወሐናንያ፡ ወዘባይ፡ ወአጥላይ።
+29
+ወእምነ ደቂቀ ባኒ ማሱላም፡ ማሉክ፡ አዳንያ፡ ያሱብ፡ ወሳኤል፡ ወራሞት።
+30
+ወእምነ ደቂቀ ፈሐት ሞአብ አዳናእ፡ ክላል፡ በናያ፡ ወማሲሓ፡ መታንያ፡ ቤሴሌል፡ በናዊ፡ ወምናሴ።
+31
+ወእምነ ደቂቀ ኤራም ኤሊኤዜር፡ ይሲያ፡ ሜልክያ፡ ስምያ፡ ስምዖን።
+32
+ብንያም፡ ሜሎክ፡ ሰማርያ።
+33
+ወእምነ ደቂቀ ሔሱም መታንያ፡ ወማታት፡ ዘባድ፡ ኤሊፋልጥ፡ ይሬማይ፡ ምናሴ፡ ሲምዒ።
+34
+ወእምነ ደቂቀ ባኒ ማዕዶይ፡ አምራም፡ ኡኤል።
+35
+በናያ፡ በደያም፡ ከልቅያም።
+36
+ውኑያ፡ መሬሙት፡ ኤልያሴብ።
+37
+ማትንያ፡ መትንያ፡ የዕሱ።
+38
+ወደቂቀ ባነይ፡ ወደቂቀ ሴሜይ።
+39
+ስልምያ፡ ወናታን፡ ወሐዳያ።
+40
+ወመልክነደባይ፡ ወሲሳይ፡ ወስርያ።
+41
+ወአዛርኤል፡ ወሰልምያ፡ ወሰማርያ።
+42
+ወሰሉም፡ ወአማርያ፡ ወዮሴፍ።
+43
+ወእምነ ደቂቀ ናቡ ይኢኤል፡ ማታትያ፡ ዛባድ፡ ወዛብንያ፡ ወያብዱ፡ ወኢዮኤል፡ ወባንያ።
+44
+እሉ ኵሎሙ እለ አውሰቡ እምአንስት ነኪራት፡ ወቦ እምኔሆን አንስትያ እለ ወለዳ ሎሙ ደቂቀ።
+ተፈጸመ መጽሐፈ እዝራ ቀዳማዊ፤ ወስብሐት ለእግዚአብሔር ሕያው ወማሕየዊ፡ አሜን።"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 11
+"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 12
+"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 13
+"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 14
+"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 15
+"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 16
+"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 17
+"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 18
+"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 19
+"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 20
+"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 21
+"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 22
+"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 23
+"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 24
+"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 25
+"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 26
+"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 27
+"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 28
+"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 29
+"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 30
+"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 31
+"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 32
+"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 33
+"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 34
+"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 35
+"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 36
+"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 37
+"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 38
+"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 39
+"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 40
+"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 41
+"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 42
+"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 43
+"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 44
+"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 45
+"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 46
+"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 47
+"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 48
+"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 49
+"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 50
+"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

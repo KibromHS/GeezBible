@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".old.MalachiFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/parentLayout">
+
+            <TextView
+                android:id="@+id/text_john"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 1
+1
+ተረፈ ቃለ እግዚአብሔር ላዕለ እስራኤል በእደ መልእኩ ሚልክያስ።
+2
+ሐልይዎኬ በልብከሙ በከመ አፍቀርኩክሙ፤ ይቤ እግዚአብሔር፦ ወትብሉኒ በእንተምንት አፍቀርከነ እግዚአ? አኮኑ ዔሳው እኀሁ ለያዕቆብ? ይቤ እግዚአብሔር፦ ያዕቆብሃ አፍቀርኩ።
+3
+ወዔሳውሃ ጸላእኩ፤ ወአማሰንኩ በሓውርቲሁ፤ ወመክፈልቶ ወረሰይክዎ በድወ።
+4
+እስመ ይቤ፦ ናሁ ወድቀት ኤዶምያስ፤ ንትመየጥ ወንሕንጽ፡ መዝብረ፤ ከመዝ ይቤ እግዚአብሔር ዘኵሎ ይመልክ፦ አንትሙ ተሐንጹዋ ወአነ እነሥት ወትሰመይ፦ ብሔረ ዐመፃ።
+5
+ወይሬእያ አዕይንቲክሙ ሕዝበ ዘሠርዐ እግዚአብሔር እስከ ለዓለም፤ ወትብሉ አንትሙ፦ ዓቢይ እግዚኤብሔር መልዕልተ በሓውርተ እስራኤል።
+6
+ወልድኒ ያከብር አቡሁ፤ ወገብርኒ ይፈርህ እግዚኦ፤ እመኬ አቡክሙ አነ አይቴኑ ዘአክባርክሙኒ? ወእመኒከ እግዚእከሙ አነ፤ አይቴ ዘፈራህክሙኒ? ይቤ እግዚአብሔር ዘኵሎ ይመልክ። እስመ አንትሙ ካህናት አርኰስክሙ ስምየ፡ ወትቤሉ፦ በምንትኑ አርኰስና ስመከ?
+7
+እስመ ወደይከሙ ውስተ መሥዋዕትየ ኅብስተ ርኩሰ፤ ወትቤሉ፦ በምንትኑ እርኰስናሁ? እስመ ትቤሉ፦ ማእደ እግዚአብሔር ንውር ውእቱ፡ ወእክሉሂ ዘሥሩዕ ውስቴቱ ምኑን ውእተ።
+8
+እስመ ታበእኡ ነቋረ ለመሥዋዕት ወኢኮነ ሠናየ ከማሁ? ወእመሂ አምጻእክሙ ሐንካሰ ወድውየ ኢኮነ ሠናየ? ስዶ እስኩ ለመልአክከ ለእመ ይትሜጠወከ ወለእመ ያደሉ ለገጽከ፤ ይቤ እግዚአብሔር ዘኵሎ ይመልክ።
+9
+ወይእዜኒ ተጋነዩ ለገጸ እግዚአብሔር አምላክክሙ ወስአልዎ ለእግዚአብሔር፤ እስመ በእዴክሙ ተገብረ ዝንቱ ኵሉ፤ ወትሬእዩ ለእመ አደሉ ለገጽክሙ፤ ይቤ እግዚአብሔር ዘኵሎ ይመልክ።
+10
+እስመ በእንቲአክሙ ተዐጽወ ኆኅት፤ ወኢታንድዱ መሥዋዕትየ በከንቱ፤ ወኢይፈቅድ፡ ይቤ እግዚአብሔር ዘኵሎ ይመልክ፤ ወኢይትሜጦ ለክሙ መሥዋዕተ እምእዴክሙ።
+11
+እስመ እምሥራቀ ፀሓይ እስከነ ዐረብ ይሴባሕ ስምየ በውስተ ኵሉ አሕዛብ፤ ወእምኵሉ በሐውርት ያመጽኡ ዕጣነ ለስምየ ቅዱስ፤ ወመሥዋዕተ ንጹሐ ለስምየ ቅዱስ፤ እስመ ዓቢይ ስምየ በውስተ ኵሉ አሕዛብ፤ ይቤ እግዚአብሔር ዘኵሎ ይመልክ።
+12
+ወአንትሙሰ ታረኵስዎ ለመስዋዕተ እግዚአብሔር እስመ ትብሉ፦ ማእደ እግዚአብሔር ንውር ወእክሉሂ ዘውስቴቱ ምኑን ውእቱ።
+13
+ወትብሉ፦ ዝንቱ እምእኩይ ሕማም ውእቱ፤ ወነፋኅክዎ ይቤ እግዚእብሔር ዘኵሎ ይመልክ፤ እስመ ታበውኡ ዘሄድክሙ ወሐንካሰ ወድውየ ውስተ መሥዋዕትየ፤ ወእመሂ አምጻእክሙ መሥዋዕተ ኢይትሜጠዎ እምእዴክሙ፤ ይቤ እግዚእብሔር ዘኵሎ ይመልክ።
+14
+ርጉመ ለይኩን ኵሉ ዘቦ ውስተ መርዐይሁ ተባዕተ ዘቦ ብጽዓት፡ ወእንዘ ይትከሀሎ ዘይሠውዕ ለእግዚአብሔር ዘቦ ነውረ፡ እስመ ዓቢይ ንጉሥ አነ፤ ይቤ እግዚአብሔር ዘኵሎ ይመልክ፤ ወይሰማዕ ስምየ በውስተ ኵሉ አሕዛብ።"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/text_john2"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 2
+1
+ወይእዜኒ ዛቲ ትእዛዝ ለክሙ ለካህናት።
+2
+ለእመ ኢሰማዕክሙ ወኢቦአ ውስተ ልብክሙ ከመ ተሀቡ አኰቴተ ለስምየ፤ ይቤ እግዚአብሔር ዘኵሎ ይመልክ፦ ወእፌኑ ላዕሌክሙ መርገመ ወእረግማ ለበረከትክሙ ወእመይጣ ወኢትሄሉ እንከ ውስቴትክሙ እስመ ኢትኄልይዎ በልብክሙ።
+3
+ናሁ አነ እመይጥ ዘባነክሙ ወእዘሩ ኅፍረተ ውስተ ገጽክሙ ወኣኃሥር በዓላቲክሙ ወእነሥእክሙ ኅቡረ።
+4
+ወታአምሩ ከመ አነ ፈነውኩ ለክሙ ዘንተ ትእዛዘ፡ ከመ የሀሉ ሥርዐትየ ኀበ ሌዋዊያን፤ ይቤ እግዚአብሔር ዘኵሎ ይመልክ።
+5
+ወይሄሉ ምስሌሆሙ ሥርዐትየ ዘሕይወት ወዘሰላም፤ ወወሀብክዎ ፍርሃተ ይፍርህ ቅድመ ገጹ ለስምየ።
+6
+ወይሑር ሕገ ጽድቅየ ውስተ አፉሁ፤ ወኢይትረከብ እንከ ዓመፃ ውስተ ከናፍሪሁ ዘእንበለ ርትዕ ወሰላም ወሑር ምስሌየ፤ ወለብዙኃን ይሚጦሙ እምጌጋዮሙ።
+7
+እስመ ከናፍሪሁ ለካህን የዐቅብ ምክረ፡ ወየኀሥሥ ሕገ ጽድቅየ ውስተ ልቡ እስመ መልአከ እግዚአብሔር ዘኵሎ ይመልክ ውእቱ።
+8
+ወአንትሙሰ ተገሐሥክሙ እምፍኖቱ ወአስሐትክምዎሙ ለብዙኃን እምሕግ ወዐለውክሙ ሥርዐተ ሌዊ፤ ይቤ እግዚአብሔር ዘኵሎ ይመልክ።
+9
+ወአነሂ ረሰይኩክሙ ኅሱራነ ወዝርዋነ ውስተ ኵሉ አሕዛብ፤ እስመ ኢዐቀብክሙ ፍኖትየ ወአድሎክሙ ለገጽ እምሕግየ።
+10
+አኮኑ አሐዱ እግዚአብሔር ዘፈጠረክሙ? ወአሐዱ አቡክሙ ለኵልክሙ? እስመ ኵልክሙ ኀደግሙ ቢጸክሙ ወአርኰስክሙ ሕገ አበዊክሙ።
+11
+ወተኀድገ ይሁዳ ወተመነነ ወረኵሰ እስራኤል በኢየሩሳሌም፡ እስመ ገመነ ይሁዳ መቅደስየ በዘአፍቀረ ወአጥዐወ ወአምለከ አማልክተ ነኪር።
+12
+ለይሥርዎ እግዚአብሔር ለኵሉ ሰብእ ዘይገብሮ ለዝንቱ ግብር፡ ወያኀሥሮ እምአብያተ ያዕቆብ፤ ወእምእለ ያመጽኡ መሥዋዕተ ለእግዚአብሔር ዘኵሎ ይመልክ።
+13
+ወዘንተ ዘእጸልእ ትገብሩ ወደፈንክምዎ ዘአንብዕ ለምሥዋዐ እግዚአብሔር ወብካይ፡ ወገዓር ወላሕ፤ ዓዲ ኢመፍትው እነጽር እንከሰ መሥዋዕተክሙ፡ ወእትሜጦ ኄረ እምእዴክሙ።
+14
+ወትብሉ፦ በእንተ ምንት? እስመ እግዚአብሔር አስምዐ ማእከሌከ ወማእከለ ብእሲትከ እንተ እምንእስከ፡ እንት ኀደጋ፤ ወይእቲ ሱታፌከ ወብእሲትከ እንት በሕግ አውሰብካ ይእቲ።
+15
+ወአኮ ባዕድ ዘገብሮ ለዝንቱ ወተረፈ መንፈስ? ወትቤሉ ምንተ ይፈቅድ እግዚአብሔር ዘእንበለ ዘርአ? ወትዕቀቡ በመንፈስክሙ፤ ወኢትኀድግ ብእሲተከ እንተ እምንእስከ።
+16
+ወእመሰ ጸላእካሃ ፈንዋ፡ ይቤ እግዚአብሔር ዘኵሎ ይመልክ፤ አምላከ እስራኤል ዘይትዋከፍ ጸሎተ ንጹሐን በሕጽኑ፤ ወዓዲ ይቤ እግዚአብሔር ዘኵሎ ይመልክ፦ ተዐቅቡ በመንፈስክሙ ወአበይክሙ ኀዲገ።
+17
+እለ ታምዕዕዎ ለእግዚአብሔር በነገርክሙ ወትብሉ፦ በእንተ ምንትኑ አምዓዕናሁ? እስመ ትብሉ፦ ኵሎ ዘይገብር እኩየ ኢይኤድሞ ለእግዚአብሔር፡ ወኪያሆሙኒ ኢይሠምር፡ አይቴኑ እንከ እምላከ ጽድቀ?"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/text_john3"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 3
+1
+ናሁ አነ እፌኑ መልእክየ ዘይጸይሕ ወይርኢ ፍኖትየ ቅድመ ገጽከ፡ ወይመጽእ ውስተ ጽርሑ ግብተ እግዚአብሔር ዘአንትሙ ተኀሥሡ መልአከ ሥርዓትየ ዘአንትሙ ትፈቅዱ፤ ናሁ ይመጽእ፡ ይቤ እግዚአብሔር ዘኵሎ ይመልክ።
+2
+ወመኑ ይትዔገሣ ለመዐተ መጽአቱ? ወመኑ ይትቃወማ ለእሳት ርእየቱ? እስመ ለሊሁ የሐውር ከመ እሳተ ምንሐብ ወከመ እለ የሐፅቡ ወያነብሩ።
+3
+ወይሰብክ ወያጸሪ ከመ ብሩር ወከመ ወርቅ፡ ወይነጥፎሙ ለደቂቀ ሌዊ፡ ወይሰጠዎሙ ከመ ወርቅ ወከመ ብሩር፡ ወይከውንዎ ለእግዚአብሔር እለ ያበውኡ መሥዋዕተ በጽድቅ።
+4
+ወታሠመሮ ለእግዚአብሔር መሥዋዕተ ይሁዳ ወኢየሩሳሌም፡ በአምጣነ መዋዕለ ዓለም ወበከመ ዓመተ ዘቀዲሙ።
+5
+ወእመጽእ ኀቤክሙ በፍትሕ ወእዔንኖሙ ለሰብአ ሥራይ ወለዘማዊያን ወለሰማዕተ ሐሰት ወለሰራቅያን፡ ወለእለ ይምሕሉ በስምየ በሐሰት፡ ወለእለ የሀይድዎሙ ዐስቦሙ ለዐሳብ፡ ወለእለ ይኰርዕዎሙ ለእቤራት ወለዕጓለ ማውታ፡ ወለእለ ይመይጡ ፍትሐ ፈላሲ፡ ወለእለ ኢይፈርሁ ስምየ፤ ይቤ እግዚአብሔር ዘኵሎ ይመልክ።
+6
+በከመ አነ እግዚአብሔር አምላክክሙ ኢይትዌለጥ፡ ከማሁ አንትሙሂ ደቂቀ ያዕቆብ።
+7
+ኢተኀድጉ ዐመፃ ዘአበዊክሙ እለ ዐለዉ ሕግየ ወኢዐቀብዎ፤ ተመየጡ ኀቤየ ወእትመየጥ ኀቤክሙ፤ ይቤ እግዚአብሔር ዘኵሎ ይመልክ፤ ወአንትሙሰ ትብሉ በምንትኑ ንትመየጥ?
+8
+ወያዐቅጾኑ ሰብእ ለእግዚአብሔር? ናሁኬ አንትሙ አዕቀጽኩኒ ይቤ እግዚአብሔር፤ ወናሁ ትብሉኒ አንቱሙ፦ በምንትኑ አዕቀጽናከ? ዓሥራቲክሙ ወቀዳሚያቲክሙኒ ኀቤክሙ ውእቱ።
+9
+ወተዓውሮ ተዓወርክሙኒ አንትሙ ወአዕቀጽክሙኒ ኪያየ ወዓመቲሁኒ ኀልቀ።
+10
+ወአባእክሙ ኵሎ ማእረረክሙ ውስተ መዛግብት ወይከውን በርበረ ውስተ ቤተ ኀልይዎኬ በዝንቱ፡ ይቤ እግዚአብሔር ዘኵሎ ይመልክ፤ ለእመ ኢያርኀውኩ ለክሙ አስራበ ሰማይ ወእሱጥ ለክሙ በረከትየ እስከ የአክለክሙ።
+11
+ወእሁበክሙ ለሲሳይክሙ ወኢያማስን ለክሙ ፍሬ ምድርክሙ ወኢየዐብር ወይንክሙ ዘውስተ ገዳም፤ ይቤ እግዚአብሔር ዘኵሎ ይመልክ።
+12
+ወያስተበጽዐክሙ ኵሎሙ አሕዛብ እስመ ተከውኑ አንትሙ ከመ ምድር ሥምርት፤ ይቤ እግዚአብሔር ዘኵሎ ይመልክ።
+13
+ወአክበድክሙ ነገረክሙ ላዕሌየ፡ ይቤ እግዚአብሔር፤ ወትቤሉ፦ በምንት ሐመይናከ?
+14
+እስመ ትቤሉ፦ ከንቶ ዘተቀነይነ ለእግዚአብሔር፤ ወምንትኑ ዘረባሕነ ዘዐቀብነ ትእዛዞ ለእግዚአብሔር? ወናሁ ተቀነይነሂ እስመ ከንቶ ተቀነይነ ቅድሜሁ ለእግዚአብሔር።
+15
+ወናሁ ዮም ናስተበፅዕ ባዕድ፡ ወየሐንጹ ወይገብሩ ስመ ሎሙ ኵሎሙ ተቃወምዎ ለእግዚአብሔር መድኅን ወኢይድኅኑ።
+16
+ከመዝ ሐመይዎ ለእግዚአብሔር እለ ይፈርህዎ አሐዱ አሐዱ ምስለ ካልኡ፡ ወርእየ እግዚአብሔር ወሰምዐ ወጸሐፈ መጽሐፈ ተዝካር በቅድሜሆሙ ለእለ ይፈርህዎ ለእግዚአብሔር ወለእለ ኢይፈርሁ ስሞ።
+17
+ወይከውኑኒ ሕዝብየ፡ ከመዝ ይቤ እግዚአብሔር ዘኵሎ ይመልክ፤ ለእመ እገብር አነ ሕይወተ ወአኀርዮሙ በከመ ያበድር አብ ወልዶ ዘይትቀነይ ሎቱ።
+18
+ወትትመየጡ ወትሬኢዩ ማእከለ ጽድቅ ወማእከለ ኀጢአት፤ ወማእከለ ዘይትቀነይ ወማእከለ ዘኢይትቀነይ ለእግዚአብሔር።"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/text_john4"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 4
+1
+ወናሁ መዋዕል ይመጽእ ይቤ እግዚአብሔር፡ እንዘ ይነድድ ከመ እሳት ወያውዕዮሙ ለኵሎሙ አሕዛብ ወኵሎሙ ገበርተ ዐመፃ ከመ ሐሠር ወታውዕዮሙ ዕለት እንተ ትመጽእ፡ ይቤ እግዚአብሔር ዘኵሎ ይመልክ፤ ወኢይተርፍ ሥርዎሙ ወኢዓፅቆሙ።
+2
+ወይሠርቅ ለክሙ ለእለ ትፈርሁ ስምየ ፀሓየ ጽድቅ ወሕይወት ውስተ ክነፊሁ ወትወፅኡ ወታንፈርዕጹ ከመ ጣዕዋ ዘተፈትሐ እማእሰሩ።
+3
+ወትከይድዎሙ ለኃጥኣን ወይከውኑ ከመ ሐመደ በታሕተ እገሪክሙ በዕለት እንተ እገብር አነ፤ ይቤ እግዚአብሔር ዘኵሎ ይመልክ።
+4
+ተዘከሩ ሕገ ሞሴ ገብርየ ዘእዘዝክዎ በኮሬብ ሥርዐተ ወኵነኔ ለኵሉ እስራኤል።
+5
+ወናሁ አነ እፌንዎ ለክሙ ኤልያስሃ ተስብያዋ ዘእንበለ ትምጻእ ዕለተ እግዚአብሔር ዓባይ እንተ ታስተርኢ።
+6
+ወይመይጥ ሕሊና አበው ኀበ ውሉድ ወልበ ብእሲ ኀበ ቢጹ፤ አመ መጻእኩ ወቀሠፍክዋ ለምድር።
+ተፈጸመ ዘሚልክያስ ነቢይ፡ ወዘኵሎሙ ትንቢተ ንቢያት፤ ወስብሐት ለእግዚአብሔር ለዓለመ ዓለም፡ ኣሜን።"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

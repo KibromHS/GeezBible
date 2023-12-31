@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".old.NahumFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/parentLayout">
+
+            <TextView
+                android:id="@+id/text_john"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 1
+1
+ተረፈ ነኔዌ፡ መጽሐፈ ራእዩ ለናሖም ወልደ ኬልቂሴዩ።
+2
+እግዚአብሔር ቀናኢ ወመስተበቅል፡ ወይትቤቀልሙ እግዚአብሔር በመዓቱ ለፀሮ ወያጠፍኦሙ ለጸላእቱ።
+3
+እግዚአብሔር መስተዐግሥ ወዓቢይ ኃይሉ ወንጹሕኒ፡
+አልቦ ንጹሐ በኀቤሁ እግዚአብሔር በፍጽም ወበድልቅልቅ ፍኖቱ ወደመና ጸበለ እገሪሁ።
+4
+ያጠፍኣ ለባሕር ወያየብሳ፡ ወያነፅፎሙ ለኵሎሙ አፍላግ ኀልቁ ባሳን ወቀርሜሎስ ወጠፍአ ፍሬ ሊባኖሰ።
+5
+ወአድለቅለቁ አድባር እምኔሁ ወያድለቀልቁ አውግር ወትደነግፅ ኵላ ምድር እምቅድመ ገጹ፤
+6
+ወአልቦ ዘይትቃወም ቅድመ ገጹ እምኵሎሙ እለ ይነብሩ ውስቴታ ወመኑ ይትቃወማ ለመቅሠፍተ መዐቱ ወመዐቱሂ ይመስዎሙ ለአርእስቲሆሙ ወይትቀጠቀጥ ኰኵሕ እምኔሁ።
+7
+ኄር እግዚአብሔር ለእለ ይትዔገሥዎ በዕለተ ምንዳቤሆሙ፡
+ወያአምሮሙ ለእለ ይፈርህዎ።
+8
+ወይሬስዮሙ ለእለ ይትነሥኡ በእከይ ከመ ይኅለቁ በፍኖተ አይኅ፡
+ወይዴግኖሙ ጽልመት ለፀሩ።
+9
+ምንተ ትሔልዩ ላዕለ እግዚአብሔር ናሁ ውእቱ ይገብር ማኅለቅተ፡
+ወይትቤቀል እንከ ካዕበ ኅቡረ በሕማም።
+10
+እስመ መሠረቶሙ ትማስን ወትትበላዕ ከመ ብልዐ ፃፄ፡
+በከመ ብላዓ ቍንቍኔ ወትነድድ ብርዓ ባሕሩስ ይቡስ።
+11
+እስመ እምኔከ ይወፅእ ሕሊና እኩይ ላዕለ እግዚአብሔር፡ ወትመክር ሕሡመ።
+12
+ከመዝ ይቤ እግዚአብሔር፦ ከመ እንተ ማይ ብዙኀ ዘያውሕዝ ወያነፅፍ፡
+ከማሁ ወነገርከሂ ኢይሰማዕ እንከ።
+13
+ወናሁ ይእዜ ይቀጠቅጥ ለበትሩ እምኔከ ወእበትከ ማኅሜከ።
+14
+ወይኤዝዝ እግዚአብሔር በእንቲአከ ከመ ኢይሰማዕ ስምከ፡
+ወዓዲ እሤርዎ ለግልፎከ እምቤተ አምላክከ ወፍጡነ እሬስዮ መቃብሪከ ለስብኮከ።
+15
+ናሁ ውስተ አድባር እገሪሆሙ ለሰብአ ዜና ወይዜንዉ ሰላመ ግበር በዓለከ ይሁዳ ወፍዲ ብፅዓተከ እስመ ኢይደግም እንከ፡
+ወኢይመጽኡ ይትጋደሉከ።"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/text_john2"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 2
+1
+ኀልቀ ወተስዕረ ወዓርገ ዘይነፍሕ ውስተ ገጽከ ወያጠፍአከ በሕማም፡
+አስተሓይጽ ፍኖተከ ወአጽንዕ ሐቌከ አጥብዕ በኀይልከ በሕቁ።
+2
+እስመ ሜጦ እግዚአብሔር ጽዕለተ ያዕቆብ ከመ ጽዕለተ እስራኤል፡
+እስመ ነጺሐ ነጽሕዎሙ ወአማሰኑ አዕጹቂሆሙ።
+3
+ወላትወ ኃይሎሙ እምሰብእ ዕደው ኃያላን እለ ይትዌነዩ በእሳት ማእስረ ሰረገላቲሆሙ ለእመ ይትሬሰዩ ወአፍራስኒ ይትሀወክ።
+4
+ውስተ ፍኖዋት ይደነግፁ ሰረገላት ወይትጓድኡ በፍኖት ገጾሙ ከመ ነበልባለ እሳት ወከመ መብረቅ ዘይረውጽ።
+5
+ወይዜከሩ መሳፍንቲሆሙ ወይሜምዑ ሞዐልተ ወይደክሙ በፍኖቶሙ ወይሪውጹ ዲበ አረፋቲሃ ወያነብሩ መዓቅቢሆሙ።
+6
+ወይትረኀው አናቅጸ አህጉር ወወድቀ አብያተ መንግሥት።
+7
+ወተከሥተ ኀይል ወዓርገት ይእቲኒ ወአእማቲሃኒ ይመርሓሃ ወይነቅዋ ከመ ርግብ በልቦን።
+8
+ወነኔዌሰ ከመ ምጥማቃተ ማይ ማያ ወእሙንቱሂ ጐዩ ወኢቆሙ ወአልቦ ዘይትማየጥ።
+9
+በርበሩ ብሩረ ወወርቀ ወአልቦ ማኅለቅተ ሰርጓ ወክቡድ ኵሉ ንዋያ መፍትው።
+10
+ወተነግፈ ወተነዝፈ ወሐቄ ስነን ወድንጋፄ ልብ ወረዐደ ብርክ ወይቀጽዕ ኵሎ ሐቌ ወይከውን ገጸ ኵሉ ከመ ጸለሎ መቅጹት።
+11
+አይቴ ውእቱ ግበቢሆሙ ለአናብስት ወአይቴ ይትረዐዩ ዕጓለ አናብስት አይቴ ሖረ አንበሳ ከመ ይባእ ህየ ዕጓለ አንበሳ ወአልቦ ዘይጌርም።
+12
+አንበሳኒ መሠጠ ዘየአክሎ ለእጐሊሁ ወኀነቀ ለአንስቲያሁ ወመልአ ዘነዐወ ለእጐሊሁ ወግቦሂ እምነ ዘመሠጠ።
+13
+ናሁ አነ ላዕሌከ፡ ይቤ እግዚአብሔር ዘኵሎ ይመልክ ወኣነድዶሙ በጢስ ለብዝኅከ ወትበልፆሙ ኲናት ለአናብስቲከ ወኣጠፍኣ እምድር ለማዕገትከ ወኢይሰማዕ እንከ ምግባሪከ።"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/text_john3"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 3
+1
+አሌላ ለሀገረ ደም እንተ መልአት ሐሰተ ወጸግበት ዐመፃ ኢትግስስ ማዕገተ።
+2
+ድምፀ መቅሠፍት ወቃለ መንኰራኵረ ድልቅልቅ ወአፍራስ ዘይረውድ ወሰረገላት ዘይረውጽ።
+3
+ወመስተጽዕናን ይጼዐኑ ወኲናተ ይመልሱ ወወላትው ይበርቅ ወብዙኀ አብድንት ወክቡድ ድቀት ወአልቦሙ ጽንፈ ለአሕዛቢሃ ወይደውዩ ሥጋሆሙ እምብዝኀ ዝሙቶሙ።
+4
+ዘማ ሠናይት ወፍሥሕት ለድቀቶሙ ለሰብአ ሥራይ እንተ ትሣየጥ አሕዛበ በዝሙታ ወሕዝበ በሥራያቲሃ።
+5
+ናሁ አነ ላዕሌኪ፡ ይቤ እግዚአብሔር ዘኵሎ ይመልክ ወእቀፍጸኪ ድኅሬኪ ውስተ ገጽኪ፡ ወኣርእዮሙ ለአሕዛብ ኃፍረተኪ ወለነገሥት ኀሳረኪ።
+6
+ወእገድፍ ላዕሌኪ ርኵሰ ዘከመ ርኵስኪ ወኣረስሐኪ ወእሰጥሐኪ ወእሬስየኪ ኅስርተ።
+7
+ወኵሉ ዘርእየኪ ይወርቅ እምኔኪ ወይብል፦ ደንገፀት ነኔዌ ምንተ ይግፅር ላዕሌኪ እምአይቴ ነኀሥሥ ዘይናዝዛ?
+8
+ታስተዳሉ መክፈልታ ወትቃኒ አውታሪሃ ወታስተዳሉ መክፈልታ አሞን እንተ ትነብር ውስተ አፍላገ ማይ ሕጹራ ወጽንፋ ውስተ ባሕር ወማይ አረፋቲሃ?
+9
+ወኢትዮጵያ ኀይላ ወግብፅ ወአልቦ ጽንፈ ለምጕያይኪ ወሊቢዩስ ረድእዋ።
+10
+ወይእቲኒ እምነ ምንባሪሃ ወይፄውውዋ ወይወስድዋ ወይነጽኅዎሙ ለሕፃናቲሃ ውስተ ኵሉ ፍናዊሃ ወይትዓፀዉ ኵሎ ክብራ ወይሞቅሕዎሙ ለመላእክቲሃ ለኵሎሙ።
+11
+ወአንቲኒ ትሰክሪ ወትከውኒ እቡደ ወተኀሥሢ ለኪ ዘይባልሐኪ እምፀርኪ።
+12
+ወኢያድኅነኪ አጽዋኒኪ ወይሜምዑ መዓቅቢኪ ወይወድቁ ውስተ አፈ በላዒ።
+13
+ናሁ አሕዛብኪ ከመ አንስት በውስቴትኪ ወይትረኀው ለፀርኪ አናቅጸ ብሔርኪ፤¶ ይበልዖሙ እሳት ለመናስግቲኪ።
+14
+ናሁ ማይ ዐገተኪ፤ ፃኢ ወአጽንዒ አጽዋነኪ ዕረጊ ውስተ ፅቡር ወአጽብሪ በሐሠር ወአይብስዮ እምግንፋል።
+15
+እስመ በህየ ትበልዐኪ እሳት ወታጠፍአኪ ኲናት ወይበልዑኪ ከመ አንበጣ ወትከብዲ እምደገብያ።
+16
+ወአብዛኅኪ ተግባረኪ እምኮከበ ሰማይ፤¶ ደገብያ ነበረሂ ወሰረረ።
+17
+ወአምሠጡ ድሙራንኪ ከመ አንበጣ ዘይነብር ዲበ ጥቅም በዕለት ጊሜ ወእምከመ ሠረቀ ፀሐይ ይትገሐሥ ወኢያእመረት ብሔራ፤ አሌሎሙ።
+18
+እስመ ደቀሱ ኖሎትኪ፤¶ ንጉሠ ፋርስ አነሞሙ ለኀያላንኪ ወግዕዙ አሕዛቢኪ ውስተ አድባር ወአልቦ ዘይሬኢ ወዘይጸንሕ።
+19
+ወአልቦ ፈውሰ ለቍስልኪ፤¶ ኵሕሠ ጽልፅኪ ወኵሎሙ እለ ይሰምዑ ዜናኪ ወይጠፍሑ እደዊሆሙ ላዕሌኪ እስመ ላዕለ ኵሉ በጽሐት እከይኪ በኵሉ ጊዜ።
+ተፈጸመ ዘናሆም ነቢይ፤
+ወስብሐት ለእግዚአብሔር ለዓለመ ዓለም፡ ኣሜን።"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

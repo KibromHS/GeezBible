@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".old.HaggaiFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/parentLayout">
+
+            <TextView
+                android:id="@+id/text_john"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 1
+1
+በካልእት ዓመተ መንግሥቱ ለዳርዮስ ንጉሥ በሳድስ ወርኅ አመ ሠርቅ ኮነ ቃለ እግዚአብሔር በእደ ሐጌ ነቢይ ወይቤሎ፦ በሎ ለዝሩባቤል ወልደ ሰላትየል ዘሕዝበ ይሁዳ ወለዮሴዕ ወልደ ዮሴዴቅ ካህን ዓቢይ፤
+2
+ወበሎሙ፦ ከመዝ ይቤ እግዚአብሔር ዘኵሎ ይመልክ፦ ዝንቱ ሕዝብ ይብሉ፦ ኢኮነ ጊዜሁ ለሐኒጸ ቤተ እግዚአብሔር።
+3
+ወኮነ ቃለ እግዚአብሔር በእደ ሐጌ ነቢይ ወይቤሎሙ፦
+4
+እምጊዜሁ ለክሙ ከመ ትንበሩ ውስተ ቤት ጥፉር፡ ወቤትየስ ምዝቡር?
+5
+ወይእዜኒ ከመዝ ይቤ እግዚአብሔር ዘኵሎ ይመልክ፦ ሐልይዎ እስኩ በልብክሙ ፍናዊክሙ።
+6
+እስመ ዘራእክሙ ብዙኀ ወታአትዉ ኅዳጠ፤ ትበልዑ ወኢትጸግቡ ትሰትዩ ወኢትረውዩ ትትከደኑ ወኢትመውቁ፤ ወዘሂ ያስተጋብእ ዐስቦ አስተጋብአ ውስተ ዕቍር ስቁር።
+7
+ከመዝ ይቤ እግዚአብሔር ዘኵሎ ይመልክ፦ ሐልዩ ፍናዊክሙ።
+8
+ወዕረጉ ደብረ ወግዝሙ ዕፀወ ወሕንጹ ቤተ ወአሥምሩ ወሰብሑ፤ ይቤ እግዚአብሔር።
+9
+ርኢክሙ ብዙኀ ወኮነ ኅዳጠ ወአባእክሙ ቤተ ወነፋሕክዎ በእንተ ዝንቱ? ከመዝ ይቤ እግዚአብሔር ዘኵሎ ይመልክ፤ አስመ ቤትየ መዝበረ ወአንትሙሰ ትጼንዑ አብያቲክሙ ኵልክሙ።
+10
+በእንተ ዝንቱ ታቀውም ዝናመ ሰማይ እምላዕሉ ወምድርኒ ኢትሁብ ፍሬሃ።
+11
+ወኣመጽእ ኲናተ ላዕለ በሐውርት ወላዕለ እክል ወወይን ወቅብእ ወላዕለ ኵሉ ዘትፈሪ ምድር ወላዕለ ሰብእ ወእንሰሳ ወላዕለ ኵሉ ተግባረ እደዊሆሙ።
+12
+ወሰምዐ ዘንተ ዝርባቤል ወልደ ሰላቲየል ዘሕዝበ ይሁዳ ወዮሴዕ ወልደ ዮሴዴቅ ካህን ዓቢይ ወኵሎሙ ሕዝብ እለ ተርፉ ቃለ እግዚአብሔር አምላኮሙ ወቃለ ሐጌ ነቢይ ዘከመ ለአኮ እግዚአብሔር አምላኮሙ ኀቤሆሙ፤ ወፈርሁ ሕዝብ እምቅድመ ገጹ ለእግዚአብሔር።
+13
+ወይቤ ሐጌ መልአከ እግዚአብሔር ለሕዝብ፦ አነ ምስሌክሙ፡ ይቤ እግዚአብሔር።
+14
+ወአንሥአ እግዚአብሔር መንፈሰ ዝርባቤል ወልደ ሰላቲየል ዘሕዝበ ይሁዳ ወመንፈሰ ዮሴዕ ወልደ ዮሴዴቅ ካህን ዓቢይ ወመንፈሶሙ ለኵሎሙ እለ ተርፉ ሕዝብ።
+15
+ወቦኡ ይግበሩ ግብረ ቤተ እግዚአብሔር አምላኮሙ ዘኵሎ ይመልክ አመ ዕሥራ ወረቡዑ ለሳድስ ወርኅ ወበካልእት ዓመት።"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/text_john2"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 2
+1
+ወበሳብዕ ወርኅ አመ ሰዱሱ ለጽልመት ነበበ እግዚአብሔር በእደ ሐጌ ነቢይ ወይቤሎ፦
+2
+በሎሙ ለዝርባቤል ወልደ ሰላቲየል ዘሕዝበ ይሁዳ ወለዮሴዕ ወልደ ዮሴዴቅ ካህን ዓቢይ ወለኵሎሙ እለ ተርፉ ሕዝብየ፦
+3
+ወይቤ፦ መኑ እምኔክሙ ዘርእዮ ለዝንቱ ቤት ትርሲቶ ዘትካት? ወእፎ ትሬእይዎ ይእዜ አንትሙ ከመዘ ኢሀሎ ቅድሜክሙ?
+4
+ወይእዜኒ ጽናዕ ዝርባቤል፡ ይቤ እግዚአብሔር፤ ወይጽናዕ ዮሴዕ ወልደ ዮሴዴቅ ካህን ዓቢይ ወይጽንዑ አሕዛበ ምድር፡ ይቤ እግዚአብሔር፤ ወግበሩ ወአነ ምስሌክሙ ሀሎኩ፡ ይቤ እግዚአብሔር ዘኵሎ ይመልክ።
+5
+ወመንፈስየ ይቀውም ማእከሌክሙ፡ ወተአመኑ።
+6
+ከመዝ ይቤ እግዚአብሔር ዘኵሎ ይመልክ፦ ዓዲ ምዕረ ወአነ ኣድለቀልቃ ለሰማይ፡ ወለምድር፡ ወለባሕር፡ ወለየብስ፤
+7
+ወኣድለቀልቆሙ ለኵሎሙ አሕዛብ፡ ወይመጽእ ድኀሬሆሙ ለኵሎሙ አሕዛብ፤ ወእመልኦ ለዝንቱ ቤት ትርሲቶ ዘቀዳሚ፤ ይቤ እግዚአብሔር ዘኵሎ ይመልክ።
+8
+ዚአየ ውአቱ ወርቅ ወብሩር፤ ይቤ እግዚአብሔር ዘኵሎ ይመልክ።
+9
+ወይኄይስ ትርሲቱ ለዝንቱ ቤት ደኃሪ እምቀዳሚ፡ ይቤ እግዚአብሔር ዘኵሎ ይመልክ፤ ወእሁብ ሰላመ ለኵሉ ነፍስ እንተ ትትጌበር ወይትነሣእ ዝንቱ ሕዝብ።
+10
+አመ ተስዑ ለጽልመት ታስዕ ወርኅ በካልእ ዓመተ መንግሥቱ ለዳርዮስ ኮነ ቃለ እግዚአብሔር ኀበ ሐጌ ነቢይ ወይቤሎ፦
+11
+ከመዝ ይቤ እግዚአብሔር ዘኵሎ ይመልክ፦ ተሰአሎሙ ለካህናቲከ ሕገ፤
+12
+ወበሎሙ፦ እመ ለከፎ ለሰብእ ሥጋ ቅዱስ ጽንፈ ልብሱ ወለከፎ በዘፈረ ልብሱ፡ እመሂ ኅብስት ወእመሂ ወይን፡ ወእመሂ ብሱል ዘኮነ እምእክል፡ ወእመሂ እምቅብእ ቅዱስ ይትቄደስኑ? ወይቤሉ ካህናት፦ ኢይትቄደስ።
+13
+ወይቤሎሙ መልአክ፦ እመኬ ለከፎ ርኩስ ወሥኡብ ነፍስ ለነፍስ ይረኵስኑ እምኵሉ ዝንቱ? ወይቤሉ ካህናት፦ ይረኵስ።
+14
+ወይቤሎሙ መልአክ፦ ከማሁኬ ዝንቱ ሕዝብ ወነገድ በቅድሜየ፡ ይቤ እግዚአብሔር፤ ወከማሁኬ ኵሉ ግብረ እደዊሆሙ ወኵሉ ዘቀርቦሙ ይረኵስ በእንተ ተረፎሙ ዘበጽባሕ ይሣቀዩ በቅድመ ሕማሞሙ፤ ወትጸልእዎሙፈ ለእለ ይጌሥጽዎሙ በአናቅጸ።
+15
+ወይእዜኒ ሐልዩ በልብክሙ ዘእምአሜ ቀዳሚት ዕለት ወዘእምቅድሜሁ፤ ዘእንበለ ያንብሩ እብነ ዲበ እብን ውስተ ቤተ እግዚአብሔር።
+16
+መኑ አንትሙ አመ ትዘርኡ ሰገመ ዕሥራ ወታአትዉ ዕሥረ ሰገመ፤ ወትበውኡ ኀበ ምክያድ ትቅድሑ ኀምሳ ወትቀድሑ ዕሥራ።
+17
+ቀሠፍኩክሙ በዐባር ወበበረድ በኵሉ ተግባረ እደዊክሙ ወኢነሳሕክሙ ወኢተመየጥክሙ ኀቤየ፡ ይቤ እግዚአብሔር ዘኵሎ ይመልክ።
+18
+ሐልዩ በልብክሙ ዘእምአሜ ቀዳሚት ዕለት ወዘእምቅድሜሃ ዘእምአሜ ተሱዑ ለጽልመት ታስዕ ወርኅ ዘእምአመ ሣረሩ ቤተ እግዚአብሔር፤ ተዘከርዎ በልብክሙ።
+19
+ወትሬእዩ በውስተ ምክያደ እክል ወወይን ወበለስ ወሮማን ወዘይት ወኵሎ ዕፀ ዘይፈሪ እባርክ እምዮም።
+20
+ወኮነ ቃለ እግዚአብሔር በዳግም ኀበ ሐጌ ነቢይ አመ ተሱዑ ለጽልመት ወርኅ ወይቤሎ ለመልአክ፦
+21
+በሎ ለዝርባቤል ወልደ ሰላቲየል ዘሕዝበ ይሁዳ፦ ናሁ ኣድለቀልቃ ለሰማይ ወለምድር ወለባሕር ወለየብስ።
+22
+ወእገፈትእ መናብርተ ነገሥት ወእገፈትእ ሰረገላ፤ ወመስተጽዕናነ በአፍራሲሆሙ፤ ወይወርዱ መሰተጽዕናን በአፍራሲሆሙ ወይወርዱ መስተጽዕናን ምስለ አሰያፊሆሙ ኀበ ቢጾሙ።
+23
+ይእተ አሚረ፡ ይቤ እግዚአብሔር ዘኵሎ ይመልክ፤ ወኣነሥአከ ዝሩባቤል ወልደ ሰላቲየል ወእሬስየከ ከመ ማዕተብ እስመ ኪያከ ኀረይኩ። ይቤ እግዚአብሔር ዘኵሎ ይመልክ።
+ተፈጸመ ዘሐጌ ነቢይ፤ ወስብሐት ለእግዚአብሔር ለዓለመ ዓለም፡ ኣሜን።"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

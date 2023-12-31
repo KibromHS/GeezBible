@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".old.JonahFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/parentLayout">
+
+            <TextView
+                android:id="@+id/text_john"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 1
+1
+ወኮነ ቃለ እግዚአብሔር ኀበ ዮናስ ወልደ አማቴ፤ ወይቤሎ እግዚአብሔር ለዮናስ፦
+2
+ተንሥእ ወሖር ነኔዌ ሀገረ ዐባየ ወስብክ ሎሙ፤ እስመ ዓርገ ገዐረ እከዮሙ ኀቤየ።
+3
+ወሖረ ዮናስ ወተኀጥአ ብሔረ ተርሴስ እምገጸ እግዚአብሔር ጐይየ፤ ወወረደ ሀገረ ኢዮጴ፡ ወረከበ ሐመረ ዘይነግድ ብሔረ ተርሴስ፤ ወተዐሰበ ሐመረ በንዋዩ ወዓርገ ውስቴቱ ከመ ይንግድ ምስሌሆሙ ተርሴስ እስመ ተኃጥአ እምገጸ እግዚአብሔር።
+4
+ወአምጽአ እግዚአብሔር ነፋሰ ዓቢየ ውስተ ባሕር ወዓቢየ ማዕበለ ባሕር፤ ወተመንደበ ሐመሮሙ ከመ ይሰበር።
+5
+ወፈርሁ ኖትያት ወአውየዉ ኵሎሙ ኀበ አማልክቲሆሙ፤ ወአስተዋፅኡ ወገደፉ ውስተ ባሕር ንዋዮሙ ከመ ያቅልሉ ሐመሮሙ፤ ወወረደ ዮናስ ውስተ ከርሠ ሐመር ወኖመ ወንኀረ።
+6
+ወወረደ ኀቤሁ ዘይሔድፍ ሐመረ ወይቤሎ፦ ምንት ያነውመ? ተንሥእ ወጸውዕ አምላክከ ከመ ያድኅነነ እግዚአብሔር ወኢንሙት።
+7
+ወተባሀሉ በበይናቲሆሙ፦ ንዑ ንትዓፀው ወነአምር በበይነ መኑ ረከበተነ ዛቲ እኪት፤ ወተዓፀዉ ወወረደ ዕፅ ላዕለ ዮናስ።
+8
+ወይቤልዎ፦ ንግረነ በበይነ መኑ ረከበተነ ዛቲ እኪት፤ ምንት ተግባርከ? ወእምአይቴ መጻእከ? ወአይቴ ተሐውር? ወአይቴ ብሔርከ? ወምንት ሕዝብከ?
+9
+ወይቤሎሙ ዮናስ፦ ገብረ እግዚአብሔር አነ ወአምላኪየ እግዚአብሔር አምላከ ሰማይ ዘገብረ ባሕረ ወየብሰ።
+10
+ወፈርሁ እሙንቱ ዕደው ዓቢየ ፍርሀተ፡ ወይቤልዎ፦ ምንተ ገበርከ? ወአእመርዎ እሙንቱ ዕደው ከመ እምገጸ እግዚአብሔር ተኀጥአ እስመ ነገሮሙ።
+11
+ወይቤልዎ እሙንቱ ሰብእ፦ ምንተ እንከ ንረሲከ ወይኀድገነ ባሕር? እስመ ይትሀወክ ባሕር ወይትነሣእ ማዕበል ዓቢይ።
+12
+ወይቤሎሙ ዮናስ፦ ንሥኡኒ ወውርዉኒ ውስተ ባሕር ወየኀድገክሙ ባሕር፤ አነ አእመርኩ ከመ በእንቲአየ መጽአክሙ ዝንቱ ማዕበል ዓቢይ።
+13
+ወፈቀዱ ወተባአሱ ከመ ይትመየጡ መንገለ ምድር እሙንቱ ዕደው ወስእኑ፤ እስመ ትትሀወክ ባሕር ወትትነሣእ ማዕበል ላዕሌሆሙ።
+14
+ወአውየዉ ኵሎሙ ኅቡረ ኀበ እግዚአብሔር ወይቤሉ፦ ሐሰ ለከ እግዚኦ ኢታጥፍአነ በበይነ ነፍሱ ለዝንቱ ብእሲ ወኢትረሲ ላዕሌነ ደመ ጻድቅ፤ እስመ አንተ እግዚኦ ዘከመ ፈቀድከ ገበርከ።
+15
+ወነሥእዎ ለዮናስ ወወረውዎ ውስተ ባሕር ወአርመመት ባሕር።
+16
+ወፈርህዎ ለእግዚአብሔር እሙንቱ ዕደው ዓቢየ ፍርሀተ፡ ወሦዑ ለእግዚአብሔር መሥዋዕተ ወበፅዑ ብፅዓተ።
+17
+ወአዘዘ እግዚአብሔር ለአንበሬ ዓቢየ ከመ የኃጦ ለዮናስ፤ ወነበረ ዮናስ ውስተ ከርሠ አንበር ሠሉሰ መዋዕለ ወሠሉሰ ሌሊተ።"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/text_john2"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 2
+1
+ወጸለየ ዮናስ በውስተ ከርሠ አንበሪ ኀበ እግዚአብሔር አምላኩ ወይቤ፦
+2
+አውየውኩ በምንዳቤየ ኀበ እግዚአብሔር አምላኪየ፤ ወሰምዐኒ በውስተ ከርሠ ቀላይ ጽራኅየ ወሰምዐኒ ቃልየ።
+3
+ወወረወኒ ውስተ ልበ ቀላየ ባሕር ወዐገቱኒ አፍላግ ወመጽአ ላዕሌየ ኵሉ ማዕበልከ ወሞገድከ እንተ ላዕሌየ ኃለፈ።
+4
+ወአንሰ እቤ፦ ገደፍከኒኑ እንጋ እምቅድመ አዕይንቲከ እደግም እንጋ ርእየ ቤት መቅደስከ።
+5
+ውሕዘ ማይ እስከ ነፍስየ ወዐገቱኒ ቀላይ በታሕቱ ወተሰጥመ ርእስየ ውስተ ንቅዐታተ አድባር።
+6
+ወወረድኩ ውስተ ምድር እንተ ዕጽው መናስግቲሃ እምፍጥረተ ዓለም ወዓርገት እምኔየ እምነ ሙስና ሕይወትየ።
+7
+ወተዘከርክዎ ለእግዚአብሔር ሶበ ኀልቀት ነፍስየ እምላዕሌየ ትብጻሕ ጸሎትየ ኀቤከ ጽርሐ መቅደስከ።
+8
+ወእለሰ የዐቅቡ ከንቶ ወሐሰተ ገደፉ ሣሀሎሙ።
+9
+ወአንሰ በቃለ ጸሎትየ እገኒ ለከ ወእሠውዕ ለከ። ኵሎ ዘበፃዕኩ እፈድየከ በሕይወትዮ ለእግዚአብሔር።
+10
+ወተአዘዘ ውእቱ ዐንበሪ ወአውፅኦ ለዮናስ ውስተ ምድር።"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/text_john3"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 3
+1
+ወኮነ ቃለ እግዚአብሔር ዳግመ ኀበ ዮናስ ወይቤሎ፦
+2
+ተንሥእ ወሖር ነኔዌ ሀገረ ዓባይ ወስብክ ሎሙ በከመ ዘቀዲሙ ስብከት ዘእቤለከ አነ።
+3
+ወተንሥአ ዮናስ ወሖረ ነኔዌ በከመ ይቤሎ እግዚአብሔር፤ ወነኔዌሰ ዓባይ ሀገር ውእቱ ለእግዚአብሔር መጠነ ምሕዋረ ሠሉስ።
+4
+ወአልጺቆ ይባእ ሀገረ ሰበከ ምሕዋረ ዕለት፤ ወይቤ፦ እስከ ሠሉስ መዋዕል ትትገፈታእ ነኔዌ።
+5
+ወተአምኑ ሰብአ ነኔዌ በቃለ እግዚአብሔር ወሰበኩ ጾመ ወለብሱ ሠቀ ንኡሶሙ ወዓቢዮሙ።
+6
+ወሰምዐ ንጉሠ ነኔዌ ወተንሥአ እምነ መንበሩ ወለብሰ ሠቀ ወአእተተ አልባሲሁ ወነበረ ውስተ ሐመድ።
+7
+ወሰበከ ንጉሥ ለነኔዌ ወለዓበይቱ ወይቤ፦ ሰብእ ወእንስሳ ወላህም ወአባግዕ ኢይብልዑ ወኢምንተኒ፤ ወኢይትረፀዩ ወኢይስተዩ ማየ።
+8
+ወለብሱ ሠቀ ሰብእ ወእንሰሳ ወአውየዉ ኀበ እግዚአብሔር ኅቡረ ወኀደጉ ኵሎ እከየ ምግባሮሙ ወዐመፃ ዘውስተ እደዊሆሙ ወይቤሎ፦
+9
+መኑ ያአምር እመ ይኔስሕ እግዚአብሔር ወይመይጥ መቅሠፍተ መዐቱ ወኢንመውት እንክ?
+10
+ወርእየ እግዚአብሔር ምግባሮሙ ከመ ነስሑ እምፍኖቶሙ እኩይ፤ ወእግዚአብሔርኒ ነስሐ እምነ ዘነበበ እኩየ ከመ ይግበር ላዕሌሆሙ ወኢገብረ እኩየ።"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/text_john4"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 4
+1
+ወተከዘ ዮናስ ዓቢየ ትካዘ ወሐዘነ።
+2
+ወጸለየ ኀበ እግዚአብሔር ወይቤ፦ እግዚኦ አኮኑ ከመዝ እቤ በብሔርየ ወበእንተ ዝንቱ ተኀጣእኩ ተርሴስ? እስመ ኣአምር ከመ መሓሪ አንተ፡ ወመስተሣህል ርሑቀ መዐት ወብዙኀ ምሕረት ወጻድቅ ወትኔስሕ በእንተ እኪት።
+3
+ወይእዜኒ እግዚኦ ንሥኣ ለነፍስየ እምኔየ እስመ ይኄይሰኒ መዊት እምሐይው።
+4
+ወይቤሎ እግዚአብሔር ለዮናስ፦ ጥቀኑ ትቴክዝ አንተ?
+5
+ወእምዝ ወጽአ ዮናስ እምሀገር ወነበረ አንቀጸ ሀገር፡ ወገብረ ሎቱ ልገተ ወነበረ ታሕተ ጽላሎታ እስከ ይሬኢ ዘይከውን ሀገር።
+6
+ወአዘዘ እግዚአብሔር ሐምሐመ ወበቈለ ወጸለሎ መልዕልተ ርእሱ ለዮናስ ከመ ይጸልሎ እምፀሐይ እምሕማሙ፤ ወተፈሥሐ ዮናስ ዓቢየ ፍሥሓ በእንተ ሐምሐም።
+7
+ወአዘዘ እግዚአብሔር በሳኒታ ዕፄ ወቀተሎ ለዝኩ ሐምሐም ወየብሰት።
+8
+ወሠሪቆ ፀሐይ አዘዘ እግዚአብሔር ነፋሰ ሐሩረ እግዚእ ዘያውዒ፤ ወአሕመሞ ፀሐይ ርእሶ ለዮናስ ወዐንበዘ ወተቈጥዐ ነፍሶ ወይቤ፦ ይኄይሰኒ መዊት እምሐይው።
+9
+ወይቤሎ እግዚአብሔር ለዮናስ፦ ጥቀኑ ትቴክዝ በእንተ ሐምሐም? ወይቤ፦ ጥቀ ተከዝኩ እስከ ለሞት።
+10
+ወይቤሎ እግዚአብሔር፦ አንተሰ ኢትምሕክ ሐምሐመ ዘኢጻመውከ ወዘኢሰቀይከ ዘሌሊተ በቈለት ወሌሊተ ሞተት።
+11
+ወአንሰ ኢይምሕካ ለነነዌ ሀገር ዓቢይ ዘሀለወ ውስቴታ ሰብእ ፈድፋደ እምዐሠርቱ ወክልኤቱ እልፍ፤ እለ ኢፈለጡ ፀጋሞሙ እምየማኖሙ ወእንስሳ ብዙኅ?
+ተፈጸመ ዘዮናስ ነቢይ፤ ወስብሐት ለእግዚአብሔር ለዓለመ ዓለም፡ ኣሜን።"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

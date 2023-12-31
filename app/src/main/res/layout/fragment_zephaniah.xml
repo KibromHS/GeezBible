@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".old.ZephaniahFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/parentLayout">
+
+            <TextView
+                android:id="@+id/text_john"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 1
+1
+ቃለ እግዚአብሔር ዘኮነ ኀበ ሶፎንያስ ወልደ ኵስ ወልደ ጎዶልያ አሞራዊ ዘስየዴቅያ በመዋዕለ ዮስያ ወልደ አሞጽ ንጉሠ ይሁዳ።
+2
+ኀሊቀ የኀልቁ እምገጸ ምድር። ይቤ እግዚአብሔር።
+3
+የኀልቅ ሰብእ ወእንስሳ ወየኀልቅ አዕዋፈ ሰማይ ወዓሣተ ባሕር ወይደክሙ ኃጥኣን ወኣጠፍኦሙ ለዐማፅያን እምገጸ ምድር፤ ይቤ እግዚአብሔር።
+4
+ወኣነሥእ እዴየ ላዕለ ይሁዳ ወላዕለ እለ ይነብሩ ኢየሩሳሌም፡ ይቤ እግዚአብሔር፤ ወአስዕሮሙ እምዝንቱ ብሔር አስማቲሆሙ ለበዓል ወአስማተ ማረይት።
+5
+ወእለ ይሰግዱ ለከዋክብተ ሰማይ በአንሕሰት ወእለ ይምሕሉ በስመ እግዚአብሔር ንጉሦሙ።
+6
+ወእለ ይትገሐሡ እምእግዚአብሔር ወእለ ኢይትኤዘዙ ለእግዚአብሔር።
+7
+ፍርሁ እምቅድመ ገጹ ለእግዚአብሔር አምላክ አስመ አልጸቀት ዕለት እግዚአብሔር፤ እስመ አስተዳለወ እግዚአብሔር መሥዋዕቶ ወቀደሶሙ ለኀሩያኒሁ።
+8
+ወይከውን በዕለተ መሥዋዕቱ ለእግዚአብሔር ወእትቤቀሎሙ ለመላእክት ወለቤተ ንጉሥ ወለኵሎሙ እለ ይለብሱ እልባሰ ነኪር።
+9
+ወእትቤቀሎሙ ለኵሎሙ ገሃደ በውስተ አናቅጽ ይእተ አሚረ እለ ይመልኡ ቤተ እግዚአብሔር አምላኮሙ ዐመፃ ወጽልሑተ።
+10
+ወይከውን ይእተ ዕለተ፡ ይቤ እግዚአብሔር፤ ወይከውን ቃለ ኣውያት እምአናቅጽ ወእምእለ ይረግዙ ውውዓ እምውስጥ ወቀትል ዓቢይ በውስተ አውግር።
+11
+ብክዩ እለ ትነብሩ ውስተ ቀትል እስመ ይመስሉ ኵሉ እሕዛበ ከነአን ተሠረዉ ኵሎሙ እለ ይትዔበዩ በወርቅ።
+12
+ወይከውን ይእተ ዕለተ፡ ይቤ እግዚአብሔር፤ እፈትና ለኤሩሳሌም በማኀቶት ወእትቤቀሎሙ ለዕደው፡ እለ ያስተሐቅሩ ሕጎሙ፤ እለ ይብሉ፦ ኢያሤኒ ወኢያሐሥም እግዚአብሔር።
+13
+ወየኀስር ኀይሎሙ ወይትበረበር አብያቲሆሙ ወኢይነብርዎ ወይተክሉ ወይነ ወኢይሰትይዎ።
+14
+እስመ አልጸቀት ዕለተ እግዚአብሔር ዐበይ ቀርበት ወአፍጠነት ጥቀ፤ ድምፃ ለዕለት እግዚአብሔር መራር ወእኪት ጽንዕት ይአቲ።
+15
+ይአቲ ዕለት መንሱት ዕለተ ሕማም ወምንዳቤ ዕለተ ምምዓ ወሙስና ዕለተ ጽልመት ወቆባር ዕለተ ደመና ወጊሜ።
+16
+ዕለተ ቀርን ወውውዓ ለአህጉር ጽኑዓት ወላዕለ በሐውርት ልዑላት።
+17
+ወኣመነድቦሙ ለሰብእ ወየሐውሩ ከመ ዕዉራን እስመ አበሱ ለእግዚአብሔር፤ ወይክዕው ደሞሙ ከመ ጸበል ወሥጋሆሙ ከመ ፅፍዕ።
+18
+ወኢያድኅኖሙ እንከ ወርቆሙ ወብሩሮሙ እምዕለተ መዐቱ ለእግዚአብሔር፤ ወእምእሳተ ቅንአቱ ትጠፍእ ኵላ ምድር፤ እስመ ፍጡነ ያኀልቆሙ ለእለ ይነብሩ ውስተ ምድር።"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/text_john2"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 2
+1
+ተጋብኡ ወተጋነዩ ሕዝብ አብዳን።
+2
+ዘእንበለ ትኩኑ ከመ ጽጌ ይቡስ ዘወድቀ ዘእንበለ ትብጻሕክሙ መቅሠፍተ እግዚአብሔር ወዘእንበለ ትምጻእክሙ ዕለተ መዐቱ ለእግዚአብሔር።
+3
+ኀሥሥዎ ለእግዚአብሔር ኵል ክሙ ትሑታነ ምድር። ተገበሩ ጽድቀ ወኅሥሥዋ ለርትዕ ወአውሥእዋ ከመ ትትከደኑ እምዕለተ መዐቱ ለእግዚአብሔር።
+4
+እስመ ትትበረበር ጋዛ ወትጠፍእ አስቃሎን ወይገፈትእዋ ለአዛጦን ቀትረ ወይሤርውዋ ለአቃሮን።
+5
+አሌ ሎሙ ለፈላስያን እለ ይነብሩ ጠቃ ባሕር ፈላሲያነ ቀሬጤ። ቃለ እግዚአብሔር ላዕሌክሙ ምድረ ኢሎፍሊ ወያጠፍአክሙ እምነ በሓውርቲክሙ።
+6
+ወትከውን ቀሬጤ ጺኦተ መራዕይ ወምርዓየር አባግዕ።
+7
+ወይከውን በሓውርተ ብሔር ላዕለ ተረፈ ቤተ ይሁዳ ወይትረዐይዎሙ በውስተ አብያተ አስቃሎን። ድንጉፃኒሆሙ ይነብሩ እምቅድመ ገጾሙ ለደቂቀ ይሁዱ። እስመ ተሣሀሎሙ እግዚአብሔር አምላኮሙ ወሜጠ ፄዋሆሙ።
+8
+ወሰምዑ ጽዕለተ ሞአብ ወኵርዐቶሙ ለደቂቀ ዐሞን ዘከመ አኅሰርዎሙ ለሕዝብየ ወተዘኀሩ ላዕለ ብሔርየ።
+9
+በእንተ ዝንቱ ሕያው አነ፡ ይቤ እግዚአብሔር ኀያል አምላከ እስራኤል፤ እስመ ሞአብኒ ከመ ሰዶም ትከውን ወደቂቀ ዐሞንሂ ከመ ጎሞራ ወደማስቆኒ ተኀልቅ ከመ ክምረ እክል ወትማስን ለዓለም፤ ወእለ ተርፉ ሕዝብየ ይበረብርዎሙ ወእለ ተርፉ ሕዝብየ ይወርስዎሙ።
+10
+ወዛቲ ትከውኖሙ ህየንተ ጽዕለቶሙ እስመ አመ ነስሑ ወተዐበዩ ላዕለ እግዚአብሔር ዘኵሎ ይመልክ።
+11
+ወያመጽእ እግዚአብሔር ላዕሌሆሙ ወይሤርዎሙ ለኵሎሙ አማልክተ አሕዛበ ምድር ወይሰግዱ ሎቱ ኵሎሙ በበሓውርቲሆሙ ኵሉ ደሰያተ አሕዛብ።
+12
+ወአንትሙሂ ኢትዮጵያ ቅቱላን በኲናት አንትሙ።
+13
+ወአነሥእ እዴየ ላዕለ ደቡብ ወኣጠፍኦሙ ለፋርስ። ወእሬስያ መዝብረ ለነኔዌ ወከመ በድው ዘአልቦ ማየ።
+14
+ወይትረዐዩ መራዕይ በማእከላ፡ ወኵሎሙ አራዊተ ገዳም ወኵሉ አራዊተ ምድር ወይነብሩ አቃርብት ውስተ ጺኦታ ወይነቅዉ አርዌ ገዳም በውስተ አፍላጊሃ ወቋዓት በውስተ አናቅጺሃ።
+15
+እስመ ከመ አርዝ ኑኃ ለዛቲ ሃገር ዓማፂት እንተ ትነብር ተአሚና እንዘ ትብል በልባ፡ አነ ይእቲ ወአልቦእንተ ከማይ፤ እፎ እንከ ማሰነት ወኮነት ምርዐየ ለአራዊተ ገዳም ወኵሉ ዘየኃልፍ እንተ ላዕሌሃ ይትፋፀይ ወይጠፍሕ በእደዊሁ እንዘ ይብል።"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/text_john3"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 3
+1
+ኦላሕይ ወሠናይት ርግብ ሀገር እንተ ኢትሰምዕ፤
+2
+ወኢትትወከፍ ተግሣጸ ወኢትትወከል ለእግዚአብሔር፡ ወኢቀርበት ኀበ አምላካ።
+3
+ወመላእክቲሃኒ በውስቴታ ይጥሕሩ ከመ አንበሳ ወዐበይታኒ ከመ ተኵላተ ዐረብ እለ ኢያበይቱ ሎሙ ለነግህ።
+4
+ወነብያቲሃኒ ዕደው መስተእብዳን ካህናትሃኒ ያረኵሱ መቅደሰ ወየዐልዉ ሕገ።
+5
+ወጻድቅሰ በማእከላ ኢይገብር ዐመፃ ከመ በጽባሕ ይሁብ ኵነኔሁ ወኢይመውኦ እንከ ዓማፂ።
+6
+ወነፃኅክዎሙ ለዕቡያን በሞት፡ ወኣማስን በሓውርቲሆሙ፡ ወኣበዲ ፍኖቶሙ ለግሙራ ከመ ኢይክሀሉ ኀሊፈ ውስቴታ፡ ወኀልቀ አህጉሪሆሙ ወአልቦ ዘተርፈ ዘይነብሮን።
+7
+ወእቤ፦ ፍርሁኒ ወተወከፉ ተግሣጽየ ወኢትሤረዉ እምቅድመ አዕይንቲሃ ወለኵሉ ዘተበቀልክዋ ትደሎ ትጊሥ እስመ ማሰነ ኵሉ ሠርጾሙ።
+8
+በእንተ ዝንቱ ተዐገሠኒ ለአሜ እትነሣእ፡ ይቤ እግዚአብሔር፤ ከመ እስዐር እስመ ኵነኔየ ላዕለ ማኅበረ አሕዛብ ከመ ይትመየጡ ነገሥት፤ ወእክዑ ላዕሌሆሙ መቅሠፍተ መዐትየ እስመ ታጠፍኣ ለኵላ ምድር እሳተ ቅንአትየ።
+9
+እስመ ይእተ አሚረ እመይጥ ልሳኖሙ ለኵሎሙ አሕዛብ በመዋዕሊሃ ከመ ኵሉ ይጸውዕ ስመ እግዚአብሔር ወከመ ይትቀነዩ ሎቱ በአሐዱ አርዑት።
+10
+ውእማዕዶተ አፍላገ ኢትዮጵያ ያመጽኡ ሎቱ መሥዋዕተ።
+11
+ይእተ አሚረ ኢትትኀፈር እምኵሉ ጌጋይከ ዘአበስከ ሊተ፤ ይእተ አሚረ ኣአትት እምኔከ ኀሳረ ጽዕለትከ ወኢትደግም እንከ አዕብዮ አፉከ ላዕለ ደብረ መቅደስየ።
+12
+ወኣተርፍ ሕዝበ ብዙኃነ ለከ ዘይውኀጠከ፤ ወይፈርሁ ስመ አግዚአብሔር።
+13
+እለ ተርፉ እስራኤል ኢይገብሩ እንከ ዐመፃ ወኢይነቡ ከንቶ ወኢይትረከብ ውስተ አፉሆሙ ልሳነ ጽልሑት፤ ወይነብሩ ወይትረዐዩ ወአልቦ ዘይጌርሞሙ አንከ።
+14
+ተፈሥሒ ወለተ ጽዮን ወስብኪ ወለተ ኢየሩሳሌም፤ ተፈሥሒ ወተሐሠይ በኵሉ ልብኪ ወለተ ኤሩሳሌም።
+15
+እስመ አእተተ እግዚአብሔር ግፍዐኪ ወባልሐኪ እምእደ እኩይ፤ ወይነግሥ እግዚአብሔር በማእከሌኪ ወኢትሬእዪ እንከ እኪተ።
+16
+ይእተ አሚረ ይብላ እግዚአብሔር ለኤሩሳሌም፦ አጥብዒ ጽዮን ወኢይድከማ እደዊኪ።
+17
+እስመ እግዚአብሔር አምላክኪ ምስሌኪ ወውአቱ ይክል አድኀኖተኪ ወያመጽእ ላዕሌኪ ፍሥሓ ወይሔድሰኪ በፍቅሩ ወይትፌሣሕ ብኪ በሐሤት ከመ ዕለተ በዓል።
+18
+ወኣስተጋብኦሙ ለፂዉዋንኪ ለቅጥቁጣንኪ አሌሎ ለዘአነሥአ ጽዕለተ ላዕሌሃ፤ ናሁ አነ እገብር በውስቴትኪ ወበአንቲአኪ።
+19
+ይእተ አሚረ ይቤ እግዚአብሔር፤ ወኣድኅና ለግድፍት ወእትወከፋ ለምንድብት ወእሬስዮሙ ለምክሕ ወስሙያነ በኵሉ ምድር።
+20
+ወይትኀፈሩ ብኪ ይእተ አሚረ አመ አሠነይኩ ለኪ ወአመ ተወከፍኩክሙ፤ ወእሬስየክሙ ስሙያነ ወምክሐ ለአሕዛቢሃ አመ ሜጥኩ ፄዋክሙ በቅድሜክሙ፤ ይቤ እግዚአብሔር።
+ተፈጸመ ዘሶፎንያስ ነቢይ፤ ወስብሐት ለእግዚአብሔር፡ ኣሜን።"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

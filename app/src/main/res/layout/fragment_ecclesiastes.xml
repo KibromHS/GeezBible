@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".old.EcclesiastesFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/parentLayout">
+
+            <TextView
+                android:id="@+id/text_john"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 1
+1
+ቃለ መክብብ ወልደ ዳዊት ንጉሠ እስራኤል በኢየሩሳሌም።
+2
+ከንቱ ከንቱ ይቤ መክብብ ከንቱ ከንቱ ኵሉ ከንቱ።
+3
+ምንት ፍድፋዱ ለሰብእ በኵሉ ጻማሁ ዘይጻሙ እምታሕተ ፀሓይ።
+4
+ትውልድ የሐልፍ ወትውልድ ይመጽእ ወምድርሰ ለዓለም ትቀውምወ።
+5
+ይሠርቅ ፀሓይ ወየዐርብ ፀሓይ ወውስተ መከኑ ይገብእ እንዘ ይሠርቅ ውእቱ ህየ።
+6
+ይገብእ በይምን ወየአውድ መንገለ ሰሜን አውደ የአውድ ወየሐውር መንፈስ ወበኡደቱ ይገብእ መንፌስ።
+7
+ኵሉ ወሓይዝት የሐውራ ውስተ ባሕር ወባሕር ኢኮነት እንተ ትመልእ ውስተ መካን ውእደ የሐውሩ አፍላግ ህየ ካዕበ ይትመየጡ በሐዊር።
+8
+ኵሉ ቃል ዘበ ሕማም ኢይክል ብእሲ ለተናግሮ ኢይጸግብ ዓይን በርእይ ወኢይመልእ እዝን በአጽምኦ።
+9
+ምንት ዘተገብረ ውእቱ ዘተገብረ ምንት ዘኮነ ውእቱ ዘከመ ኮነ ወአልቦ ምንትኒ ዘተገብረ እምታሕተ ፀሓይ።
+10
+ዘይነብብ ወይብል፦ ናሁዝ፡ ሐዲስ ውእቱ ናሁ ተገብረ እምዓለም ዘኮነ እምቅድሜነ።
+11
+አልቦ ዝክረ ለቀደምት ወለእለ ደኃርትኒ ተገብሩ አልቦሙ ዝክረ ምሳሌ ዘይትገበር በደኃርት።
+12
+አነ መክብብ ኮንኩ ንጉሠ ላዕለ እስራኤል በኢየሩሳሌም።
+13
+ወወሀብኩ ልብየ ለኃሢሠ ወለፈቲን በጥበብ በእንተ ኵሉ ዘተገብረ እምታሕተ ሰማይ እስመ ስራሕ እኩየ ወሀቦ እግዚአብሔር ለውሉደ ሰብእ ከመ ይስርሑ ቦቱ።
+14
+ርኢኩ ኵሎ ፍጥረተ ዘተገብረ መትሕተ ፀሓይ ወናሁ ኵሉ ከንቱ ወከመ እስትንፋስ መንፈስ።
+15
+ጠዋይ ኢይትከሀል ረቲዕ ወኅጹጽ ኢይትከሀል ተኆልቆ።
+16
+ተናገርኩ አነ በልብየ በብሂል ናሁ አነ ተዐበይኩ ወአፈድፈድኩ ጥበበ ዲበ ኵሉ እምእለ ኮኑ እምቅድሜየ በኢየሩሳሌም ወልብየኒ ርእየት ብዙኅ ጥበበ ወአእምሮ።
+17
+ወሀብኩ ልብየ ለአእምሮ ወጥበብ ምሳሌ ወትምህርተ አእመርኩ እስመ ዝኒ ውእቱ ፍትወተ መንፈስ።
+18
+እስመ በብዝኀ ጥበብ ብዝኀ አእምሮ ወዘአፈድፈደ አእምሮ አፈድፈደ ሕማመ።"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/text_john2"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 2
+1
+እቤ አነ በልብየ፦ ነዓ አምከርከ በፍሥሐ ወርኢ በሠናይ ወናሁ ዝኒ ከንቱ።
+2
+ወለሰሐቅ እብሎ፦ አሰፍጠ፡ ወለፍሥሐ፦ ምንት ውእቱ ዝግብር?
+3
+ወመከርኩ እምልብየ ወሰሐቦ ከመ ወይን ለሥጋየ ወልብየ መርሐኒ ጥበብ ወዝሂ እኂዝ በፍሥሐ እስከ ሶበ እሬኢ ምንት ሠናይ ለውሉደ ሰብእ ዘይገብሩ እምታሕተ ፀሓይ በኆልቈ መዋዕለ ሕይወቶሙ።
+4
+አዕበይኩ ምግባርየ ሐነጽኩ ሊተ አብያተ ወተከልኩ ሊተ አዕጸዳተ ወይን።
+5
+ወገበርኩ ሊተ አዕጻዳተ ሐምል ወገነታተ ወተከልኩ ውስቴቶሙ ዕፀ ዘኵሎ ፍሬ።
+6
+ገበርኩ ሊተ ምሕጻበተ ማያት ከመ እስቂ እምኔሆሙ ኦመ ወዕፀ ዘይፈሪ።
+7
+ወአጥረይኩ አግብርተ ወአእማተ ወልደ ቤት አጥረይኩ ወጥሪተ ኖሎት ወአልህምተ ወመራዕየ አባግዕ ብዙኀ አጥረይኩ እምኵሎሙ እለ ኮኑ እምቅድምየ በኢየሩሳሌም።
+8
+አስተጋባእኩ ሊተ ብሩረ ወወርቀ መጥሪተ መንግሥት ወበሐውርት ገበርኩ ሊተ ኀላያነ ወኀላይያተ ወፍግዐ ምስለ ውሉደ ሰብእ መዘርተ ወመዘርየነ።
+9
+ዐበይኩ ወአፈድፈድኩ እምኵሎሙ እለ ኮኑ እምቅድሜየ በኢየሩሳሌም ወጥበብየኒ ቆመተኒ።
+10
+ወኵሎ ዘሰአለተኒ አዕይንትየ ኢተመቈስኩ ወኢከላእኩ ልብየ እምኵሉ ፍሥሐ እስመ ልብየ ተፈሥሐ እምኵሉ ጻማየ ወዝ ኮነ መክፈልትየ እምኵሉ ስራኅየ።
+11
+ወነጸርኩ አነ ዲበ ኵሉ ጥሪትየ ዘገብራ እደዊየ ወበሥራሕ ዘሠራኅኩ ለገቢር ወናሁ ኵሉ ከንቱ ወፍትወተ መንፈስ ወአልቦ ፈድፋደ እምታሕተ ፀሓይ።
+12
+ወነጸርኩ አነ ከመ እርአይ ጥበበ ወተሠፍጠ ወእበደ መኑ ብእሲ ዘይተሉ ድኅሬሃ ለምክር ኵሉ ምሳሌ ዘገብረ ላቲ።
+13
+ወርእኩ አነ ከመቦ ፍድፍድና ጠቢብ እምአብድ ከመ ፈድፋድ ብርሃን እምጽልመት።
+14
+ለጠቢብ አዕይንቲሁ ዲበ ርእሱ ወአብድሰ ውስተ ጽልመት የሐውር ወአእመርኩ አነ ከመ አሐዱ ድድቅ ይዳድቆሙ ለክልኤሆው።
+15
+ወእቤ አነ በልብየ፦ ከመ ይዳድቆ ለአብድ ከማሁ ሊተኒ ይዴድቀኒ፡ ወለምንት ጠበብኩ አነ አሜሃ በከ አፈድፈድኩ ነቢበ በልብየ እስመ ዝኒ ከንቱ አብድ በከ ያፈደፍድ ነቢበ እስመ።
+16
+እስመ አልቦ ዝክረ ለጠቢብ ምስለ አብድ ለዓለም እስመ ናሁ መዋዕል ይመጽአ ወኵሉ ይትረሳዕ ወእፎ ይመውት ጠቢብ ምስለ አብድ።
+17
+ወጸላእኩ ኵሎ ሕይወተ እስመ እኩይ ላዕሌየ ፍጥረት ዘተገብረ መትሕተ ፀሓይ እስመ ኵሎ ከንቱ ወፍትወተ መንፈስ።
+18
+ወጸላእኩ አነ ኵሎ ሥራኅየ ዘአነ እሠርሕ እመትሕተ ፀሓይ እስመ አሐድጎ ለሰብእ እምድኅሬየ ዘይትወለድ።
+19
+ወመኑ ያአምር እመ ጠቢበ ይከውን ወእመ አብድ ወእመ ይሠለጥ በኵሉ ሥራሕየ ዘሠራሕኩ ወዘጠበብኩ እመትሕተ ፀሓይ ወዝኒ ከንቱ።
+20
+ወተመየጥኩ አነ ከመ እተዋገዘ ለልብየ በኵሉ ሥራኀ ዘሠራሕኩ እመትሕተ ፀሓይ።
+21
+እሰመ ሰብእ ዘኢሠርሕ ሎቱ በጥበብ ወበአእምሮ ወበጽንዕ ወብእሲ ዘኢሠርሕ ቦቱ ይሁብ ርእሶ ለመክፈልቱ ወዝኒ ከንቱ ወእኩይ ዓቢይ።
+22
+እስመ ይከውኖ ለብእሲ በኵሉ ጻማሁ ወፍትወተ ልቡ ዘውእቱ ይሰርሕ እመትሕተ ፀሓይ።
+23
+እስመ ኵሎን መዋዕሊሁ ሕማም ወመዐት ወንታፌ ሎቱ ወበሌ ሊትኒ ኢትነውም ልቡ ወዝኒ ከንቱ ውእቱ።
+24
+አልቦ ሠናየ ለሰብእ ዘእንበለ ዘበልዐ ወሰትየ ወዘያርእያ ሠናየ ለነፍሱ ወዘኒ ርኢኩ ከመ እምእደ እግዚአብሔር ውእቱ።
+25
+መኑ ውእቱ ዘይበልዕ ወይሰቲ ዘእንበሌሁ?
+26
+እስመ ለሰብእ ኄር ቅድመ ገጹ ወሀበ ጥበበ ወአእምሮ ወፍሥሐ ወለዘሰ ይኤብስ ወሀበ ሥራሐ ከመ ይወስክ ወከመ ያስተጋብእ ከመ የሀብ ለኄር ቅድመ ገጸ እግዚአብሔር እስመ ዝኒ ከንቱ ወፍትወተ መንፈስ።"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/text_john3"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 3
+1
+ቦለኵሉ ዘመን፡
+ወጊዜ ለኵሉ ምግባር ዘታሕተ ፀሓይ።
+2
+ጊዜ ለወሊድ ወጊዜ ለመዊት፡
+ጊዜ ለተኪል ወጊዜ ለመሊኅ ዘተከሉ።
+3
+ጊዜ ለቀቲል ወጊዜ ለፈውሶ፡
+ጊዜ ለነሢት ወጊዜ ለሐኒጽ።
+4
+ጊዜ ለበኪይ ወጊዜ ለስሒቅ፡ ጊዜ ለላሕዎ ወጊዜ ለዘፊን።
+5
+ጊዜ ለወርዎ እብን ወጊዜ ለአስተጋብኦ እብን፡
+ጊዜ ለተሐቅፎ ወጊዜ ለተራሕቆ እምሑቃፌ።
+6
+ጊዜ ለኅሢሥ ወጊዜ ለሐጕል፡
+ጊዜ ለዐቂብ ወጊዜ ለአውፅኦ።
+7
+ጊዜ ለሠጢጥ ወጊዜ ለረፊእ፡
+ጊዜ ለአርምሞ ወጊዜ ለተናግሮ።
+8
+ጊዜ ለአፍቅሮ ወጊዜ ለጸሊእ፡
+ጊዜ ለጸልእ ወጌዜ ለሰላም።
+9
+ምንተ ፈድፋዱ ለዘ ይገብር በዘ ውእቱ ይሠርሕ?
+10
+ርኢኩ ኵሎ ሥሩኅ ዘወሀቦ እግዚአብሔር ለውሉደ ሰብእ ሥራሐ ከመ ይሥርሑ ቦቱ።
+11
+ኵሎ ዘገብረ ሠናየ በጊዜሁ ወኵሎ ኅቡረ ወሀበ ለዓለም ውስተ ልቦሙ ከመ ኢይርከብ ሰብእ ግብረ ዘገብረ እግዚአብሔር እምጥንቱ እስከ ተፍጻሜቱ።
+12
+አእመርኩ ከመ አልቦ ሠናየ ውስቴቶሙ ዘእንበለ ተፈሥሐ ወገቢረ ሠናይ በሕይወቱ።
+13
+ወኵሉ ሰብእ ዘበልዐ ወሰትየ ወርእየ ሠናየ እምኵሉ ጻማሁ ዝሀብተ እግዚአብሔር ውእቱ።
+14
+አእመርኩ ከመ ኵሉ ዘገብረ እግዚአብሔር ውእቱ ይሄሉ ለዓለም ወውእቶሙ ኢይትከሀል ወስኮ ወእምውስቴቶሙ ኢይትከሀል ነቲግ ወእግዚአብሔር ገብረ ከመ ይፍርሁ እምቅድመ ገጹ።
+15
+ወዘተገብረ ናሁ ሀሎ ወኵሉ ዘእምተገብረ ናሁ ተገብረ ወእግዚአብሔር የኀሥሥ ለዘ ይስድድ።
+16
+ወዲዲ ርኢኩ ዘእምታሕተ ፀሓይ በመካነ ጻድቅ ህየ ረሲዕ ወበመካነ ረሲዕ ህየ ጻድቅ በህየ።
+17
+ወእቤ አነ በልብየ፦ ኅቡረ ጻድቅ ወረሲዕ ይኳንን እግዚአብሔር እስመ ጊዜ ለኵሉ ምግባር ወበኵሉ ግብር ወበህየ።
+18
+አቤ አነ በልብየ፦ በእንተ ነገረ ውእቱ ውሉደ ሰብእ ከመ ይኳንኖሙ እግዚአብሔር ወከመ ያርኢ ከመ እንስሳ እሙንቱ።
+19
+ወሎሙ ድድቅ ለውሉደ ሰብእ ወድድቅ እንስሳ አሐዱ ድድቅ ሎሙ ከመ ሞተዝ ከማሁ ሞቱ ለዝ ወአሐዱ መንፈስ ለኵሎሙ ወምንት ፈድፈደ ሰብእ እም እንስሳ ወኢምንተኒ እስመ ኵሉ ከንቱ።
+20
+ኵሉ ዘየሐውር ውስተ አሐዱ መካን ኵሉ ኮነ እመሬት ወኵሉ ይገብእ ውስተ መሬት።
+21
+መኑ ያአምር መንፈስ ለውሉድ ሰብእ እመ ያዐርግ ውእቱ ላዕለ ወመንፈስ እንስሳ እመ ይወርድ ውእቱ። ታሕተ ውስተ ምድር።
+22
+ወርኢኩ ከመ አልቦ ሠናየ ዘእንበለ ዘተፈሥሐ ሰብእ በተግባሩ እስመ ውእቱ መክፈልቱ መኑ ያመጽኦ ከመ ይርአይ ዘይከውን እምድኅሬሁ።"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/text_john4"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 4
+1
+ወተመየጥኩ አነ ወርኢኩ ኵሎ ኅቡረ ትእግልተ ዘይትገበር መትሕተ ፀሓይ ወናሁ አንብዕ ለእለ ይትኤገልዎሙ ወአልቦ ዘይናዝዞሙ እምእደ ይትዔገልዎሙ ወኃይል አልቦሙ ለዘይናዝዝዎሙ።
+2
+ወአስተኀየስክዎሙ አነ ኅቡረ ለእለ ሞቱ እሉ ወድኡ ሞቱ እምሕያዋን እሉ እሙንቱ ሕያዋን እስከ ዮም።
+3
+ወእምእሉ ክልኤሆሙ ይኄይስ ዓዲ ኢተፈጥሮ ዘኢያኣምር ኵሎ ገቢረ እከይ ዘተገብረ መትሕተ ፀሓይ።
+4
+ወርኢኩ አነ ኵሎ ሥራሐ ኅቡረ ወኵሎ ኅይለ ምግባር ከመ ውእቱ ቅንእ ለብእሲ አምኀበ ቢጹ ወዝኒ ከንቱ ወፍትወተ መንፈስ።
+5
+አብድ ሐቀፈ እዴሁ ወበልዐ ሥጋሁ።
+6
+ሠናይ ምልአ እድ በዕረፍት እምነ ክልኤ ዘበዐመፃ ወፍትወተ መንፈስ።
+7
+ወተመየጥኩ አነ ወርኢኩ ከንቶ መትሕተ ፀሓይ።
+8
+ሀሎ አሐዱ ወአልቦ ካልእ ወውሉድ ወእኈ አልቦቱ ወአልቦ ፍጻሜ ለኵሉ ስራሑ ወዐይኑሂ ኢይመልእ ብዕለ ወለመኑ አነ እሠርሕ ወእቄቅያ ለነፍስየ እምፍግዕ ወዝኒ ከንቱ ወሥራሕ እኩይ ውእቱ።
+9
+ይኄይሱ ክልኤቱ እምአሐዱ እለ ቦሙ ዐስበ ሠናየ በጸማሆሙ።
+10
+እስመ እመ ወድቀ አሐዱ ያነሥኦ ካልኤ ወአሌ ሎቱ ለአሐዱ ለእመ ወድቀ ወአልቦ ካልእ ዘያነሥኦ።
+11
+እስመ እመ ኖሙ ክልኤሆሙ ይመውቁ ወአሐዱሰ እፎ ይትማወቅ።
+12
+ወእመ ተፀንዐ አሐዱ ክልኤሆሙ ይትቀውምዎ ወፈትል ሥሉስ ፍጡነ ኢይትበተክ።
+13
+ይኄይስ ቅኑይ ነዳይ ወጠቢብ እምንጉሥ ልሂቅ ወአብድ ዘኢያአመረ ለነጽሮ ዓዲ።
+14
+ከመ እምቤተ ሞቅሕ ይወፅእ ለነጊሥ እስመ በመንግሥቱ ኮነ ነዳየ።
+15
+ወርኢኩ ኵሎ ኅቡረ እለ ሕያዋን እለ ያንሶስዉ መትሕተ ፀሓይ ምሳሌ ወሬዛ ካልእ ይትነሣእ ህየንቴሁ።
+16
+አልቦ ፍጻሜ ለኵሉ ሕዝብ ለኵሎሙ እለ ኮኑ እምቅድሜሁ እሰመ ደኃርትኒ ኢይትፌሥሑ ቦቱ እስመ ዝኒ ከንቱ ወፍትወተ መንፈስ።"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/text_john5"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 5
+1
+ዕቀብ እገሪከ ሶበ ተሐውር ኀበ እግዚአብሔር ወቅረብ ለሰሚዕ እምነ ሀብቶሙ ለአብዳን መሥዋዕተከ እስመ ኢኮኑ ማእምራነ ለገቢረ ሠናይ።
+2
+ኢትጐጒእ በአፉከ ወልብከ ኢይጐጒእ ለአውፅኦ ቃል እምቅድመ ገጸ እግዚአብሔር እስመ እግዚአብሔር ውስተ ሰማይ ላዕለ ወአንተሰ ውስተ ምድር በእንተ ዝንቱ ይኩን ነገርክ ኅዳጠ።
+3
+እስመ ይመጽእ ሕልም በብዙኅ መከራ ወቃለ እበድ በብዝኀ ነገር።
+4
+እምከመ ጸለይከ ጸሎተ ለእግዚአብሔር ኢታጐንዲ ውሂቦተ እስመ አልቦ ፈቃዶ ለአብዳን አንተሰ በከመ ፀለይከ ሀብ።
+5
+ይኄይስ ኢጸልዮተከ እምጸልዮተከ ወኢውሂብ።
+6
+ኢተሀብ አፉከ ለአበሳ ሥጋከ ወኢትበል በቅድመ ገጹ ለእግዚአብሔር በኢያእምሮ ውእቱ ከመ ኢይትመዐዕ እግዚአብሔር በእንተ ቃልከ ወያማስን ግብረ እደዊከ።
+7
+እስመ በብዝኀ ሕልም ወከንቱ ወንበብ ብዙኅ ወኅቡረ እግዚአብሔር ፍራህ።
+8
+እመ ትእግልተ ነዳይ ወሀይደ ፍታሕ ጽድቀ ርኢከ በብሔር ኢታንክር በምግባር እስመ ልዑል መልዕልተ ልዑል የዐቅብ ወልዑላ ዲቤሆሙ።
+9
+ወፈድፋደ ምድር ላዕለ ኵሉ ውእቱ ንጉሥ ዲበ ወፍረ ሐረስት።
+10
+ዘያፈቅር ብሩር ኢይጸግብ ብሩረ ወዘሂ አፍቀረ ብዙኀ እክለ ወዝኒ ከንቱ።
+11
+በብዝኅ ጥሪት ብዙኀ እለ ይበለዕዋ ወምንተ ጽንዑ ለዘ ይቀርባ እስመ ይኴንን እሰከ ርእየ ዐይን።
+12
+ጥዑም ንዋም ለገብር እመ ኅዳጥ ወእመ ብዙኀ በልዐ ወለዘ አብዝኀ በሊዐ አልቦ ዘየኅድጎ ይኑም።
+13
+ቦ ደዌ ዘርኢኩ በመትሕተ ፀሓይ ብዕል ዘይትዓቀብ በኀበ ዘአጥረዮ ለእከይ።
+14
+ወይትሐጐል ውእቱ ብዕል በንታፌ እኩይ ወወለደ ወልደ ወአልቦ ውስተ እዴሁ ወኢምንተኒ።
+15
+በከመ ወጽአ እምከርሠ እሙ ዕራቁ ይትመየጥ ለገቢእ ከመ መጽአ ወአልቦ ዘይነሥእ እምጻማሁ ከመ ይሖር ምስሌሁ።
+16
+ወዝኒ እኩይ ደዌ ውእቱ እስመ በከመ መጽአ ከማሁ የሐውር ወምንተ ፍድፋዴሁ ዘይጸሙ ለነፍሱ።
+17
+እስመ ኵሉ መዋዕሊሁ ውስተ ጽልመት ወላሕ ወበቊጥዓ ብዙኅ ወዴ ወሐዘን።
+18
+ወባሕቱ ናሁ ዘርኢኩ አነ ኄርት ዘይአቲ ሠናይት በሊዕ ወሰቲይ ወርኢየ ፍግዕ በኵሉ ሥራሑ ዘሠርሐ በመትሕተ ፀሓይ ኆልቈ መዋዕለ ሕይወት ዘወሀቦ እግዚአብሔር እስመ ውእቱ መክፈልቱ።
+19
+ወኵሎ ሰብእ ዘወሀቦ እግዚአብሔር ብዕለ ወጥሪተ ወአሠለጦ ከመ ይብላዕ እምውስቴቱ ወይንሣእ መክፈልቶ ወከመ ይትፈሣሕ እምጻማሁ ዝሀብተ እግዚአብሔር ውእቱ።
+20
+እስመ አኮ ብዘኀ ዘይዜከር መዋዕለ ሕይወቱ እስመ እግዚአብሔር ያሠርሐ በፍትወተ ልቡ።"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 6
+1
+ቦእኩየ ዘርኢኩ እምታሕተ ፀሓይ ወብዝኅት ይእቲ ላዕለ ሰብእ።
+2
+ብእሲ ዘወሀቦ እግዚአብሔር ብዕለ ወጥሪተ ወክብረ ወአልቦ ዘይከልኣ ለነፍሱ እምኵሉ ዘፈተወት ወኢያስለጦ እግዚኣ ብሒር ከመ ይብላዕ እምኔሁ እስመ ብእሲ ነግድ ይበልዖ ወዝኒ ከንቱ ውእቱ ወደዌ እኪት።
+3
+ለእመ ወለደ ብአሲ ምእተ ወዓመታተ ብዙኀ ሐይወ ወብዙኀ ኮነ መዋዕለ ዓመቲሁ ወነፍሱሂ ኢትጸግብ እምሠናያት ወግንዘቱኒ ኢኮኖ እቤ ይኄይስ እምኔሁ ዳህጸ።
+4
+እስመ በከንቱ መጽአ ወውስተ ጽልመት የሐውር ወበጽልመት ስሙ ይትከደን።
+5
+ወፀሓይኒ ኢርእየ ወኢያእመረ ዕረፍቱ ለዝ እምዝ።
+6
+ወሶበ ሐይወ ዐሠርተ ምእተ ምሕዋረ ዓመት ወሠናይት ኢርእየ አኮሁ ውስተ መካን አሐዱ የሐውር ኵሉ።
+7
+ኵሉ ሥራሑ ለሰብእ ውስተ አፉሁ ወነፍሱሰ ኢትመልእ።
+8
+ምንት ፍድፋዴሁ ለጠቢብ እምአብድ በእንተ ነዳይ ያአምር ሐዊረ ቅድመ ሕይወት?
+9
+ይኄይስ ርእይ በዓይን እምሐዊር በነፍስ ወዝኒ ከንቱ ወፍትወተ መንፈስ።
+10
+ኵሉ ዘኮነ ናሁ ተሠምየ ስሙ ወተአምረ ዘውእቱ ሰብእ ወኢይክል ተጋእዞ ምስለ ዘይጸንዕ እምኔሁ።
+11
+እስመ ቦ ነገር ብዙኅ ዘያበዝኅ ከንቶ ምንተ ፈድፋዱ ለሰብእ?
+12
+መኑ ውእቱ ዘያአምር ምንት ውእቱ ሠናይ ለሰብእ በሕይወቱ እንዘ ይኄልቍ መዋዕለ ሕይወቱ ከንቱ ወገብሮን በጽላሎት መኑ ያየድዖ ለሰብአ ዘይከውን እምድኅሬሁ በመትሕተ ፀሓይ።"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 7
+1
+ይኄይስ ስም ሠናይ እምቅብእ መዐዛ ወዕለተ ሞት እምዕለተ ልደት።
+2
+ይኄይስ ሐዊረ ቤተ ላሕ እምሐዊረ ቤተ ግዝእ እስመ ውእቱዝ ደኃሪቱ ለኵሉ ሰብእ ወዘሕያው የሀብ ሠናየ ውስተ ልቡ።
+3
+ይኄይስ መዐት እምሥሂቅ እስመ በእከየ ገጽ ትሤኒ ልብ።
+4
+ልበ ጠቢባን ውስተ ቤተ ላሕ ወልበ አብዳን ውስተ ቤተ ፍሥሐ።
+5
+ይኄይስ ሰሚዐ ተግሣጸ ጥቡበ እምብእሲ ዘይሰምዕ ማኅሌተ አብድ።
+6
+ከመ ቃለ አሥዋክ ታሕተ ጽሀርት ከማሁ ሰሐቆሙ ለአብዳን ወዝኒ ከንቱ።
+7
+እስመ ትእግልት ያንጎግዎ ለጠቢብ ወያሐጕል ትፍሥሕተ ልቡ።
+8
+ይኄይስ ደኃሪት ቃል እምቀዳሚሁ ይኄይስ መስተዓግስ እምዕቡየ መንፈስ።
+9
+ኢትጐጕእ በመንፈስከ ለተምዕዖ እስመ መዐት ውስተ ሕፅነ አብዳን ተዐርፍ።
+10
+ኢትበል፦ ምንተ ኮነ እስመ መዋዕለ ትከት ይኄይስ እምእላንቱ? እስመ አኮ በጥበብ ዘተስእልከ በእንተዝ።
+11
+ሠናይ ጥበብ ምስለ ዑቃቤ ወፈድፋደ ምስለ እለ ይሬእዩ ፀሓየ።
+12
+እስመ ጽላሎታ ለጥበብ ከመ ጽላሎታ ለብሩር ወፈድፋደ አእምሮ ለጥበብ ወታሐይዎ ለዘ አጥረያ።
+13
+ርኢ ተግበሮ ለእግዚአብሔር መኑ ውእቱ ዘይክል አሠንዮቶ ለዘ እግዚአብሔር አጥወዮ።
+14
+በመዋዕል ሠናይ ሕየው በፍሥሐ ወርኢ በዕለት እኪት ወዝኒ ናሁ ምስለዝ ውእቱ ገብረ እግዚአብሔር በእንተ ነገር ከመ ኢይርከብ ሰብእ ዘእምድኅሬሁ ወኢምንተ።
+15
+ኵሎ ኅቡረ ርኢኩ በመዋዕለ ሥራሕየ ቦጸድቅ ዘይትሐጐል በጽድቁ ወቦረሲዐ ዘይሄሉ በእከዩ።
+16
+ወኢትኩን ጻደቀ ፈድፋደ ወኢትጠበብ ፈድፋደ ከመ ኢትጌጊ።
+17
+ወኢትኅጣእ ፈድፋደ ወኢትኩን ድሩከ ከመ ኢትሙት ዘእንበለ ጊዜከ።
+18
+ይኄይስ ሀልዎተከ በዝ ወእምዝኒ ኢታርኵስ እዴከ እስመ ዘይፈርሆ ለእግዚአብሔር ይወፅእ እምኵሉ።
+19
+ጥበብ ትረድኦ ለጠቢብ እምዐሠርቱ መኳንንተ እለ ሀለዉ ውስተ ሀገር።
+20
+እስመ አልቦ ሰብእ ጻድቀ ውስተ ምድር ዘይገብር ሠናየ ወኢይኤብስ።
+21
+ወውስተ ኵሉ ነገር ዘይትናገሩ ኢትሰድ ልበከ ከመ ኢትስማዕ ገብርከ እንዘ ይረግመከ።
+22
+እስመ ብዙኀ ይትሜአከከ ወበፍናው ብዙኅ ያአክያ ለልብከ እስመ ከመ አንተኒ ረገምክ ባዕደ።
+23
+ዘንተ ኵሎ አመከርኩ በጥበብ፡ አቤ፦ እጠበብ ወይእቲ ርሕቅት እምኔየ።
+24
+ርኁቀ እንዘ ሀለወት ወዕመቀ ዕሙቅ መኑ ይረክባ።
+25
+ኦድኩ አነ ወልብየ በአእምሮ ወከመ አሐሊ ወእኅሥሣ ለጥበብ ወለሐሳብ ወከመ አእምር ለረሲዓን እበዶሙ ወአጽህቆ ወስፍጠታተ።
+26
+ወእርከባ አነ መራር እሞት ብእሲት እንተ ይእቲ መሣግር ወመርበብት ልባ ማእሰር ውስተ እዴሃ ኄር በቅድመ እግዚአብሔር ዘይትባበላሕ እምኔሃ ወዘይኤብስ ይስገር ባቲ።
+27
+ናሁ ዘንተ ረከብኩ ይቤ መክብብ አሐተ እምአሐቲ ለረኪበ ሕሊና።
+28
+ዘኀሠሠት ነፍስየ ወኢረኩበኩ ወብእሲ አሐደ እምዐሠርቱ ምእት ረከብኩ ወብእሲት እምእሉ ኵሎሙ ኢረከብኩ።
+29
+ባሕቱ ናሁ ዘንተ ረከብኩ ዘገብረ እግዚአብሔር ወበጊዜሁ ብእሲ ራትዕ ወእሙንቱ የኀሡ ሕሊና ብዙኀ መኑ ያአምሮሙ ለጠቢባን ወመኑ ያአምሮ ፍካሬ ቃሎሙ።"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 8
+1
+ጥበቡ ለብእሲ ያበርህ ገጾ ወዘአልቦ ኃፍረተ ውስተ ገጹ ይጸላእ።
+2
+አፈ ንጉሥ ዕቀብ ወለቃለ ማሐላ።
+3
+ኢትጐጕእ ወእምቅድመ ገጹ ኅልፍ ኢትቁም በነገር እኩይ እስመ ኵሉ ዘፈቀደ ይገብር።
+4
+ወከመ ንጉሥ ስሉጥ ይትናገር ወመኑ ይብሎ፦ ምንተ ገበርከ?
+5
+ዘየዐቅብ ትእዛዘ ኢየአምር ቃለ እከይ ወጊዜሁ ለፍትሕ ያአምር ልበ ጠቢብ።
+6
+እስመ ለኵሉ ግብር ቦ ጊዜ ፍትሕ እስመ አእምሮቱ ለብእሲ ጽኑዕ ላዕሌሁ።
+7
+እስመ አልቦ ዘያአምር ምንተ ዘይከውን እስመ ዘይከውን መኑ ዘይነግሮ።
+8
+አልቦ ዘይሤልጥ በመንፈሱ ለከሊዓ መንፈስ ኅቡረ ወአልቦ ዘይሤልጥ በዕለተ ሞቱ ወአልቦ መልዕክት በዕለተ ቀትል ወኢታድኅን ረሢዓ ዘኀቤሃ።
+9
+ወኵሉ ኅቡረ ዘንተ ርኢኩ ወወሀብኩ ልብየ ውስተ ኵሉ ፍጥረት ዘተፈጥረ በመትሕተ ፀሓይ ዘመጠነ ተሠልጠ ሰብእ ለአእክዮተ ሰብእ።
+10
+አሜሃ ርኢኩ ረሢዓነ እንዘ ይበውዑ ውስተ መቃብር ቅዱስ ወዘእምቅዱሳን ሖሩ ወተወደሱ በውስተ ሀገር እስመ ከመዝ ገብሩ ወዝኒ ከንቱ።
+11
+እስመ አልቦ ዘይከውን ቅስተ እምእለ ይገብሩ አኩየ በፍጡን በእንተዝ አእረፈ ልበ ውሉደ ሰብእ ቦሙ ለገቢረ እከይ።
+12
+ዘአበሰ ገብረ ኃጢአተ እምትከት ወእምቅድሜሁ እስመ አነ ኣአምር ከመ ቦሙ ሠናይ ለእለ ይፈርህዎ ለእግዚአብሔር ከመ ይፍርሁ እምቅድመ ገጹ።
+13
+ወአልቦ ሠናይት ለረሢዕ ወኢይነውኅ መዋዕለ ጽላሎቱ ለዘኢይፈርህ እምቅድመ ገጹ ለእግዚአብሔር።
+14
+ቦከንቱ ዘተገብረ ውስተ ምድር እስመ ቦጻድቃን ዘይበጽሕ ላዕሌሆሙ ግብረ ረሢዓን ወቦ ረሢዓን ዘይበጽሕ ላዕሌሆሙ ግብረ ጸድቃን ወእቤ ዝኒ ከንቱ ውእቱ።
+15
+ወወደስክዋ አነ ለኵላ ፍግዕ እስመ አልቦ ሠናይ ለሰብእ እምታሕተ ፀሓይ ዘእንበለ ዘበልዓ ወሰትየ ወተፈሥሐ ወውእቱ ዘሎቱ አምፃማሁ በመዋዕለ ሕይወቱ ዘወሀቦ እግዚአብሔር እምታሕተ ፀሓይ።
+16
+በከመ ወሀብኩ ልብየ ለአእምሮ ጥበብ ወከመ እርአይ ሥራሐ ዘተገብረ ዲበ ምድር እስመ በዕለትኒ ወበሌሊትኒ ንዋም ውስተ አዕይንቲሁ ዘይሬኢ አልቦ።
+17
+ወርኢኩ ኵሎ ግብሮ ለእግዚአብሔር ከመ ኢይክል ሰብእ ረኪበ ኅቡረ ዘተገብረ በመትሕተ ፀሓይ እመ ሚመጠነ ኅሠሠ ሰብእ ኢይክል ረኪበ ወእመ ሚመጠነ ይቤ ጠቢብ ከመ ያእምር ኢይክል ረኪበ እስመ ኅቡረ ዘንተ ኵሎ ወሀብኩ ልብየ ወልብየ ኅቡረ ዘንተ ኵሎ ርእየት።"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 9
+1
+ከመ ጻድቃን ወጠበብት ወምግባሮሙ ውስተ እደ እግዚአብሔር ፍቅረ ወጸልአ አልቦ ዘያአምር ሰብእ ኵሉ ቅድመ ገጾሙ።
+2
+ወከንቱ ውስተ ኵሉ አሐዱ ድድቁ ለጸድቅ ወለረሲዕ ለኄር ወለእኩይ ለንጹሕ ወለርሱሕ ለዘ ይሠውዕ ወለዘ ኢይሠውዕ ከመ ኄር ወለዘሂ የኃጥእ ከመ ዘይምሕል ወከመ ዘሂ ይፈርህ ማሕላ።
+3
+ዝክቱ በኵሉ ዘተገብረ መትሕተ ፀሓይ እስመ አሐዱ ድድቁ ለኵሉ ወልቦሙ ለውሉደ ሰብእ ፈጸመ እከየ ወበሁከተ ልቦሙ ሕይወቶሙ ወእምድኅሬሆሙ ኀበ ምውታን።
+4
+እስመ መኑ ውእቱ ዘይሳተፍ ምስለ ኵሉ ሕያዋን በተስፋ ከመ ከልብ ሕያው ውእቱ ይኄይስ እምአንበሳ ምዉት።
+5
+እስመ ሕያዋን ያአምሩ ከመ ይመውቱ ወምውታንሰ ኢያእሙሩ ወኢምንተ ወአልቦው እንከ ዐስበ እስመ ተረስዐ ዝክሮሙ።
+6
+ወፍቅሮሙኒ ወጽልኦሙኒ ወቅንአቶሙኒ ናሁ ተሐጕለ ወመክፈልት አልቦሙ እንከ ውስተ ዓለም በኵሉ ዘተገብረ መትሕተ ፀሓይ።
+7
+ነዓ ብላዕ በፍሥሐ ኅብስተከ ወስተይ በልብከ ኄር ወይነከ እስመ ሠምረ እግዚአብሔር ምግበሪከ።
+8
+በኵሉ ጊዜ ይኩን ኦልባሲከ ንጹሐ ወቅብዕ አምርእስከ ኢይርኀቅ።
+9
+ወርኢ ሕይወተ ምስለ ብእሲትከ እንተ አፍቀርከ ኵሎ መዋፅለ ሕይወትከ እለ ተውህባከ እምታሕተ ፀሓይ ኵሎ መዋዕለ መዋዕል እለ ኮና ለከ እስመ ውእቱ መክፈልትከ በሕይወትከ ወበሥራኅከ ዘትሰርኅ መትሕተ ፀሓይ።
+10
+ኵሎ ዘትክል እዴከ ለገቢር መጠነ ኃይልከ ግበር እስመ አልቦ ግብር ወህሊና መጥበብ ወአእምሮ ውስተ ገሃነም ኀበ ተሐውር አንተ ህየ።
+11
+ተመየጥኩ ወርኢኩ መትሕተ ፀሓይ ከመ አኮ ለቀሊላን ረዊፅ ወአኮ ለጽኑዓን ቀትል ወአኮ ለጠቢባን እክል ወአኮ ለማእምራን ብፅል ወአኮ ለእለ ይሌብዉ ጸጋ እስመ ጊዜ ወድድቅ ይዳድቆሙ ለኵሎሙ።
+12
+እስመ ኢያአምሩ ጊዜሁ ከመ ዓሣት እለ ይሠገሩ በመርበብት እኩይ ወከመ አዕዋፍ ዘይትኣኃዙ በመሥገርት ወከማሁ ይሠገሩ ውሉደ ሰብእ በጊዜ እኩይ ሶበ ይወድቅ ዲቤሆሙ ግብተ።
+13
+ወናሁ ዘንተኒ ርኢኩ ጥበበ መትሕተ ፀሓይ ወዓባይ ይእቲ በኀቤየ።
+14
+ሀገር ንስቲት ወሰብእ እለ ውስቴታ ኅዳጣን ወአመ መጽአ ላዕሌሃ ንጉሥ ዓቢይ ወዓገታ ወየሐንጽ ላዕሌሃ ጥቅመ ዓቢየ።
+15
+ረከበ በውስቴታ ብእሴ ነዳየ ወጠቢበ ወያድኅን ሀገረ ውእቱ ነዳይ በጥበቡ ወአልቦ ዘተዘከሮ ሰብእ ኅቡረ ለውእቱ ብእሲ።
+16
+ወእቤ አነ ትኄይስ ጥበብ እምኀይል ወጥበቡ ለነዳይ እንተ ትትሜነን ወነገሩ ኢኮኑ እለ ይሰምዑ።
+17
+ነገረ ጠበብት በዕረፍት ይሰማዕ እምነ ጽራኆሙ ለእለ ይኴንኑ በእበድ።
+18
+ትኄይስ ጥበብ እምንዋየ ሐቅል ወእንዘ የኃጥእ አሐደ የሐጕል በረከተ ብዙኃ።"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 10
+1
+ጽንጽንያ ምውት ያማስን አፈወ ቅብእ ጥዑም ይከብር ንስቲት ጥበብ እምነ ክብር ዓቢይ በእበድ።
+2
+ልበ ጠቢብ ውስተ የማኑ ወልቡ ለአብድ ውስተ ፀጋሙ።
+3
+ወሶበ የሐውር አብድ በፍኖት ልቡ የሐጾ ወዘይኄሊ ኵሎ አብድ ውእቱ።
+4
+እመ መንፈሱ ለዘ ይሤለጥ ዓርገ ላዕሌከ መካነከ ኢትሕድግ እስመ ፈውስ ያሐድግ ኃጣይአ ዐቢየ።
+5
+በእኩይ ዘርኢኩ መትሕተ ፀሓይ ከመ ዘበኢያእምሮ ወጽአ ቅድመ ይሴለጥ።
+6
+ተውህበ አብድ ለሉዓሌ ዓቢይ ወአብዕልት መትሕተ ይነብሩ።
+7
+ርኢኩ እግብርት ዲበ አፍራስ ወመኴንንት እንዘ የሐውሩ ዲበ ምድር ከመ አግብርት።
+8
+ዘይከሪ ግበ ውስቴቱ ይወድቅ ወዘይነሥት ፀቈነ ይነስኮ አርዌ ምድር።
+9
+ዘያስተፌልስ እብነ የሐምም ቦሙ ወዘይሤርጽ ዕፀ ይትመነደብ ቦሙ።
+10
+አመ ተመልኀ ሐፂኑ ወውእቱኒ ግጾ አስተዋለወለ ወኀይል ታኄይል ወፍድፍድናሁ ለጽኑዕ ጥበብ።
+11
+እመ ነሰከ እርዌ ምድር ወኢፈወሰ ረቃዪ አልቦ ዘይበቍዕ ዘይረቂ።
+12
+ንባቡ አፉሁ ለጠቢብ ሞገስ ወከናፍሪሁ ለአብድ ያሰጥማሁ።
+13
+ቀዳሚ ንባበ አፉሁ ዕበድ ወደኃሪተ አፉሁ ፀዋግ።
+14
+አብድ ያበዝኅ ነገረ ኢየአምር ብእሲ ምንተ ዘኮነ ወምንተ ዘይከውን እስመ እምድኅሬሁ መኑ ይዜንዎ።
+15
+ፃማሁ ለእብድ ያሐምሞ እስመ ኢየአምር ሐዊረ ውስተ ሀገር።
+16
+አሌ ለኪ ሀገር እንተ ንጉሥኪ ወሬዛ ወመኳንንትኪ በነግህ ይበልዑ።
+17
+ብፅዕት እንቲ ምድር እንተ ንጉሥኪ ወልደ አግዓዚ ወመኳንንትኪ በጊዜ ይበልዑ በኃይል ወኢይትኃፈሩ።
+18
+በሐኬት በጽርዓተ እደው ይወድቅ ቤተ ወያወጽሕ ቤት በእድው ሐካያን።
+19
+ለሰሐቅ ይሬስይዎ ኅብስተ ወወይን ያስተፌሥሕ ሕያዋነ ለወርቅ ይትኤዘዝ ኵሉ ኅቡረ።
+20
+ወአንተኒ በህሊናከ ንጉሠ ኢትርግም ወበውሳጢተ ቤትከ በዑላነ ኢትርግም እስመ ዖፈ ሰማይ ያወፅእ ቃለከ ወዘቦ ክንፍ ይዜኑ ንባበከ።"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 11
+1
+ፈኑ ኅብስተከ ውስተ ገጸ ማይ እስመ በብዙኅ መዋዕል ትረክቦ።
+2
+ሀብ መክፈልተ ለስብዐቱ ወለሰማንቱ እስመ ኢተአምር ዘይከውን እኩይ ውስተ ምድር።
+3
+እመ መልአት ደመና ዝናመ ውስተ ምድር ይክዑ ወእመ ወድቀ ዕፅ እመኒ ደቡበ ወእመኒ ሰሜነ ወእደ ወድቀ ዕፅ ህየ ይሄሉ።
+4
+ዘየዐቅብ ነፋሰ ኢይዘርእ ወዘይኔጽር ደመናተ ኢየዐጽድ።
+5
+እስመ አልቦ ዘያአምር ምንት ውእቱ ፍኖተ መንፈስ ከመ አዕፅምት ውስተ ከርሠ ፅንስት ከማሁ ኢተአምር ግብሮ ለእግዚአብሔር መጠነ ገብረ ኅቡረ ከሎ።
+6
+በነግህ ዝራእ ዘርአከ ወበምሴትኒ ኢይኅድግ እዴከ እስመ ኢተአምር ዘይከውን እመዝ ውስተዝ ወእመ ክልኤሆሙ ኅቡረ ሠናይ።
+7
+ጥዑም ብርሃን ወሠናይ ለአዕይንት ለርኢየ ኅብረ ፀሓይ።
+8
+እስመ እመኒ ዓመታተ ብዙኀ ሐይወ ሰብእ በኵሎን ይትፌሣሕ ወይዜከር መዋዕል ጽልመት ከመ ብዙኃተ ይከውና ኵሉ ዘይመጽእ ከንቶ።
+9
+ተፈሣሕ ብአሲ በውርዙትከ ወትሠኒ ልበከ በመዋዕለ ውርዙትከ ወሖር በፍኖተ ልብከ ዘበንጹሕ ወኢበርኢየ ዐይንከ ወአእምር ከመ በእንተዝ ኵሉ ዘያቀርበከ እግዚአብሔር ለኵነኔ።
+10
+ወአርሕቅ መዐተ እምልብከ ወአግሕስ እከየ እምሥጋከ እስመ ውርዙት ወኢያእምሮ ከንቱ።"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                app:lineHeight="20dp"
+                android:paddingBottom="80dp"
+                android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tምዕራፍ 12
+1
+ተዘከሮ ለፈጣሪከ በመዋዕለ ውርዙትከ ዘእንበለ ይምጻእ መዋዕል እኩይ ወይበጽሕ ዓመታተ በእለ ትብል፦ ኢኮነኒ ቦቶን ፈቃድየ።
+2
+ዘእንበለ ይጽልም ፀሓይ ወብርሃነ ወርኅ ወከዋክብት ወዘእንበለ ይትመየጡ ደመናት ድኅረ ዝናማት።
+3
+አመ ዕለተ ያንቀለቅሉ ዐቃቢያነ ቤት ይትዐወለዉ ሰብእ ኀየልት ወተፀርዓ እለ የሐርጻ እስመ ውሕዳ ወይጸልማ እለ ይሬእያ በጸዳል።
+4
+ወየዐፅዉ ኆኃተ በምሥያጣት በድውይ ቃል እንተ ተሐርጽ ወትትነሣእ በቃለ ዖፍ ወያሐስራ ኵሎን አዋልደ ማኅሌት።
+5
+እስመ እመልዕልት ይሬእዩ ወድንጋፄ ውስተ ፍኖት ወይጸጊ ከርካዕ ወይገዝፍ አንበጣ ወይትፈረዘዝ ቈልሕ እስመ ኆረ ብእሲ ውስተ ቤተ ዓለሙ ወኦዱ ጸጐ እለ የሐብሉ።
+6
+እስከ ሶበ እንበለ ይትገፋዕ ሕብሩ ለብሩር ወተቀጥቀጠ አስተርእዮቱ ለወርቅ ወይትቀጠቀጥ መሳብክ ውስተ ዐዘቅት ወያንኰረኵር መንኰራኵር ውስተ ዐዘቅት።
+7
+ወይገብእ መሬት ውስተ ምድር ከመ ሀሎ ወመንፈስ ይገብእ ኀበ እግዚአብሔር ዘወሀቦ።
+8
+ከንቱ ከንቱ ይቤ መኩበብ ኵሉ ከንቱ።
+9
+ወፈድፋደ እስመ ኮነ መክብብ ጠቢበ ወእስመ ይሜህር አእምሮ ኵሎ ሰብአ ወእዝን ይፈትን ሰርጐ ምስል።
+10
+ብዙኀ ኀሠሠ መክብብ ከመ ይርከብ ነገረ ፈቃድ ወጽሑፍ ርትዐ ንበበ ጽድቅ።
+11
+ነገረ ጠቢባን ከመ መድጕጽ ላህም ወከመ ቅትራት ርሡን እለ እምኀበ ትምህርት ተውህቡ እምአሐዱ ኖላዊ።
+12
+ወፈድፋደ እምውስቴቶሙ ወልድየ ኢትግበር መጻሕፍተ ብዙኀ ዘአልቦ ፍጻሜ ወትምህርት ብዙኅ ጻማ ለሥጋ።
+13
+ንበበ ኵሉ ነገር ስማዕ ወእግዚአብሔር ፍራህ ወትእዛዘቲሁ ዕቀብ እስመዝ ውእቱ ኵሉ ብእሲ።
+14
+እስመ ኵሉ ፍጥረት ያቀርብ እግዚአብሔር ለኵነኔ ለኵሉ ዘያስተርኢ ወዘኢያስተርኢ እመኒ ሠናየ ወእመኒ እኩይ ውእቱ።
+ተፈጸመ ቃለ መክብብ፡ ወስብሐት ለእግዚአብሔር፡ ለዓለም ዓለም፡ ኣሜን።"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

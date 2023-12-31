@@ -20,7 +20,7 @@ public class FormatBibleText {
             subText1 = wantedText.substring(0, 28);
             subText1 = subText1.replaceAll("(\\d+)", "$1\n\n");
             subText2 = wantedText.substring(28);
-            subText2 = subText2.replaceAll("(\\d+)", "\n\n$1");
+            subText2 = subText2.replaceAll("(\\d+)", "\n\n$1፤ ");
             result = subText1 + subText2;
             textView.setText(result);
         }

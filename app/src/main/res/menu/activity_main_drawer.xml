@@ -1,90 +1,232 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:showIn="navigation_view">
 
+    <group android:checkableBehavior="single"
+        android:orderInCategory="1"
+        android:enabled="false">
+        <item android:title="ብሉይ ኪዳን"
+            app:showAsAction="collapseActionView"
+            android:checked="false"
+            android:numericShortcut="2">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/genesis"
+                        android:title="ኦሪት ዘፍጥረት" />
+                    <item
+                        android:id="@+id/exodus"
+                        android:title="ኦሪት ዘጸአት" />
+                    <item
+                        android:id="@+id/leviticus"
+                        android:title="ኦሪት ዘሌዋውያን" />
+                    <item
+                        android:id="@+id/numbers"
+                        android:title="ኦሪት ዘኊልቊ" />
+                    <item
+                        android:id="@+id/dueteronomy"
+                        android:title="ኦሪት ዘዳግም" />
 
-    <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/nav_mathew"
-            android:title="ወንጌለ ማቴዎስ" />
-        <item
-            android:id="@+id/nav_mark"
-            android:title="ወንጌለ ማርቆስ" />
-        <item
-            android:id="@+id/nav_luke"
-            android:title="ወንጌለ ሉቃስ" />
-        <item
-            android:id="@+id/nav_john"
-            android:title="ወንጌለ ዮሐንስ" />
-        <item
-            android:id="@+id/nav_acts"
-            android:title="ግብረ ሐዋርያት" />
-        <item
-            android:id="@+id/nav_romans"
-            android:title="ኀበ ሰብአ ሮሜ" />
-        <item
-            android:id="@+id/nav_corinthians1"
-            android:title="ኀበ ሰብአ ቆረንቶስ 1" />
-        <item
-            android:id="@+id/nav_corinthians2"
-            android:title="ኀበ ሰብአ ቆረንቶስ 2" />
-        <item
-            android:id="@+id/nav_galatians"
-            android:title="ኀበ ሰብአ ገላትያ" />
-        <item
-            android:id="@+id/nav_ephesians"
-            android:title="ኀበ ሰብአ ኤፌሶን" />
-        <item
-            android:id="@+id/nav_philippians"
-            android:title="ኀበ ሰብአ ፊልጵስዩስ" />
-        <item
-            android:id="@+id/nav_colossians"
-            android:title="ኀበ ሰብአ ቈላስይስ" />
-        <item
-            android:id="@+id/nav_thessalonians"
-            android:title="ኀበ ሰብአ ተሰሎንቄ" />
-        <item
-            android:id="@+id/nav_thessalonians2"
-            android:title="ኀበ ሰብአ ተሰሎንቄ 2" />
-        <item
-            android:id="@+id/nav_timothy"
-            android:title="ኀበ ጢሞቴዎስ" />
-        <item
-            android:id="@+id/nav_timothy2"
-            android:title="ኀበ ጢሞቴዎስ 2" />
-        <item
-            android:id="@+id/nav_titus"
-            android:title="ኀበ ቲቶ" />
-        <item
-            android:id="@+id/philemon"
-            android:title="ኀበ ፊልሞና" />
-        <item
-            android:id="@+id/nav_hebrews"
-            android:title="ኀበ ሰብአ ዕብራውያን" />
-        <item
-            android:id="@+id/nav_james"
-            android:title="መልእክተ ያዕቆብ ሐዋርያ" />
-        <item
-            android:id="@+id/nav_peter"
-            android:title="መልእክተ ጴጥሮስ" />
-        <item
-            android:id="@+id/nav_peter2"
-            android:title="መልእክተ ጴጥሮስ2" />
-        <item
-            android:id="@+id/nav_john1"
-            android:title="መልእክተ ዮሐንስ 1" />
-        <item
-            android:id="@+id/nav_john2"
-            android:title="መልእክተ ዮሐንስ 2" />
-        <item
-            android:id="@+id/nav_john3"
-            android:title="መልእክተ ዮሐንስ 3" />
-        <item
-            android:id="@+id/nav_jude"
-            android:title="መልእክተ ይሁዳ" />
-        <item
-            android:id="@+id/nav_revelation"
-            android:title="ራእየ ዮሐንስ" />
+                    <item
+                        android:id="@+id/joshua"
+                        android:title="መጽሐፈ ኢያሱ" />
+                    <item
+                        android:id="@+id/judges"
+                        android:title="መጽሐፈ መሳፍንት" />
+                    <item
+                        android:id="@+id/ruth"
+                        android:title="መጽሐፈ ሩት" />
+                    <item
+                        android:id="@+id/samuel1"
+                        android:title="መጽሐፈ ሳሙኤል ቀዳማዊ" />
+                    <item
+                        android:id="@+id/samuel2"
+                        android:title="መጽሐፈ ሳሙኤል ካልእ" />
+
+                    <item
+                        android:id="@+id/kings1"
+                        android:title="መጽሐፈ ነገስት ቀዳማዊ" />
+                    <item
+                        android:id="@+id/kings2"
+                        android:title="መጽሐፈ ነገስት ካልእ" />
+                    <item
+                        android:id="@+id/chronicles1"
+                        android:title="መጽሐፈ ዜና መዋእል ቀዳማዊ" />
+                    <item
+                        android:id="@+id/chronicles2"
+                        android:title="መጽሐፈ ዜና መዋእል ካልእ" />
+                    <item
+                        android:id="@+id/ezra"
+                        android:title="መጽሐፈ እዝራ" />
+
+                    <item
+                        android:id="@+id/nehemiah"
+                        android:title="መጽሐፈ ነህምያ" />
+                    <item
+                        android:id="@+id/esther"
+                        android:title="መጽሐፈ አስቴር" />
+                    <item
+                        android:id="@+id/job"
+                        android:title="መጽሐፈ ኢዮብ" />
+                    <item
+                        android:id="@+id/psalms"
+                        android:title="መዝሙረ ዳዊት" />
+                    <item
+                        android:id="@+id/proverbs"
+                        android:title="መጽሐፈ ምሳሌ" />
+
+                    <item
+                        android:id="@+id/ecclesiastes"
+                        android:title="መጽሐፈ መክብብ" />
+                    <item
+                        android:id="@+id/songs"
+                        android:title="መኃልየ መኃልይ" />
+                    <item
+                        android:id="@+id/isaiah"
+                        android:title="ትንቢተ ኢሳይያስ" />
+                    <item
+                        android:id="@+id/jeremiah"
+                        android:title="ትንቢተ ኤርምያስ" />
+                    <item
+                        android:id="@+id/lamentations"
+                        android:title="ሰቆቃወ ኤርምያስ" />
+
+                    <item
+                        android:id="@+id/ezekiel"
+                        android:title="ትንቢተ ሕዝቅኤል" />
+                    <item
+                        android:id="@+id/daniel"
+                        android:title="ትንቢተ ዳንኤል" />
+                    <item
+                        android:id="@+id/hosea"
+                        android:title="ትንቢተ ሆሴዕ" />
+                    <item
+                        android:id="@+id/joel"
+                        android:title="ትንቢተ ኢዩኤል" />
+                    <item
+                        android:id="@+id/amos"
+                        android:title="ትንቢተ አሞጽ" />
+
+                    <item
+                        android:id="@+id/obadiah"
+                        android:title="ትንቢተ ዓብድዩ" />
+                    <item
+                        android:id="@+id/jonah"
+                        android:title="ትንቢተ ዮናስ" />
+                    <item
+                        android:id="@+id/micah"
+                        android:title="ትንቢተ ሚክያስ" />
+                    <item
+                        android:id="@+id/nahum"
+                        android:title="ትንቢተ ናሆም" />
+                    <item
+                        android:id="@+id/habakkuk"
+                        android:title="ትንቢተ እንባቆም" />
+
+                    <item
+                        android:id="@+id/zephaniah"
+                        android:title="ትንቢተ ሶፎንያስ" />
+                    <item
+                        android:id="@+id/haggai"
+                        android:title="ትንቢተ ሐጌ" />
+                    <item
+                        android:id="@+id/zechariah"
+                        android:title="ትንቢተ ዘካርያስ" />
+                    <item
+                        android:id="@+id/malachi"
+                        android:title="ትንቢተ ሚልክያስ" />
+                </group>
+            </menu>
+        </item>
+
+        <item android:title="ሐዲስ ኪዳን">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_mathew"
+                        android:title="ወንጌለ ማቴዎስ" />
+                    <item
+                        android:id="@+id/nav_mark"
+                        android:title="ወንጌለ ማርቆስ" />
+                    <item
+                        android:id="@+id/nav_luke"
+                        android:title="ወንጌለ ሉቃስ" />
+                    <item
+                        android:id="@+id/nav_john"
+                        android:title="ወንጌለ ዮሐንስ" />
+                    <item
+                        android:id="@+id/nav_acts"
+                        android:title="ግብረ ሐዋርያት" />
+                    <item
+                        android:id="@+id/nav_romans"
+                        android:title="ኀበ ሰብአ ሮሜ" />
+                    <item
+                        android:id="@+id/nav_corinthians1"
+                        android:title="ኀበ ሰብአ ቆረንቶስ ፩" />
+                    <item
+                        android:id="@+id/nav_corinthians2"
+                        android:title="ኀበ ሰብአ ቆረንቶስ ፪" />
+                    <item
+                        android:id="@+id/nav_galatians"
+                        android:title="ኀበ ሰብአ ገላትያ" />
+                    <item
+                        android:id="@+id/nav_ephesians"
+                        android:title="ኀበ ሰብአ ኤፌሶን" />
+                    <item
+                        android:id="@+id/nav_philippians"
+                        android:title="ኀበ ሰብአ ፊልጵስዩስ" />
+                    <item
+                        android:id="@+id/nav_colossians"
+                        android:title="ኀበ ሰብአ ቈላስይስ" />
+                    <item
+                        android:id="@+id/nav_thessalonians"
+                        android:title="ኀበ ሰብአ ተሰሎንቄ ፩" />
+                    <item
+                        android:id="@+id/nav_thessalonians2"
+                        android:title="ኀበ ሰብአ ተሰሎንቄ ፪" />
+                    <item
+                        android:id="@+id/nav_timothy"
+                        android:title="ኀበ ጢሞቴዎስ ፩" />
+                    <item
+                        android:id="@+id/nav_timothy2"
+                        android:title="ኀበ ጢሞቴዎስ ፪" />
+                    <item
+                        android:id="@+id/nav_titus"
+                        android:title="ኀበ ቲቶ" />
+                    <item
+                        android:id="@+id/philemon"
+                        android:title="ኀበ ፊልሞና" />
+                    <item
+                        android:id="@+id/nav_hebrews"
+                        android:title="ኀበ ሰብአ ዕብራውያን" />
+                    <item
+                        android:id="@+id/nav_james"
+                        android:title="መልእክተ ያዕቆብ ሐዋርያ" />
+                    <item
+                        android:id="@+id/nav_peter"
+                        android:title="መልእክተ ጴጥሮስ ፩" />
+                    <item
+                        android:id="@+id/nav_peter2"
+                        android:title="መልእክተ ጴጥሮስ ፪" />
+                    <item
+                        android:id="@+id/nav_john1"
+                        android:title="መልእክተ ዮሐንስ ፩" />
+                    <item
+                        android:id="@+id/nav_john2"
+                        android:title="መልእክተ ዮሐንስ ፪" />
+                    <item
+                        android:id="@+id/nav_john3"
+                        android:title="መልእክተ ዮሐንስ ፫" />
+                    <item
+                        android:id="@+id/nav_jude"
+                        android:title="መልእክተ ይሁዳ" />
+                    <item
+                        android:id="@+id/nav_revelation"
+                        android:title="ራእየ ዮሐንስ" />
+                </group>
+            </menu>
+        </item>
     </group>
 </menu>
