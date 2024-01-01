@@ -3,6 +3,7 @@ package com.example.bible;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -82,6 +83,9 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.bible.databinding.ActivityMainBinding;
+import com.google.android.material.tabs.TabLayout;
+
+import java.util.Objects;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -109,34 +113,35 @@ public class MainActivity extends AppCompatActivity {
             return true;
         });
 
-//        TabLayout tabLayout = findViewById(R.id.tabLayout);
-//        if (tabLayout != null) {
-//            tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
-//                @Override
-//                public void onTabSelected(TabLayout.Tab tab) {
-//                    if (tab.getId() == R.id.oldTestament) {
-//                        navigationView.getMenu().clear();
-//                        navigationView.inflateMenu(R.menu.old_main_drawer);
-//                    }
-//                    else {
-//                        navigationView.getMenu().clear();
-//                        navigationView.inflateMenu(R.menu.activity_main_drawer);
-//                    }
-//                }
-//
-//                @Override
-//                public void onTabUnselected(TabLayout.Tab tab) {
-//
-//                }
-//
-//                @Override
-//                public void onTabReselected(TabLayout.Tab tab) {
-//
-//                }
-//            });
-//        } else {
-//            Log.i("message", "tab is null");
-//        }
+        TabLayout tabLayout = navigationView.getHeaderView(0).findViewById(R.id.tabLayout);
+        tabLayout.selectTab(tabLayout.getTabAt(1));
+
+        tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
+            @Override
+            public void onTabSelected(TabLayout.Tab tab) {
+                navigationView.getMenu().clear();
+
+                switch (tab.getPosition()) {
+                    case 0:
+                        navigationView.inflateMenu(R.menu.old_main_drawer);
+                        break;
+                    case 1:
+                        navigationView.inflateMenu(R.menu.activity_main_drawer);
+                        break;
+                }
+            }
+
+            @Override
+            public void onTabUnselected(TabLayout.Tab tab) {
+
+            }
+
+            @Override
+            public void onTabReselected(TabLayout.Tab tab) {
+
+            }
+        });
+
         binding.appBarMain.chapter.setText("ምዕራፍ 1");
 
         binding.appBarMain.nextBtn.setOnClickListener(view -> {

@@ -1,86 +1,132 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_mathew"
+            android:id="@+id/genesis"
             android:title="ኦሪት ዘፍጥረት" />
         <item
-            android:id="@+id/nav_mark"
+            android:id="@+id/exodus"
             android:title="ኦሪት ዘጸአት" />
         <item
-            android:id="@+id/nav_luke"
-            android:title="ኦሪት ዘኊልቊ" />
-        <item
-            android:id="@+id/nav_john"
+            android:id="@+id/leviticus"
             android:title="ኦሪት ዘሌዋውያን" />
         <item
-            android:id="@+id/nav_acts"
+            android:id="@+id/numbers"
+            android:title="ኦሪት ዘኊልቊ" />
+        <item
+            android:id="@+id/dueteronomy"
             android:title="ኦሪት ዘዳግም" />
+
         <item
-            android:id="@+id/nav_romans"
-            android:title="ኀበ ሰብአ ሮሜ" />
+            android:id="@+id/joshua"
+            android:title="መጽሐፈ ኢያሱ" />
         <item
-            android:id="@+id/nav_corinthians1"
-            android:title="ኀበ ሰብአ ቆረንቶስ 1" />
+            android:id="@+id/judges"
+            android:title="መጽሐፈ መሳፍንት" />
         <item
-            android:id="@+id/nav_corinthians2"
-            android:title="ኀበ ሰብአ ቆረንቶስ 2" />
+            android:id="@+id/ruth"
+            android:title="መጽሐፈ ሩት" />
         <item
-            android:id="@+id/nav_galatians"
-            android:title="ኀበ ሰብአ ገላትያ" />
+            android:id="@+id/samuel1"
+            android:title="መጽሐፈ ሳሙኤል ቀዳማዊ" />
         <item
-            android:id="@+id/nav_ephesians"
-            android:title="ኀበ ሰብአ ኤፌሶን" />
+            android:id="@+id/samuel2"
+            android:title="መጽሐፈ ሳሙኤል ካልእ" />
+
         <item
-            android:id="@+id/nav_philippians"
-            android:title="ኀበ ሰብአ ፊልጵስዩስ" />
+            android:id="@+id/kings1"
+            android:title="መጽሐፈ ነገስት ቀዳማዊ" />
         <item
-            android:id="@+id/nav_colossians"
-            android:title="ኀበ ሰብአ ቈላስይስ" />
+            android:id="@+id/kings2"
+            android:title="መጽሐፈ ነገስት ካልእ" />
         <item
-            android:id="@+id/ተሰሎንቄ"
-            android:title="ኀበ ሰብአ ተሰሎንቄ" />
+            android:id="@+id/chronicles1"
+            android:title="መጽሐፈ ዜና መዋእል ቀዳማዊ" />
         <item
-            android:id="@+id/ተሰሎንቄ2"
-            android:title="ኀበ ሰብአ ተሰሎንቄ 2" />
+            android:id="@+id/chronicles2"
+            android:title="መጽሐፈ ዜና መዋእል ካልእ" />
         <item
-            android:id="@+id/ጢሞቴዎስ"
-            android:title="ኀበ ጢሞቴዎስ" />
+            android:id="@+id/ezra"
+            android:title="መጽሐፈ እዝራ" />
+
         <item
-            android:id="@+id/ጢሞቴዎስ2"
-            android:title="ኀበ ጢሞቴዎስ 2" />
+            android:id="@+id/nehemiah"
+            android:title="መጽሐፈ ነህምያ" />
         <item
-            android:id="@+id/ቲቶ"
-            android:title="ኀበ ቲቶ" />
+            android:id="@+id/esther"
+            android:title="መጽሐፈ አስቴር" />
         <item
-            android:id="@+id/ፊልሞን"
-            android:title="ኀበ ፊልሞና" />
+            android:id="@+id/job"
+            android:title="መጽሐፈ ኢዮብ" />
         <item
-            android:id="@+id/ዕብራውያን"
-            android:title="ኀበ ሰብአ ዕብራውያን" />
+            android:id="@+id/psalms"
+            android:title="መዝሙረ ዳዊት" />
         <item
-            android:id="@+id/ያዕቆብ"
-            android:title="መልእክተ ያዕቆብ ሐዋርያ" />
+            android:id="@+id/proverbs"
+            android:title="መጽሐፈ ምሳሌ" />
+
         <item
-            android:id="@+id/ጴጥሮስ"
-            android:title="መልእክተ ጴጥሮስ" />
+            android:id="@+id/ecclesiastes"
+            android:title="መጽሐፈ መክብብ" />
         <item
-            android:id="@+id/ጴጥሮስ2"
-            android:title="መልእክተ ጴጥሮስ2" />
+            android:id="@+id/songs"
+            android:title="መኃልየ መኃልይ" />
         <item
-            android:id="@+id/ዮሐንስ1"
-            android:title="መልእክተ ዮሐንስ 1" />
+            android:id="@+id/isaiah"
+            android:title="ትንቢተ ኢሳይያስ" />
         <item
-            android:id="@+id/ዮሐንስ2"
-            android:title="መልእክተ ዮሐንስ 2" />
+            android:id="@+id/jeremiah"
+            android:title="ትንቢተ ኤርምያስ" />
         <item
-            android:id="@+id/ዮሐንስ3"
-            android:title="መልእክተ ዮሐንስ 3" />
+            android:id="@+id/lamentations"
+            android:title="ሰቆቃወ ኤርምያስ" />
+
         <item
-            android:id="@+id/ይሁዳ"
-            android:title="መልእክተ ይሁዳ" />
+            android:id="@+id/ezekiel"
+            android:title="ትንቢተ ሕዝቅኤል" />
         <item
-            android:id="@+id/revelation"
-            android:title="ራእየ ዮሐንስ" />
+            android:id="@+id/daniel"
+            android:title="ትንቢተ ዳንኤል" />
+        <item
+            android:id="@+id/hosea"
+            android:title="ትንቢተ ሆሴዕ" />
+        <item
+            android:id="@+id/joel"
+            android:title="ትንቢተ ኢዩኤል" />
+        <item
+            android:id="@+id/amos"
+            android:title="ትንቢተ አሞጽ" />
+
+        <item
+            android:id="@+id/obadiah"
+            android:title="ትንቢተ ዓብድዩ" />
+        <item
+            android:id="@+id/jonah"
+            android:title="ትንቢተ ዮናስ" />
+        <item
+            android:id="@+id/micah"
+            android:title="ትንቢተ ሚክያስ" />
+        <item
+            android:id="@+id/nahum"
+            android:title="ትንቢተ ናሆም" />
+        <item
+            android:id="@+id/habakkuk"
+            android:title="ትንቢተ እንባቆም" />
+
+        <item
+            android:id="@+id/zephaniah"
+            android:title="ትንቢተ ሶፎንያስ" />
+        <item
+            android:id="@+id/haggai"
+            android:title="ትንቢተ ሐጌ" />
+        <item
+            android:id="@+id/zechariah"
+            android:title="ትንቢተ ዘካርያስ" />
+        <item
+            android:id="@+id/malachi"
+            android:title="ትንቢተ ሚልክያስ" />
     </group>
 </menu>
